@@ -1,0 +1,21 @@
+---
+author: roberto
+comments: false
+date: 2012-01-26 15:00:13
+layout: post
+slug: luddites
+title: Technology's wreckers and breakers
+wordpress_id: 535
+categories:
+- Articles
+tags:
+- History
+- Technology
+- The Kernel
+---
+
+Luddite is never a welcome appellation for anyone interested in technology.
+
+It is a byword for backwardness and ineptness, shorthand for anyone who grumbles and moans about the new. This withering epithet, frequently crowbarred into newspaper headlines, only developed the full force of its meaning in the 1970s. Before the start of our own revolution of microchips and microprocessors, the definition of Luddite was much more rooted in its historical origins.
+
+[Read the rest of this article on The Kernel](http://www.kernelmag.com/comment/opinion/1294/technologys-wreckers-and-machine-breakers/).
