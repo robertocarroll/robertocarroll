@@ -1,6 +1,11 @@
 .main {
-  @include gs-span(d, 3, 4);
+  @include gs-span(d, 2, 4);
   padding-top: 8em;
   margin-right: 1em;
   border-left: 1px solid #E2E2E2;
 }
+
+
+.content {
+  @include gs-span(d, 3, 4, (2, 4));
+ }
