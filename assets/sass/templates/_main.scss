@@ -1,4 +1,5 @@
 .main {
   @include gs-span(d, 3, 4);
   padding-top: 8em;
+  @include gs-pad(d, padinfull);
 }
