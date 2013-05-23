@@ -1,5 +1,6 @@
 .main {
   @include gs-span(d, 3, 4);
   padding-top: 8em;
-  @include gs-pad(d, padinfull);
+  margin-right: 1em;
+  border-left: 1px solid #E2E2E2;
 }

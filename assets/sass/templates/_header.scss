@@ -1,6 +1,5 @@
 .page-head {
   @include gs-span(d, 1);
-  padding: 8em;
-  background: #DCDCDC;
-  height:100%;
+  padding-top: 8em;
+  @include gs-pad(d, padinfull);
 }
