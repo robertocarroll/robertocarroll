@@ -1,14 +1,8 @@
 ---
 layout: default
 ---
-<!DOCTYPE html>
-<html lang="en" class="page  {{ page.page-class }}">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, minimum-scale=1.0">
-
-</head>
-<body>
+{% include header.html %}
+{% include nav.html %}
 
 <div class="page-header">
   <h1>{{ page.title }} {% if page.tagline %}<small>{{page.tagline}}</small>{% endif %}</h1>
@@ -21,6 +15,6 @@ layout: default
       {{ content }}
     </div>
 
+{% include footer.html %}
 
-</body>
-</html>    
+  
