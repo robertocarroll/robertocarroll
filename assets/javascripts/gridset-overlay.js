@@ -124,3 +124,5 @@ gs = {
 };
 
 gs.init();
+
+$(document).ready(function(){$(".time").text(function(index,value){returnMath.round(parseFloat(value));});});
