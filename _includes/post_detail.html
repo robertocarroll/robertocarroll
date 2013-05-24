@@ -5,9 +5,24 @@
     	<a href="{{ BASE_PATH }}{{ post.url }}">{{ post.title }}</a>
     	<span>{{ post.date | date_to_string }}</span> 
     
-        {{ post.content | strip_html | truncatewords:25}}<br>
+        {{ post.content | strip_html | truncatewords:100}}<br>
             <a href="{{ post.url }}">Read more...</a><br><br>
      </li>       
 
     {% endfor %}
 </ul>
+
+
+<ul >
+    {% for post in site.posts limit:3 %}
+    <li>
+    	
+    	<a href="{{ BASE_PATH }}{{ post.url }}">{{ post.title }}</a>
+    	<span>{{ post.date | date_to_string }}</span> 
+    
+     </li>       
+
+    {% endfor %}
+</ul>
+
+Read my blog
