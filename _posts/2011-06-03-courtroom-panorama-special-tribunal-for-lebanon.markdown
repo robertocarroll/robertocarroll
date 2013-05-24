@@ -7,7 +7,7 @@ slug: courtroom-panorama-special-tribunal-for-lebanon
 title: Courtroom panorama - Special Tribunal for Lebanon
 wordpress_id: 813
 categories:
-- Projects
+- Work
 tags:
 - Flash
 - Multimedia journalism

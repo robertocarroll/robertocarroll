@@ -7,7 +7,7 @@ slug: amnesty-international-death-penalty-2011-google-fusion-maps
 title: 'Death Penalty Maps - Amnesty International '
 wordpress_id: 684
 categories:
-- Projects
+- Work
 tags:
 - Google Fusion
 - Maps

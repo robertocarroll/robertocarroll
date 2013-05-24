@@ -7,7 +7,7 @@ slug: uae-stamps
 title: UAE stamps
 wordpress_id: 838
 categories:
-- Projects
+- Work
 tags:
 - Flash
 - Maps

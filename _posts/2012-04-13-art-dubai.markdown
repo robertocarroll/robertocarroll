@@ -7,7 +7,7 @@ slug: art-dubai
 title: Art Dubai
 wordpress_id: 858
 categories:
-- Projects
+- Work
 tags:
 - UX
 - Web Development

@@ -7,7 +7,7 @@ slug: barrier-to-peace-the-national
 title: Barrier to Peace - The National
 wordpress_id: 64
 categories:
-- Projects
+- Work
 tags:
 - The National
 ---

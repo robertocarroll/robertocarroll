@@ -7,7 +7,7 @@ slug: ubs-inmarkets
 title: UBS - Inmarkets
 wordpress_id: 32
 categories:
-- Projects
+- Work
 ---
 
 [Inmarkets](http://www.inmarkets.com) is a pioneer in eLearning for financial services companies. I co-founded the company and worked as its editor from 2000 to 2004. Clients included UBS, JP Morgan, M&G and Schroders. Here's an example of one of the projects I worked on.

@@ -7,7 +7,7 @@ slug: karen-mcgann
 title: Karen Mcgann
 wordpress_id: 754
 categories:
-- Projects
+- Work
 tags:
 - Video
 - Web Development

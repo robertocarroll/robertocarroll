@@ -7,7 +7,7 @@ slug: pehlwani-wrestling-in-dubai
 title: Pehlwani wrestling in Dubai
 wordpress_id: 921
 categories:
-- Projects
+- Work
 tags:
 - Multimedia journalism
 - The National

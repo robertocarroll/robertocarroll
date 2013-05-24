@@ -7,7 +7,7 @@ slug: tina-chang
 title: Tina Chang
 wordpress_id: 40
 categories:
-- Projects
+- Work
 ---
 
 [Tina Chang](http://www.tinachang.ca) is a fashion photographer currently living and working in the United Arab Emirates. I developed her new website using [Slideshow Pro](http://www.slideshowpro.net).

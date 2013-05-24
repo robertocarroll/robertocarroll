@@ -7,7 +7,7 @@ slug: the-national-relaunch
 title: The National - Relaunch
 wordpress_id: 27
 categories:
-- Projects
+- Work
 tags:
 - Abu Dhabi
 - The National

@@ -7,7 +7,7 @@ slug: four-phases-flowchart-special-tribunal-for-lebanon
 title: Four phases flowchart - Special Tribunal for Lebanon
 wordpress_id: 803
 categories:
-- Projects
+- Work
 tags:
 - Javascript
 - Multimedia journalism

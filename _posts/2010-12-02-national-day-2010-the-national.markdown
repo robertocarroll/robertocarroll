@@ -7,7 +7,7 @@ slug: national-day-2010-the-national
 title: National Day 2010 - The National
 wordpress_id: 49
 categories:
-- Projects
+- Work
 tags:
 - The National
 ---

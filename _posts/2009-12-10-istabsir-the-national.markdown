@@ -7,7 +7,7 @@ slug: istabsir-the-national
 title: Istabsir - The National
 wordpress_id: 23
 categories:
-- Projects
+- Work
 tags:
 - Abu Dhabi
 ---

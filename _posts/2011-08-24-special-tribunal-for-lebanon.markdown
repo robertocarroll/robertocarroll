@@ -7,7 +7,7 @@ slug: special-tribunal-for-lebanon
 title: Special Tribunal for Lebanon
 wordpress_id: 37
 categories:
-- Projects
+- Work
 tags:
 - Content Strategy
 - Project Management

@@ -7,7 +7,7 @@ slug: the-long-war
 title: 'The long war '
 wordpress_id: 832
 categories:
-- Projects
+- Work
 tags:
 - Multimedia journalism
 - Slideshow Pro
