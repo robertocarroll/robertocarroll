@@ -1,0 +1,37 @@
+---
+author: roberto
+comments: false
+date: 2013-09-10 09:35:48
+layout: post
+slug: ubs-inmarkets
+title: UBS - Inmarkets
+wordpress_id: 32
+categories:
+- Work
+---
+
+[Inmarkets](http://www.inmarkets.com) is a pioneer in eLearning for financial services companies. I co-founded the company and worked as its editor from 2000 to 2004. Clients included UBS, JP Morgan, M&G and Schroders. Here's an example of one of the projects I worked on.
+
+
+[![Inmarkets eLearning course](http://www.robertocarroll.com/wp-content/uploads/2002/09/Inmarkets1.jpg)](http://www.robertocarroll.com/wp-content/uploads/2002/09/Inmarkets1.jpg)
+
+
+## The challenge
+
+
+A global investment bank needed to train 30,000 employees in 20 different countries and 16 different languages in Security compliance issues.The course had to achieve completion rates of 80 per cent within the first year. Performance data had to be integrated with the company’s existing internal systems.
+[![Inmarkets eLearning course](http://www.robertocarroll.com/wp-content/uploads/2002/09/Inmarkets2.jpg)](http://www.robertocarroll.com/wp-content/uploads/2002/09/Inmarkets2.jpg)
+
+
+## The solution
+
+
+Create a content management system in different languages and a single multi-language course module which allows users to switch between different languages within the same session. The courses include authentic scenarios and case studies with interactive elements to enhance information retention and improve completion rates.
+
+
+## My role in the project
+
+
+[![Inmarkets deliverables](http://www.robertocarroll.com/wp-content/uploads/2002/09/Inmarkets-deliverables-960.jpg)](http://www.robertocarroll.com/wp-content/uploads/2002/09/Inmarkets-deliverables-960.jpg)
+
+As Editor at [Inmarkets](http://www.inmarkets.com), I was involved in all stages of the project. I helped put together the initial pitch to senior decision makers at UBS. I conducted workshops to validate the business requirements. I mapped the information architecture, storyboarded the courses, coordinated usability testing and conducted a QA of the English-language courses.
