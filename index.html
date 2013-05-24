@@ -1,8 +1,9 @@
 ---
 layout: default
-title: Home
-page-class: page--home
+title: 
+meta: 
 ---
+
 
 {% include header.html %}
 {% include nav.html %}
@@ -12,6 +13,13 @@ page-class: page--home
 <div class="content"> 
 
     Hello this is my blog
+
+
+    <div id="post">
+    <span class="date">{{ site.posts.first.date | date_to_string }}</span>
+    <h2><a href="{{ site.posts.first.url }}">{{ site.posts.first.title }}</a></h2>
+    {{ site.posts.first.content }}
+</div>
 
   </div>
 
