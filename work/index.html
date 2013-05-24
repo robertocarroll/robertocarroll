@@ -13,8 +13,8 @@ tagline: Supporting tagline
 <div class="content">		
 
 <h1>Work</h1>
-<h2>Archives</h2>
 <ul>
+
   {% for post in site.categories.work %}
 
     {% unless post.next %}
@@ -27,7 +27,7 @@ tagline: Supporting tagline
       {% endif %}
     {% endunless %}
 
-    <li>{{ post.date | date:"%b" }} <a href="{{ post.url }}">{{ post.title }}</a></li>
+    <li><a href="{{ post.url }}">{{ post.title }}</a></li>
   {% endfor %}
 </ul>
 
