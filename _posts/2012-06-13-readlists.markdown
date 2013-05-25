@@ -7,7 +7,7 @@ slug: readlists
 title: Readlists
 wordpress_id: 852
 categories:
-- Journal
+- Blog
 ---
 
 [Readlists](http://readlists.com/) is a new way to create an e-book from webpages, links and articles which you can send to your Kindle, iPad, or iPhone. It's a lovely experiment in compiling links and deliver them in a handy package. 

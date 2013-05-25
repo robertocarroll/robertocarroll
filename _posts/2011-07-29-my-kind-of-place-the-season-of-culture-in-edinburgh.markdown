@@ -7,8 +7,9 @@ slug: my-kind-of-place-the-season-of-culture-in-edinburgh
 title: 'My kind of place: the season of culture in Edinburgh'
 wordpress_id: 88
 categories:
-- Articles
+- Work
 tags:
+- Writing
 - The National
 - Travel
 ---

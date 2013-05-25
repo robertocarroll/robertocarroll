@@ -7,8 +7,9 @@ slug: luddites
 title: Technology's wreckers and breakers
 wordpress_id: 535
 categories:
-- Articles
+- Work
 tags:
+- Writing
 - History
 - Technology
 - The Kernel

@@ -7,8 +7,9 @@ slug: behind-closed-doors
 title: Behind closed doors
 wordpress_id: 755
 categories:
-- Articles
+- Work
 tags:
+- Writing
 - Technology
 - The Kernel
 ---

@@ -7,7 +7,9 @@ slug: top-ten-lesser-known-art-galleries
 title: Top ten lesser-known art galleries
 wordpress_id: 435
 categories:
-- Articles
+- Work
+tags:
+- Writing
 ---
 
 Undertakings such as Google's Art Project (www.googleartproject.com), which digitise and create virtual tours of hundreds of works of art from around the world, are the next stage in André Malraux's idea of a "museum without walls". While it might be preferable to tour the Van Gogh Museum from the comfort of your sofa rather than jostle with soggy tourists, something is undoubtedly lost in doing so.

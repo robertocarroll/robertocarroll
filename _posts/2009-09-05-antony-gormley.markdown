@@ -7,8 +7,9 @@ slug: antony-gormley
 title: Antony Gormley
 wordpress_id: 329
 categories:
-- Articles
+- Work
 tags:
+- Writing
 - Art
 - The National
 ---

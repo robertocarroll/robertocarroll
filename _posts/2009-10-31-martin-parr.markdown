@@ -7,8 +7,9 @@ slug: martin-parr
 title: Martin Parr
 wordpress_id: 335
 categories:
-- Articles
+- Work
 tags:
+- Writing
 - Art
 - Photography
 - The National

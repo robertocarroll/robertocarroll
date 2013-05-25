@@ -7,9 +7,10 @@ slug: the-lure-of-the-open-road
 title: The lure of the open road
 wordpress_id: 19
 categories:
-- Articles
+- Work
 tags:
 - Abu Dhabi
+- Writing
 - The Road
 ---
 

@@ -7,8 +7,9 @@ slug: top-10-rail-journeys
 title: Top 10 rail journeys
 wordpress_id: 95
 categories:
-- Articles
+- Work
 tags:
+- Writing
 - The National
 - Travel
 ---

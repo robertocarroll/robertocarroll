@@ -7,7 +7,7 @@ slug: ask-the-tribunal-a-different-approach-to-content-strategy
 title: 'Ask the tribunal: a different approach to content strategy'
 wordpress_id: 597
 categories:
-- Crafting websites
+- Blog
 ---
 
 I spent much of 2011 working on a project for the [Special Tribunal for Lebanon](http://www.robertocarroll.com/2011/08/24/special-tribunal-for-lebanon/). One of the most important parts of my job was to find ways to use digital technology to open up a closed and technologically resistant organisation.

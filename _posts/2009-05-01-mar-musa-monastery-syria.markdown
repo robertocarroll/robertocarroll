@@ -7,8 +7,9 @@ slug: mar-musa-monastery-syria
 title: Mar Musa monastery, Syria
 wordpress_id: 332
 categories:
-- Articles
+- Work
 tags:
+- Writing
 - The National
 - Travel
 ---

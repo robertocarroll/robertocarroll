@@ -7,8 +7,9 @@ slug: travel-top-10-moroccos-finest-riads
 title: Top 10 Moroccan riads
 wordpress_id: 92
 categories:
-- Articles
+- Work
 tags:
+- Writing
 - The National
 - Travel
 ---

@@ -7,8 +7,9 @@ slug: machines-and-memory
 title: Machines and memory
 wordpress_id: 789
 categories:
-- Articles
+- Work
 tags:
+- Writing
 - Technology
 - The Kernel
 ---

@@ -7,8 +7,9 @@ slug: a-walker-in-the-city
 title: A walker in the city
 wordpress_id: 265
 categories:
-- Articles
+- Work
 tags:
+- Writing
 - Abu Dhabi
 - The National
 ---

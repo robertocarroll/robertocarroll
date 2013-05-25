@@ -7,8 +7,9 @@ slug: have-app-will-travel
 title: 'iPhone apps and travel '
 wordpress_id: 101
 categories:
-- Articles
+- Work
 tags:
+- Writing
 - Technology
 - The National
 - Travel

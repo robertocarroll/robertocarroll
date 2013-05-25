@@ -7,7 +7,7 @@ slug: combine-pdfs-using-automator-on-a-mac
 title: Combine pdfs using Automator on a Mac
 wordpress_id: 390
 categories:
-- Journal
+- Blog
 tags:
 - Mac
 - Tips

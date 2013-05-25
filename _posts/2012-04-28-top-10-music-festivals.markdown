@@ -7,8 +7,9 @@ slug: top-10-music-festivals
 title: Top ten music festivals
 wordpress_id: 757
 categories:
-- Articles
+- Work
 tags:
+- Writing
 - The National
 - Top 10
 - Travel

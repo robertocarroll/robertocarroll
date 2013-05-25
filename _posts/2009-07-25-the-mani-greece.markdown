@@ -7,8 +7,9 @@ slug: the-mani-greece
 title: The Mani, Greece
 wordpress_id: 752
 categories:
-- Articles
+- Work
 tags:
+- Writing
 - The National
 - Travel
 ---

@@ -7,7 +7,9 @@ slug: top-ten-street-food
 title: Top ten street food
 wordpress_id: 440
 categories:
-- Articles
+- Work
+tags:
+- Writing
 ---
 
 Judging by the polystyrene flotsam that litters the kerb sides of the world, humanity is in the grip of an addiction to food eaten on the street.

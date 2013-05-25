@@ -7,8 +7,9 @@ slug: top-ten-historic-hotels
 title: Top ten historic hotels
 wordpress_id: 887
 categories:
-- Articles
+- Work
 tags:
+- Writing
 - Multimedia journalism
 - The National
 - Top 10

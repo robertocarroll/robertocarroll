@@ -7,8 +7,9 @@ slug: top-10-best-ruins
 title: Top 10 best ruins
 wordpress_id: 107
 categories:
-- Articles
+- Work
 tags:
+- Writing
 - The National
 - Travel
 ---

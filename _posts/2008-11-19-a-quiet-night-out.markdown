@@ -7,8 +7,9 @@ slug: a-quiet-night-out
 title: Silent disco
 wordpress_id: 288
 categories:
-- Articles
+- Work
 tags:
+- Writing
 - Music
 - The National
 ---

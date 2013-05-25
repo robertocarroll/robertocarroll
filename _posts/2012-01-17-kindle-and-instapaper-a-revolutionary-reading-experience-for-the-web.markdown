@@ -7,7 +7,7 @@ slug: kindle-and-instapaper-a-revolutionary-reading-experience-for-the-web
 title: 'Kindle and Instapaper: a revolutionary reading experience for the web '
 wordpress_id: 383
 categories:
-- Journal
+- Blog
 ---
 
 Millions of people got a Kindle over Christmas. It seems [exactly how many have been sold is not clear](http://blogs.reuters.com/mediafile/2011/01/03/why-wont-amazon-say-how-many-kindles-its-sold/). What is certain is that I received one as a gift. 

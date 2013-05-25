@@ -7,7 +7,7 @@ slug: leaking-state-nulpunt-democracy-without-secrets
 title: Leaking state - Nulpunt - democracy without secrets
 wordpress_id: 901
 categories:
-- Journal
+- Blog
 ---
 
 The internet and freedom are often connected, but discussions tend to break down with a dearth of tangible examples of the network as agent of democracy. Nulpunt is an exciting new project, which aims to help citizens follow and control government. Take a look:  

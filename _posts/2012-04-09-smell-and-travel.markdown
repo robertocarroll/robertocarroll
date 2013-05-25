@@ -7,7 +7,7 @@ slug: smell-and-travel
 title: Smell and travel
 wordpress_id: 466
 categories:
-- Journal
+- Blog
 ---
 
 What a [great article on smell-designing cities](http://www.ediblegeography.com/smell-designing-sheffield/). It's an interview with [Victoria Henshaw](http://staffprofiles.humanities.manchester.ac.uk/Profile.aspx?Id=victoria.henshaw&curTab=1), a research associate in the University of Manchester’s Department of Architecture, about her journeys around Doncaster and Sheffield and it includes lots of interesting discussions about smell and location.

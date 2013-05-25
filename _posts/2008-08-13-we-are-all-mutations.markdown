@@ -7,8 +7,9 @@ slug: we-are-all-mutations
 title: We are all mutations
 wordpress_id: 270
 categories:
-- Articles
+- Work
 tags:
+- Writing
 - Science
 ---
 

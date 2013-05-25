@@ -7,7 +7,9 @@ slug: happy-bloomsday
 title: Happy Bloomsday
 wordpress_id: 959
 categories:
-- Articles
+- Work
+tags:
+- Writing
 ---
 
 Saturday 16 June is Bloomsday, the annual celebration of the Irish writer James Joyce and his remarkable book_Ulysses_. The novel, published in 1922 and prosecuted for obscenity, tells the story of three people - Leopold Bloom, Molly Bloom and Stephen Dedalus - in a single day, 16 June 1904, around Dublin.

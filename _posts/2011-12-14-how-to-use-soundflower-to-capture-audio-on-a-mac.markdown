@@ -7,7 +7,7 @@ slug: how-to-use-soundflower-to-capture-audio-on-a-mac
 title: 'How to use Soundflower to capture audio on a Mac '
 wordpress_id: 381
 categories:
-- Journal
+- Blog
 tags:
 - Mac
 - Music

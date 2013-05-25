@@ -7,7 +7,7 @@ slug: the-guidebook-records-of-change
 title: 'The guidebook: records of change'
 wordpress_id: 396
 categories:
-- Journal
+- Blog
 ---
 
 I've just read Geoff Dyer's essay in Time Out's [Paris Walks](http://www.amazon.co.uk/Time-Book-Paris-Walks-Guides/dp/0140287213). He starts by talking about Levi Strauss in _Tristes Tropiques_: Sao Paulo was changing so rapidly maps were out of date as soon as they were printed. It reminded me of Abu Dhabi and Dubai, where roads and bridges close and appear every week.

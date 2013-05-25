@@ -7,8 +7,9 @@ slug: '282'
 title: Mirror neurons
 wordpress_id: 282
 categories:
-- Articles
+- Work
 tags:
+- Writing
 - Science
 - The National
 ---

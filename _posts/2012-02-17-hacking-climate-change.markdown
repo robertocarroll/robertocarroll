@@ -7,7 +7,7 @@ slug: hacking-climate-change
 title: Hacking climate change
 wordpress_id: 384
 categories:
-- Journal
+- Blog
 ---
 
 Climate change is one of the biggest issues facing the world in the coming decades. With melting ice sheets and rising sea levels, cities from London to Bangkok could be flooded.

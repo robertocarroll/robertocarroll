@@ -7,8 +7,9 @@ slug: top-ten-20th-century-hotels
 title: 'Top ten 20th-century hotels '
 wordpress_id: 711
 categories:
-- Articles
+- Work
 tags:
+- Writing
 - The National
 - Travel
 ---

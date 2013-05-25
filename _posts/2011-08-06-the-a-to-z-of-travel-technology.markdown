@@ -7,8 +7,9 @@ slug: the-a-to-z-of-travel-technology
 title: The A to Z of travel technology
 wordpress_id: 85
 categories:
-- Articles
+- Work
 tags:
+- Writing
 - Technology
 - The National
 - Travel

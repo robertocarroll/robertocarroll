@@ -7,7 +7,7 @@ slug: zombie-traveller
 title: Zombie Traveller
 wordpress_id: 569
 categories:
-- Journal
+- Work
 tags:
 - Technology
 - Travel

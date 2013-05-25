@@ -7,7 +7,7 @@ slug: secure-your-wordpress-website-with-limit-login-attempts
 title: Secure your Wordpress website with Limit Login Attempts
 wordpress_id: 778
 categories:
-- Crafting websites
+- Blog
 ---
 
 A few month ago, I installed a Wordpress plugin called [Limit Login Attempts](http://wordpress.org/extend/plugins/limit-login-attempts/). It limits the number of login attempts on your Wordpress admin. I wasn't convinced it was necessary. After all, this website is a small and humble part of the interweb. I recently looked at the statistics and was surprised that there's been lots of attempts blocked.

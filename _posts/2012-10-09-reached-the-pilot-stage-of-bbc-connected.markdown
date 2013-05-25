@@ -7,7 +7,7 @@ slug: reached-the-pilot-stage-of-bbc-connected
 title: 'The pilot stage of BBC Connected '
 wordpress_id: 930
 categories:
-- Journal
+- Blog
 ---
 
 CMeebies is an idea that has emerged out of the third [BBC Connected Studio](http://www.bbcconnectedstudio.co.uk/) around [CBeebies](http://www.bbc.co.uk/cbeebies/), the BBC product for children up to six years old.

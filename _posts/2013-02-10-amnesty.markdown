@@ -4,7 +4,7 @@ comments: false
 date: 2013-09-10 09:35:48
 layout: post
 slug: ubs-inmarkets
-title: UBS - Inmarkets
+title: Amnesty International
 wordpress_id: 32
 categories:
 - Work

@@ -7,8 +7,9 @@ slug: '275'
 title: Peter Sanders
 wordpress_id: 275
 categories:
-- Articles
+- Work
 tags:
+- Writing
 - Photography
 - The National
 ---

@@ -7,7 +7,7 @@ slug: a-few-handy-mac-short-cuts
 title: A few handy Mac short cuts
 wordpress_id: 379
 categories:
-- Journal
+- Blog
 ---
 
 I was surprised when I moved from a PC to a Mac a few years ago how adrift the change of operating system left me. All the keyboard shortcuts and little tricks gathered over years melted away to leave me feeling like a computer novice. Here's some of the most useful Mac shortcuts I've learnt over the last few years, posted as much as a reference for myself as anything else.
