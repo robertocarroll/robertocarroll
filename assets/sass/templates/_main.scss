@@ -10,3 +10,8 @@
   @include gs-span(d, 3, 4, (2, 4));
   padding-right: 4em;
  }
+
+
+ .main-content {
+ 	font-size: $h5-size;
+ }
