@@ -52,17 +52,17 @@
 
 @function gs-grid($prefix){
 
-  @if $prefix == m	{ @return (38.25297783340304,61.59077216659695); }
-  @if $prefix == t	{ @return (30.901699302197535,19.098300204302085,50.00000049350038); }
-  @if $prefix == d	{ @return (27.639320200883223,17.0820390644912,10.55728058645084,44.721360148174746); }
+  @if $prefix == m	{ @return (19.0625,19.0625,61.59077216659695); }
+  @if $prefix == t	{ @return (30.901699302197535,9.5703125,9.5703125,50.00000049350038); }
+  @if $prefix == d	{ @return (27.639320200883223,8.54545454,8.54545454,10.55728058645084,44.721360148174746); }
 
 }
 
 @function gs-pxcols($prefix){
   
-  @if $prefix == m	{ @return (false,false); }
-  @if $prefix == t	{ @return (false,false,false); }
-  @if $prefix == d	{ @return (false,false,false,false); }
+  @if $prefix == m	{ @return (false,false,false); }
+  @if $prefix == t	{ @return (false,false,false,false); }
+  @if $prefix == d	{ @return (false,false,false,false,false); }
 
 }
 
