@@ -20,12 +20,20 @@
  	font-size: $h5-size;
  }
 
+.margin-below-quarter {
+ 	margin-bottom: ($half-spacing-unit)/2;
+ }
+
  .margin-below-half {
  	margin-bottom: $half-spacing-unit;
  }
 
  .margin-below {
  	margin-bottom: $base-spacing-unit;
+ }
+
+  .margin-below-double {
+ 	margin-bottom: 2*($base-spacing-unit);
  }
 
  .grey {
