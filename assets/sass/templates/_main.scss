@@ -11,7 +11,23 @@
   padding-right: 4em;
  }
 
+.content-list {
+  @include gs-span(d, 4, 5, (2, 5));
+  padding-right: 4em;
+ }
 
  p {
  	font-size: $h5-size;
+ }
+
+ .margin-below-half {
+ 	margin-bottom: $half-spacing-unit;
+ }
+
+ .grey {
+ 	color: $watf-grey; 
+ }
+
+ .post {
+ 	margin-bottom: $base-spacing-unit;
  }

@@ -2,7 +2,7 @@
     {% for post in site.posts limit:1 %}
 
     	<div class="page-header"><h1><a href="{{ BASE_PATH }}{{ post.url }}">{{ post.title }}</a></h1></div>
-    	<div class="date"><span>{{ post.date | date_to_string }}</span></div> 
+    	<h2 class="epsilon italic">{{ post.date | date: "%d %B %Y" }}</h2>
         
         <div class="main-content">  
          {{ post.content | strip_html | truncatewords:100}}
