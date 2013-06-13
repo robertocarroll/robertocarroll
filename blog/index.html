@@ -23,7 +23,7 @@ tagline: Supporting tagline
 		{% endif %}
 	    <article class="post margin-below-double">
 	        <h1 class="epsilon margin-below-quarter"><a href="{{ post.url }}">{{ post.title }}</a></h1>
-	        <h2 class="epsilon italic grey">{{ post.date | date: "%d %B %Y" }}</h2>
+	        <h2 class="date epsilon italic grey margin-below-double">{{ post.date | date: "%d %B %Y" }}</h2>
 	    </article>
 		
 	{% endfor %}
