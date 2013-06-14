@@ -2,13 +2,16 @@
     {% for post in site.categories.blog limit:1 %}
 
     	<div class="page-header"><h1><a href="{{ BASE_PATH }}{{ post.url }}">{{ post.title }}</a></h1></div>
-    	<h2 class="epsilon italic">{{ post.date | date: "%d %B %Y" }}</h2>
+    	<h2 class="epsilon italic grey">{{ post.date | date: "%d %B %Y" }}</h2>
         
         <div class="main-content"> 
          {{ post.content | strip_html | truncatewords:100}}
-        </div>
+        
             <a href="{{ post.url }}">Read more</a>
+
+        <a href="/blog">Read my blog</a>
+
+        </div>    
   
     {% endfor %}
 
-Read my blog
