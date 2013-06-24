@@ -4,25 +4,8 @@ layout: default
 {% include header.html %}
 {% include nav.html %}
 
-<div class="main" role="main">
-	
-<div class="content">		
-
-	<div class="page-header">
-	  <h1>{{ page.title }} {% if page.tagline %}<small>{{page.tagline}}</small>{% endif %}</h1>
-	</div>
-
-	<div class="date epsilon italic grey margin-below">
-	    <span>{{ page.date | date_to_long_string }}</span>
-	 </div>
-	    
-    <div class="main-content">	
       {{ content }}
-    </div>  
-
-    </div>
-
-</div>    
+ 
 
 {% include footer.html %}
 
