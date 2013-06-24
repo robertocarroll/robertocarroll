@@ -2,7 +2,7 @@
 author: roberto
 comments: false
 date: 2011-10-10 09:06:32
-layout: page
+layout: post
 slug: about-me
 title: About
 wordpress_id: 11
