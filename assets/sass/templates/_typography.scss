@@ -91,6 +91,12 @@
 
 	.uppercase {text-transform: uppercase;}
 
+	.subtitle {
+		@extend .delta;
+		font-style: italic;
+		font-weight: 400;
+	}
+
 	/*  <strong>For emphasizing a snippet of text with important</strong> */
 	strong {
 		font-style: normal;
