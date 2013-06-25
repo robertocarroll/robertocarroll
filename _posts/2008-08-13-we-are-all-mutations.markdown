@@ -13,9 +13,7 @@ tags:
 - Science
 ---
 
-Mutations sound much more horrifying than they really are. In fact, life gets better because of them. Published in The National on 13 August 2008.
-
-
+<h2 class="subtitle">Mutations sound much more horrifying than they really are. In fact, life gets better because of them.</h2> 
 
 Mutations – mistakes in the copying of genetic material – are not the freak events of science fiction. In fact, they are very common. Mutations occur in the cells of every individual as he or she grows older. And they are happening all the time. While you are reading this article, for example, you will have undergone tens of thousands of mutations. 
 
@@ -75,3 +73,5 @@ The gene genie does not hold all the cards. In fact much of how we age is down t
 Don’t smoke. Drink less. Exercise more. Avoid fatty foods. For the moment these lifestyle choices are important in determining how long we will live and how healthy we will be.
 
 “Once you get everybody entirely educated, eating an entirely healthy diet and wearing a seat belt,” says Professor Jones, “then the genes may become important.”
+
+*Published in The National on 13 August 2008.*
