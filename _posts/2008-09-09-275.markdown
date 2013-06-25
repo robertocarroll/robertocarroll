@@ -3,7 +3,7 @@ author: roberto
 comments: false
 date: 2008-09-09 19:50:26
 layout: post
-slug: '275'
+slug: peter-sanders
 title: Peter Sanders
 wordpress_id: 275
 categories:
