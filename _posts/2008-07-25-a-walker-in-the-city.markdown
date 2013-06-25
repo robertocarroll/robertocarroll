@@ -14,9 +14,7 @@ tags:
 - The National
 ---
 
-Robert Carroll plots an escape on foot from the air-conditioned non-places where we spend our days. Published in The Review section of The National on 25 July 2008.
-
-
+<h2 class="subtitle">I wrote this article about escaping on foot from the air-conditioned non-places where we spend our days. It was published in The Review section of The National on 25 July 2008.</h2>
 
 There is something pleasing about arriving in a foreign land and being greeted by a card with your name on it. It confirms you are where you are supposed to be. My flight from Heathrow to Abu Dhabi had taken three-and-a-half films and crossed four time zones.
 
