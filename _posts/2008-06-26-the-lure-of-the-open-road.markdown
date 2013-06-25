@@ -14,7 +14,7 @@ tags:
 - The Road
 ---
 
-<h2 class="subtitle">I wrote this column about car crashes, which was published in <a href="http://www.thenational.ae/thenationalconversation/lifestyle-comment/the-lure-of-the-open-road">The National]</a></h2>
+<h2 class="subtitle">I wrote this column about car crashes, which was published in <a href="http://www.thenational.ae/thenationalconversation/lifestyle-comment/the-lure-of-the-open-road">The National</a></h2>
 
 I saw my first car crash in Abu Dhabi a few days ago. It wasn't a bonnet-crumpling impact, just a tyre squeal and thump as one car pulled out into the path of another. There were no ­bleeding heads or tears and the air bags ­remained neatly stowed as the two ­drivers ­tentatively ­inspected the ­damage. A crowd, of which I was part, stood on the pavement ­watching the drivers touch and stroke their cars as if they were injured pets.
 
