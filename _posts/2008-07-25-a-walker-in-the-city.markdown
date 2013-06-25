@@ -14,10 +14,6 @@ tags:
 - The National
 ---
 
-Robert Carroll plots an escape on foot from the air-conditioned non-places where we spend our days. Published in The Review section of The National on 25 July 2008.
-
-
-
 There is something pleasing about arriving in a foreign land and being greeted by a card with your name on it. It confirms you are where you are supposed to be. My flight from Heathrow to Abu Dhabi had taken three-and-a-half films and crossed four time zones.
 
 I went up to the man holding my name and introduced myself. He was smartly dressed in a grey cap and uniform. I followed him to his sleek new German- made estate car. For a few moments I was out in hair- dryer-hot air, then I was sealed in the car, speeding to my hotel apartment.
@@ -52,3 +48,5 @@ Pretty soon, I started to join the dots of my atomised city.
 Walking maps out a series of pathways through a city, a collection of well-trodden routes, which spread out like neural pathways in the brain, codifying and stor- ing your knowledge of a particular place.
 
 Orientation begins with geography, but it is not sim- ply answering the question, “where am I?” It also helps you to work out how you fit in to the landscape, whether you are indeed where you are supposed to be.
+
+Published in The Review section of The National on 25 July 2008.
