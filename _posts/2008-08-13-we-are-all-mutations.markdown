@@ -13,9 +13,7 @@ tags:
 - Science
 ---
 
-Mutations sound much more horrifying than they really are. In fact, life gets better because of them. Published in The National on 13 August 2008.
-
-
+<h2 class="subtitle">Mutations sound much more horrifying than they really are. In fact, life gets better because of them. Published in The National on 13 August 2008.</h2>
 
 Mutations – mistakes in the copying of genetic material – are not the freak events of science fiction. In fact, they are very common. Mutations occur in the cells of every individual as he or she grows older. And they are happening all the time. While you are reading this article, for example, you will have undergone tens of thousands of mutations. 
 
