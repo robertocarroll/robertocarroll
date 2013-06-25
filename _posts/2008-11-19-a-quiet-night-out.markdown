@@ -3,7 +3,7 @@ author: roberto
 comments: false
 date: 2008-11-19 20:06:54
 layout: post
-slug: silent-disco-a-quiet-night-out
+slug: a-quiet-night-out
 title: Silent disco
 wordpress_id: 288
 categories:

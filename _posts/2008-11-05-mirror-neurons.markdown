@@ -3,7 +3,7 @@ author: roberto
 comments: false
 date: 2008-11-05 20:00:59
 layout: post
-slug: 'mirror-neurons'
+slug: mirror-neurons
 title: Mirror neurons
 wordpress_id: 282
 categories:
