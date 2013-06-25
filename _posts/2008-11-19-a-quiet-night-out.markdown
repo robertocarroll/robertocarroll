@@ -3,7 +3,7 @@ author: roberto
 comments: false
 date: 2008-11-19 20:06:54
 layout: post
-slug: silent-disco-a-quiet-night-out
+slug: a-quiet-night-out
 title: Silent disco
 wordpress_id: 288
 categories:
@@ -14,7 +14,8 @@ tags:
 - The National
 ---
 
-<h2 class="subtitle">Forget booming sound systems and deafening drum and bass, silent discos are the future.</h2>
+Forget booming sound systems and deafening drum and bass, silent discos are the future. Published in [The National](http://www.thenational.ae/arts-culture/music/a-quiet-night-out?pageCount=0) on 19 November 2008.
+
 
 The woman in the stripy T-shirt is midway through the chorus of Bon Jovi's Living on a Prayer. It's a singing in the shower-style rendition, delivered at the top of her lungs, full of gusto, and with the kind of abandon usually reserved for those times when there's no one else around. The only thing is that other people are around and their bodies are moving to a different rhythm. The music they are dancing to seems faster, more repetitive and trancelike. Every now and again they raise their hands in the air and cheer. Seeing these two different dances on the same floor makes for a strange contrast. The fact that you can't hear any music is even stranger.
 
@@ -22,7 +23,7 @@ Welcome to the country's first silent disco. The organisers decided to try out t
 
 The oddness of the scene highlights the strangeness of dancing itself. Dancing is a powerful impulse, a primal ritual and a refined art. But without the accompanying music, there is little to key you in as a spectator. At a silent disco, headphones are the conductors - in the scientific rather than musical sense - allowing the music to flow to the participants. Without them, you are an outsider looking in. You are not part of the party.
 
-I head over to the desk in the corner where two women are handing out headphones in exchange for a deposit. They are very simple to use. There is a volume control and a switch with three settings: off, A and B. Channel A is a DJ playing a Balearic mix of cheesy rock, party songs and 1980s classics. Channel B is a DJ playing deep house. I flick the switch to channel B and turn up the music sound-system loud. Almost immediately, the movements of different people dotted around start to make sense. Pretty quickly I find myself starting to dance.
+I head over to the desk in the corner where two women are handing out headphones in exchange for a deposit. They are very simple to use. There is a volume control and a switch with three settings: off, A and B. Channel A is a DJ playing a Balearic mix of cheesy rock, party songs and 1980s classics. Channel B is a DJ playing deep house. I flick the switch to channel B and turn up the music sound-system loud. Almost immediately, the movements of different people dotted around start to make sense. Pretty quickly I find myself starting to dance.[![Screenshot of Silent disco - The National](http://www.robertocarroll.com/wp-content/uploads/2008/11/National_silent_disco.jpg)](http://www.robertocarroll.com/wp-content/uploads/2008/11/National_silent_disco.jpg)
 
 Silent disco first emerged in the 1990s when ecological activists started using wireless headphones to broadcast music at outdoor events. In 2002, two DJs from the Netherlands, Nico Okkerse and Michael Minton, picked up on the idea and started using wireless headphones at parties in Holland, Belgium and France. In the legend of silent disco, they are the pioneers. Their parties were successful, but remained underground, word-of-mouth, unheard of by all but the most tuned-in people.
 
@@ -45,5 +46,3 @@ Silent entertainment is not just confined to music, either. Silent cinema is als
 It's not all about insulating yourself from the outside world, though. While technology is often accused of fragmenting society, dismantling the traditional bonds of family and friendship and limiting face-to-face communication, the silent disco concept and its offshoots help to bring people together in new ways. Take the group of besuited middle-aged men who I saw walking past the deck at Sho Cho, for example. At first they stopped and stared at the silent disco's patrons like they were observing some strange, exotic species in a zoo.
 
 For a moment I watched them looking in, then turned back to the dance floor. A few minutes later, that same group of men had donned their headphones, joined the crowds and started to shake their stuff. Maybe a quiet revolution really is under way. Few, it seems, are able to resist its muted call.
-
-Published in [The National](http://www.thenational.ae/arts-culture/music/a-quiet-night-out?pageCount=0) on 19 November 2008.
