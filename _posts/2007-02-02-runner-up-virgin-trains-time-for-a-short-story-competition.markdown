@@ -12,8 +12,7 @@ tags:
 - Writing
 ---
 
-A short story I wrote was chosen as runner-up in the Virgin Trains 'Time For A Short Story' competition.
-
+<h2 class="subtitle">A short story I wrote was chosen as runner-up in the Virgin Trains 'Time For A Short Story' competition.</h2>
 
 He was a mechanic. Fingernails chocked with dirt, oil stains like tattoos up his arms. Except he had an excuse. Soap was scant. Swarfega had not made it to his domain. Lack made him inventive though. Necessity is the mother of etc. He could not simply look up the serial numbers of parts and order them "in two to three days". Tights, chewing gum and bits of scrap had to do.
 
