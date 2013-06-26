@@ -14,4 +14,4 @@ tags:
 - Video
 ---
 
-<iframe src="http://player.vimeo.com/video/43530737?title=0&amp;byline=0&amp;portrait=0" width="100%" height="auto" frameborder="0"></iframe>
+<div class="videoWrapper"><iframe src="http://player.vimeo.com/video/43530737?title=0&amp;byline=0&amp;portrait=0" width="100%" height="auto" frameborder="0"></iframe></div>
