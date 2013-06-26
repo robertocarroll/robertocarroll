@@ -3,7 +3,7 @@ author: roberto
 comments: false
 date: 2008-11-19 20:06:54
 layout: post
-slug: a-quiet-night-out
+slug: silent-disco-a-quiet-night-out
 title: Silent disco
 wordpress_id: 288
 categories:
@@ -14,8 +14,7 @@ tags:
 - The National
 ---
 
-Forget booming sound systems and deafening drum and bass, silent discos are the future. Published in [The National](http://www.thenational.ae/arts-culture/music/a-quiet-night-out?pageCount=0) on 19 November 2008.
-
+<h2 class="subtitle">Forget booming sound systems and deafening drum and bass, silent discos are the future.</h2>
 
 The woman in the stripy T-shirt is midway through the chorus of Bon Jovi's Living on a Prayer. It's a singing in the shower-style rendition, delivered at the top of her lungs, full of gusto, and with the kind of abandon usually reserved for those times when there's no one else around. The only thing is that other people are around and their bodies are moving to a different rhythm. The music they are dancing to seems faster, more repetitive and trancelike. Every now and again they raise their hands in the air and cheer. Seeing these two different dances on the same floor makes for a strange contrast. The fact that you can't hear any music is even stranger.
 
@@ -46,3 +45,5 @@ Silent entertainment is not just confined to music, either. Silent cinema is als
 It's not all about insulating yourself from the outside world, though. While technology is often accused of fragmenting society, dismantling the traditional bonds of family and friendship and limiting face-to-face communication, the silent disco concept and its offshoots help to bring people together in new ways. Take the group of besuited middle-aged men who I saw walking past the deck at Sho Cho, for example. At first they stopped and stared at the silent disco's patrons like they were observing some strange, exotic species in a zoo.
 
 For a moment I watched them looking in, then turned back to the dance floor. A few minutes later, that same group of men had donned their headphones, joined the crowds and started to shake their stuff. Maybe a quiet revolution really is under way. Few, it seems, are able to resist its muted call.
+
+*Published in [The National](http://www.thenational.ae/arts-culture/music/a-quiet-night-out?pageCount=0) on 19 November 2008.*

@@ -40,4 +40,4 @@ However, science has yet to reach this complex level of understanding about how 
 
 One thing is certain, unravelling how mirror neuron systems work and their connections with other parts of the brain is a key to understanding the relationship between what we see and what we do.
 
-*Published in [The National ](http://www.thenational.ae/news/uae-news/science/mirror-mirror-in-the-brain?pageCount=0)on 5 November 2008.*
+*Published in [The National ](http://www.thenational.ae/news/uae-news/science/mirror-mirror-in-the-brain?pageCount=0) on 5 November 2008.*
