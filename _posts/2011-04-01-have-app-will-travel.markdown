@@ -15,7 +15,7 @@ tags:
 - Travel
 ---
 
-<h2 class="subtitle">How are application-loaded mobile devices affect our travel experiences?</h2> 
+<h2 class="subtitle">How are application-loaded mobile devices affecting our travel experiences?</h2> 
 
 The man in the seat next to me cradles his phone in his hand, his index finger hovering over it as the plane taxis towards the terminal. It is like an itch he has been told not to scratch. The plane stops. The seat-belt sign goes off. He swipes the screen and the sleek rectangle starts to glow. Throughout the cabin a cacophony of ring tones heralds our arrival at Amsterdam Schiphol.
 
