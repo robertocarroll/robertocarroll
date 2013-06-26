@@ -63,4 +63,4 @@ As a documentary photographer, Parr's work has kept pace with the social changes
 
 "It is good in a sense to look back now like an epitaph to this five- or six-year growth period, which is where it all went completely crazy and to look at, if you like, manifestations of that growth and that bubble. I think therefore it is perfect timing."
 
-*Published in [The National ](http://www.thenational.ae/arts-culture/art/a-lens-on-luxury?pageCount=0)on 31 October 2009.*
+*Published in [The National ](http://www.thenational.ae/arts-culture/art/a-lens-on-luxury?pageCount=0) on 31 October 2009.*
