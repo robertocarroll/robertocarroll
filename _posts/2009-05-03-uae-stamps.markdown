@@ -13,6 +13,7 @@ tags:
 - Maps
 - Multimedia journalism
 - Web Development
+- The National
 ---
 
 Stamps tell a country's story in a delightful way. I worked with [Lizette van Hecke](http://www.izvanhecke.com/) to build this map of different stamps. I planned, designed and created this interactive package.
