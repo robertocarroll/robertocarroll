@@ -14,6 +14,6 @@ tags:
 - Web Development
 ---
 
-[![](http://www.robertocarroll.com/wp-content/uploads/2012/06/stl-flowchart-940.jpg)](http://www.robertocarroll.com/2011/06/03/four-phases-flowchart-special-tribunal-for-lebanon/stl-flowchart-940/)
+<img src="http://farm6.staticflickr.com/5494/9144482488_72ed85a1ac_z.jpg" width="100%" height="auto" alt="stl-flowchart">
 
 [Flowchart on the STL website](http://www.stl-tsl.org/en/about-the-stl/the-four-phases) in English, French and Arabic which helped people to understand the phases of the tribunal.

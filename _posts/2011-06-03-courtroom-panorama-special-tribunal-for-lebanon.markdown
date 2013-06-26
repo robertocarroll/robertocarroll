@@ -15,6 +15,6 @@ tags:
 - Web Development
 ---
 
-[![](http://www.robertocarroll.com/wp-content/uploads/2012/06/stl-panorama-940.jpg)](http://www.robertocarroll.com/2011/06/03/courtroom-panorama-special-tribunal-for-lebanon/stl-panorama-940/)
+<img src="http://farm8.staticflickr.com/7422/9144483414_57866f1638_z.jpg" width="100%" height="auto" alt="stl-panorama">
 
 [Tour of the courtroom on the STL website ](http://www.stl-tsl.org/en/about-the-stl/visiting-the-stl/the-courtroom)in English, French and Arabic.
