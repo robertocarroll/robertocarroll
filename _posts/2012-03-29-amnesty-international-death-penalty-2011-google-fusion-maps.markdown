@@ -11,6 +11,7 @@ categories:
 tags:
 - Google Fusion
 - Maps
+- Web development
 ---
 
 I designed and built this project for [Amnesty International](http://www.amnesty.org/en/news/death-penalty-2011-alarming-levels-executions-few-countries-kill-2012-03-27) to give people an overview of the countries with the death penalty and allow them to explore the most recent figures. I used [Google Fusion](http://www.google.com/fusiontables/Home/) to map the data.

@@ -4,7 +4,7 @@ comments: false
 date: 2012-04-28 14:48:01
 layout: post
 slug: top-10-music-festivals
-title: Top ten music festivals
+title: Top 10 music festivals
 wordpress_id: 757
 categories:
 - Work

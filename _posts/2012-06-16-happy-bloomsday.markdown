@@ -26,4 +26,4 @@ Using Twitter in this way helps to tease out new temporal dimensions and paralle
 
 Many mourn the decline of the book and the rise of the ebook, growing misty eyed about loss of the sturdy physicality of a tome, but few are taking on the challenge re-imagining what a book is when it is no longer on paper. These projects are leading the way. At worst, these experiments go unnoticed in the incessant clamour for attention in the digital realm. At best they illuminate supposedly well-known, but dimly remembered events and works, expanding upon the conversations which people have being having with dead authors in the margins of books for centuries.
 
-This article was published on the [Huffington Post](http://www.huffingtonpost.co.uk/robert-carroll/james-joyce-bloomsday_b_1600139.html).
+*This article was published on the [Huffington Post](http://www.huffingtonpost.co.uk/robert-carroll/james-joyce-bloomsday_b_1600139.html).*
