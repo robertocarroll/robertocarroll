@@ -34,4 +34,4 @@ The land shrinks as we drive down to the cape. Beautiful secluded bays cut in on
 
 Later in the evening, I look out into the blackness and see a series of lights blinking in the distance. A busy shipping lane passes close to the cape. Like seeing a vapour trail carved across an empty desert sky, this sign of life impinges on this isolated spot for a moment before flickering behind the headland leaving darkness once again.
 
-This article appeared in [The National](http://www.thenational.ae/lifestyle/travel/the-land-of-warriors-on-the-peloponnese-coast#full).
+*This article appeared in [The National](http://www.thenational.ae/lifestyle/travel/the-land-of-warriors-on-the-peloponnese-coast#full).*

@@ -14,8 +14,7 @@ tags:
 - The National
 ---
 
-Antony Gormley's metal sculptures stand in sharp relief against Western Australia's barren landscape. Published in [The National](http://www.thenational.ae/lifestyle/travel/gormley-figures-in-the-australian-interior?pageCount=0) on 5 September 2009.
-
+<h2 class="subtitle">Antony Gormley's metal sculptures stand in sharp relief against Western Australia's barren landscape.</h2> 
 
 The hole is one kilometre deep and the trucks moving around inside it look like ants. Western Australia's Super Pit is a huge, open cast gold mine, which runs non-stop day and night. For years mining companies have been digging up great swathes of the country and loading their findings onto ships bound for China and Japan to be turned into cars and stereos. The industry is vital to Australia's economic prosperity. The Super Pit is the most visible example of the state's mineral boom. Visible, that is, if you happen to be in Kalgoorlie-Boulder, a mining town almost 600km inland from Perth, itself one of the most isolated cities in the world.
 
@@ -42,3 +41,5 @@ The sculptures are barely visible from the car park. They look like tiny shards 
 The sun goes down as I move from one sculpture to the next. The changing light refracts off the salty surface. First deep oranges and yellows, then indigos and violets: the colours shift through the spectrum as the light fades. I stay out on the lake until it is almost dark. It is said that Gormley's work here is best viewed at dawn or dusk. The sculptures perform one of the functions of great art. They work in perfect sympathy with the landscape. They do not blight or mar this wonderful place. Rather they provide an accent to their surroundings and draw people to this remote region. Certainly I would not have made it here without them.
 
 Back at the edge of the lake, the light goes and the figures vanish into the darkness. Inside Australia is closed for the night, but will open again at sunrise the next morning.
+
+*Published in [The National](http://www.thenational.ae/lifestyle/travel/gormley-figures-in-the-australian-interior?pageCount=0) on 5 September 2009.*
