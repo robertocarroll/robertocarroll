@@ -15,89 +15,54 @@ tags:
 - Travel
 ---
 
-A look at some of the technologies that are changing our lives, and the way we travel in the 21st century. Published on 6 August 2011 in [The National](http://www.thenational.ae/lifestyle/travel/the-a-to-z-of-travel-technology?pageCount=0).
+<h2 class="subtitle">A look at some of the technologies that are changing our lives, and the way we travel in the 21st century.</h2> 
 
-
-
-
+<img src="http://farm8.staticflickr.com/7448/9142424535_2bc40ec2f9_z.jpg" width="100%" height="auto" alt="Travel and technology article">
 
 ## Augmented reality
-
-
 This technology essentially involves layering information over a particular screen-based view of the world. A wide variety of iPhone apps use this technique to supplement the view you can see through the lens of your phone's camera with all manner of useful, semi-transparent objects, from directions to restaurant reviews. At the moment, the potential of this technology outweighs stunning examples. The instant translation of Word Lens is one of the most remarkable, though it is only available in English and Spanish.
 
-
 ## Biometric passports
-
-
 Biometrics uses physical traits and our behaviour to confirm we are who we say we are. Fingerprints, facial recognition and iris scans are being used to verify the identities of travellers in the passports issued by many countries. As many traits start to be used at once ("multimodal" techniques), biometrics will help people pass through borders more quickly. Yet it has not been entirely welcomed: passports have become more expensive as a result and concerns about the security and privacy of the data handled by governments abound.
 
-
 ## Couchsurfing
-
-
 Since 2004, the international network www.couchsurfing.org has helped match people with a spare couch or bed with people who want to stay somewhere for free. The website has almost three million members in 246 countries. If you prefer more privacy and want to know a bit more about what you are letting yourself in for, a slew of companies has started to offer a similar but paid service for short-term apartment rentals and sublets. One of the most popular, www.airbnb.com, has places to stay in 16,023 cities in 186 countries for much less than a hotel.
 
 
 ## Data
-
-
 When using services such as Facebook, Gmail or Dropbox, we are no longer storing data on our computers. Instead it resides - to use a rather nebulous slogan - "in the cloud". The benefits for travellers are undeniable: you can check your email anywhere and you don't have to lug heavy equipment around. But such an approach often means relinquishing certain rights over the data. Most of us have yet to appreciate what this means, but when, for example, we see our personal information appearing in adverts, the potential problems become clearer.
 
 
 ## E-readers
-
-
 Devices such as Amazon's Kindle, Apple's iPad and Sony's eReader put an end to decisions about which books to take on holiday. Yet it is doubtful they have led to many more books being read while travelling. They create a surfeit of tomes whose burden weighs more heavily than the 600-or-so grams of the slender device that houses them. But faced with a decision between Dostoevsky, Flaubert or JK Rowling, the choice can be so paralysing you end up playing Angry Birds instead.
 
-
 ## Free
-
-
 From travel guides (see Virtual guides) to accommodation (see couchsurfing), it has become common to expect something for nothing in travel. This is an amplified version of the benevolence that has been part of travel for centuries, from pilgrimage to hitchhiking. Yet this complimentary approach has another aspect. Many free services - from Google to Facebook - make money from a remarkable sleight of hand: they turn the consumer into the product being sold.
 
-[![Screenshot of A to Z Travel Technology - TheNational](http://www.robertocarroll.com/wp-content/uploads/2011/08/AtoZTravelTechnology-TheNational.jpg)](http://www.robertocarroll.com/wp-content/uploads/2011/08/AtoZTravelTechnology-TheNational.jpg)
-
-
 ## Google maps
-
-
 Cartography has changed recently with the liberalisation of data from satellites in orbit above the Earth. The view from space is all-seeing, all-knowing. Google Maps puts this omniscient power at our fingertips for free. The result is a work of art that borders on a masterpiece. In just six years it has changed how we can view the world. Check out the websites www.robotflaneur.com or www.googlesightseeing.com for examples of how Google's mapping services can be used for virtual sightseeing.
 
-
 ## Hipmunk
-
-
 Does anyone use a travel agent anymore, at least to book flights? After all, you can buy a ticket for most airlines directly through their websites. Flight search websites, such as www.skyscanner.com and www.travelsupermarket.com make this process much easier: they check your criteria against a range of websites and bring back the best options. Hipmunk (www.hipmunk.com) organises the results into a colourful chart that you can filter by price, duration and "agony".
 
 
 ## Images
-
-
 "Take nothing but photos, leave nothing but footprints" sounds innocuous enough as a mantra for travel, but anyone who has seen tourists jostling to pose for a shot in front of a famous monument may start to think differently. Shot is such an apt term: people stand as if in front of a firing squad and, upon returning home, display the images like the trophies of a game hunter. In fact, the image is rapidly becoming the focus of travel - the click of the digital camera is changing the experience of travel completely.
 
 
 ## Jet engines
-
-
 The tedium foisted on air travel by its operators is partly to assuage the scariness of jet travel. Instead of contemplating the view from the window, we are encouraged to reach a state of numbness by watching films and playing games on glowing rectangles in the backs of chairs. When you start to think about the physical details of flight - hundreds of tonnes of metal rising into the air, powered by jet engines, flying 10,000m above the ground - it starts to regain some of its magic. Next time you fly, remember this: jet engines are one of the most remarkable travel technologies invented.
 
 
 ## Kilowatts
-
-
 With 12 different types of mains plugs in use around the world and a variety of leads needed to recharge cameras, phones and computers, you can quickly end up with a spaghetti of wires in your bag. New ways to feed the appetite for power are emerging. Solar chargers, such as the Solarroll (www.bruntonoutdoor.com), are starting to provide enough power in a convenient way, while hydrogen cartridges, such as the HydroStik (www.horizonfuelcell.com), are emerging as an efficient, less environmentally hazardous alternative to traditional batteries.
 
 
 ## Location data
-
-
 Most people had an inkling that their iPhones knew where they were at a particular time. The extent to which the device was tracking its user's movements became clear in April with the discovery of a file called "consolidated.db". Implemented with iOS4, it contains details about the iPhone's movements (latitude, longitude and time stamp), which can be plotted on a map. Apple quickly provided a solution to turn the feature off, but if you have an iPhone and want to see where you've been, go to http://petewarden.github.com/iPhoneTracker (Mac only).
 
 
 ## Mobile
-
-
 Mobile phones are much more than portable telephones. Apple's iPhone encourages developers to create useful applications to sell through the App Store, which currently has 14,973 apps in the travel section, providing everything from train times to city guides. Google's Android mobile operating system, used by manufacturers such as HTC, Motorola and Samsung, is starting to challenge Apple's dominance. In time, competition will lead to even more innovative tools for travellers.
 
 
@@ -179,3 +144,4 @@ Technology has led to the democratisation of travel. So much of the travel proce
 The yotta (10 to the power of 24) was introduced as the largest unit of measurement in 1991. It is used for things such as the diameter of the known universe. No doubt such mind-boggling dimensions have influenced our concepts of distance. Yet it is the effects of being able to easily manipulate scale (zoom in and zoom out on digital maps) and traverse the globe in a day or two (travelling by air) that have changed our physical understanding of space. These different types of zoom have, to adopt a cliché, made the world seem a smaller place.
 
 
+*Published on 6 August 2011 in [The National](http://www.thenational.ae/lifestyle/travel/the-a-to-z-of-travel-technology?pageCount=0).*
