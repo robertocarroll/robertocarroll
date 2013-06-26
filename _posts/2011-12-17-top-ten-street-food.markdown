@@ -4,7 +4,7 @@ comments: false
 date: 2011-12-17 17:04:14
 layout: post
 slug: top-ten-street-food
-title: Top ten street food
+title: Top 10 street food
 wordpress_id: 440
 categories:
 - Work
@@ -102,4 +102,4 @@ The night markets of the Taiwanese capital are literally a melting pot of gastro
 
 What to eat: Oyster omelets are a popular snack. Stinky tofu - deep-fried, fermented curd made from mashed soya beans - is more appealing than it sounds or smells.
 
-Published in [The National](http://www.thenational.ae/lifestyle/travel/snacks-and-the-city-no-need-for-tables?pageCount=0).
+*Published in [The National](http://www.thenational.ae/lifestyle/travel/snacks-and-the-city-no-need-for-tables?pageCount=0).*

@@ -4,7 +4,7 @@ comments: false
 date: 2011-10-15 16:58:44
 layout: post
 slug: top-ten-lesser-known-art-galleries
-title: Top ten lesser-known art galleries
+title: Top 10 lesser-known art galleries
 wordpress_id: 435
 categories:
 - Work
@@ -116,4 +116,4 @@ The Ullens Center, a non-profit organisation, is one of the biggest galleries, w
 
 UCCA, 798 Art District, 4 Jiuxianqiao Lu, Chaoyang District, Beijing, China (www.ucca.org.cn; 00 86 10 5780 0200). Admission costs 15 yuan (Dh9) per person.
 
-Published in [The National](http://www.thenational.ae/lifestyle/travel/top-10-lesser-known-museums?pageCount=0).
+*Published in [The National](http://www.thenational.ae/lifestyle/travel/top-10-lesser-known-museums?pageCount=0).*
