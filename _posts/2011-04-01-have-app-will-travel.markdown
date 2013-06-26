@@ -15,14 +15,11 @@ tags:
 - Travel
 ---
 
-How are application-loaded mobile devices affect our travel experiences? Published in [The National](http://www.thenational.ae/lifestyle/travel/have-app-will-travel-at-the-expense-of-the-experience?pageCount=0) on 1 April 2011.
-
-
+<h2 class="subtitle">How are application-loaded mobile devices affect our travel experiences?</h2> 
 
 The man in the seat next to me cradles his phone in his hand, his index finger hovering over it as the plane taxis towards the terminal. It is like an itch he has been told not to scratch. The plane stops. The seat-belt sign goes off. He swipes the screen and the sleek rectangle starts to glow. Throughout the cabin a cacophony of ring tones heralds our arrival at Amsterdam Schiphol.
 
 This chorus is a familiar sound landing at almost any airport in the world. With more than four billion subscriptions globally, mobile phones are literally everywhere. In this case - a dawn flight from Manchester packed with business people - many of them are so-called smart phones, bristling with apps to help their owners negotiate almost every facet of their lives.
-[![Screenshot of Travel apps feature - The National](http://www.robertocarroll.com/wp-content/uploads/2011/04/travel-apps-feature.jpg)](http://www.robertocarroll.com/wp-content/uploads/2011/04/travel-apps-feature.jpg)
 
 For the first time, I am among their ranks. A few days ago, I bought an iPhone 4. My previous phone was a Nokia 1100, once dubbed "the AK-47 of the cell-phone world". It is cheap, functional and rugged. The leap to the latest iPhone is huge. I'm getting to grips with it as I start a new job in The Hague, which will be my home for the next six months. The plan: to let the iPhone be my guide.
 
@@ -45,3 +42,5 @@ Two weeks later, having settled into a new apartment, bought a bike and started 
 To feel like a local, there's nothing quite like recommendations by people you know who live or used to live there. I've read about apps such as Foursquare and Gogobot, which profess to provide this social element but I haven't had time to work out how to use them yet.
 
 In truth, I am resisting letting the iPhone take over completely. Apps have many benefits, but what is lost from the way we experience travel? The guidebook with annotations scrawled in the margins. The ripped map circled with highlights. Such assorted detritus is not only the way I have got to know many places in the past, it is a memento of that process of discovery. It is a souvenir of the first encounter with a place. Until I find an app that can log my experience in a convenient form, I won't rely on the iPhone as my only travel guide.
+
+*Published in [The National](http://www.thenational.ae/lifestyle/travel/have-app-will-travel-at-the-expense-of-the-experience?pageCount=0) on 1 April 2011.*
