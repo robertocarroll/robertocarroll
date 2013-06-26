@@ -17,4 +17,4 @@ tags:
 
 <img src="http://farm8.staticflickr.com/7422/9144483414_57866f1638_z.jpg" width="100%" height="auto" alt="stl-panorama">
 
-[Tour of the courtroom on the STL website ](http://www.stl-tsl.org/en/about-the-stl/visiting-the-stl/the-courtroom)in English, French and Arabic.
+[Tour of the courtroom on the STL website ](http://www.stl-tsl.org/en/about-the-stl/visiting-the-stl/the-courtroom) in English, French and Arabic.
