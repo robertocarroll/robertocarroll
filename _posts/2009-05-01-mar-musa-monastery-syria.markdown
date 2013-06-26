@@ -14,9 +14,7 @@ tags:
 - Travel
 ---
 
-A centuries-old monastery in the Syrian desert has been converted into a centre that encourages dialogue among religions and cultures. Published in The National on 1 May 2009.
-
-
+<h2 class="subtitle">A centuries-old monastery in the Syrian desert has been converted into a centre that encourages dialogue among religions and cultures.</h2> 
 
 The taxi races through the Syrian desert, bumping along a dusty and unpeopled road. After a two-hour journey from Damascus, I see a handwritten sign to Deir Mar Musa al Habashi, a monastery that has become an unexpected tourist attraction.
 
@@ -69,11 +67,4 @@ Utopia, a term coined by Sir Thomas More in 1516, refers to a place where people
 
 Near the mountain’s base, I decide, however, that Mar Musa’s success lies not in grand visions or abstract theories. Its ethos is bottom-up: discreet acts and tiny details are at the heart of this remarkable place. The community encourages care to be taken of both inner and outer landscapes, with harmonious physical surroundings cultivating and promoting a more harmonious way of life among its inhabitants. To me, if this is the lesson Mar Musa hopes to teach by example to the world, we’d do well to study it carefully.
 
-
-
-## If you go
-
-
-Deir Mar Musa al Habashi is 17km from the town of Nebek, which is 80km north-east of Damascus on the road to Homs. You can catch a bus to Nebek and then take a taxi or take a taxi all the way from Damascus. Arrange for a taxi to return to pick you up. Accommodation at the monastery is free.
-
-If guests would like to stay more than one night or visit in a large group they should contact the monastery in advance. For details about staying at Mar Musa, visit [www.deirmarmusa.org](http://www.deirmarmusa.org/)
+*Published in The National on 1 May 2009.*
