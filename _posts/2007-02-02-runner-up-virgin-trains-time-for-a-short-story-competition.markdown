@@ -4,7 +4,7 @@ comments: false
 date: 2007-02-02 15:25:25
 layout: post
 slug: runner-up-virgin-trains-time-for-a-short-story-competition
-title: 'Runner up: Virgin Trains ''Time For A Short Story'' competition'
+title: 'Virgin Trains ''Time For A Short Story'' competition'
 wordpress_id: 119
 categories:
 - Work
