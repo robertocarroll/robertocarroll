@@ -15,8 +15,7 @@ tags:
 - The National
 ---
 
-The photographer Martin Parr is equally celebrated and criticised for his satirical and comic snapshots of ordinary people's lives. I talked to him about his controversial career and his latest book, a timely look at the indulgences of the super-rich. Published in [The National ](http://www.thenational.ae/arts-culture/art/a-lens-on-luxury?pageCount=0)on 31 October 2009.
-
+<h2 class="subtitle">The photographer Martin Parr is equally celebrated and criticised for his satirical and comic snapshots of ordinary people's lives. I talked to him about his controversial career and his latest book, a timely look at the indulgences of the super-rich.</h2> 
 
 Martin Parr is an English photographer whose vivid and brightly coloured images, often composed around startling juxtapositions, have made him one of the most successful and influential photographers of the past quarter of a century. He has an uncanny ability to snatch striking shots from seemingly mundane moments and to elicit humour from the most unlikely places.
 
@@ -63,3 +62,5 @@ Parr's work was displayed in the UAE in March 2008. Images from the Luxury proje
 As a documentary photographer, Parr's work has kept pace with the social changes since the 1980s. His subjects have altered with economic booms and busts. He has been in synch with these ups and downs. In his introduction to Luxury, the British fashion designer Paul Smith writes: "The meaning of Martin's Luxury pictures has shifted since he started taking them. The timing of their publication now couldn't be better." The cause of this shift is, of course, the financial meltdown in September 2008, which crippled many countries and led to a global recession. Luxury was not wiped out when the bubble burst, but it has calmed down at bit. It lost its glitz. It has became more low key. Much of its colour has drained away. In one sense, the images in the book are therefore curiously anachronistic. In another sense, Luxury questions wealth as well as documents it. As such it stand as a stark reminder on how the world reached this low point.
 
 "It is good in a sense to look back now like an epitaph to this five- or six-year growth period, which is where it all went completely crazy and to look at, if you like, manifestations of that growth and that bubble. I think therefore it is perfect timing."
+
+*Published in [The National ](http://www.thenational.ae/arts-culture/art/a-lens-on-luxury?pageCount=0)on 31 October 2009.*
