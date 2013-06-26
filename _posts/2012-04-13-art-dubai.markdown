@@ -14,7 +14,7 @@ tags:
 - WordPress
 ---
 
-I worked with [Art Dubai](http://www.artdubai.ae/) developing [their blog](http://www.artdubai.ae/blog/) and sites for [Art Week ](http://artweek.ae/)(now offline) and [Design Days Dubai ](http://www.designdaysdubai.ae/blogs/). 
+I worked with [Art Dubai](http://www.artdubai.ae/) developing [their blog](http://www.artdubai.ae/blog/) and sites for [Art Week ](http://artweek.ae/) (now offline) and [Design Days Dubai ](http://www.designdaysdubai.ae/blogs/). 
 
 <img src="http://farm4.staticflickr.com/3763/9144923034_1eed3fabe3_z.jpg" width="100%" height="auto" alt="Art Dubai">
 
