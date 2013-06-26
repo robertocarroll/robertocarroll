@@ -4,7 +4,7 @@ comments: false
 date: 2009-04-25 11:31:00
 layout: post
 slug: the-national-the-long-war
-title: 'The long war '
+title: The Long War - The National
 wordpress_id: 832
 categories:
 - Work
