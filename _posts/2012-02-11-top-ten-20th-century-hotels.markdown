@@ -4,7 +4,7 @@ comments: false
 date: 2012-02-11 11:35:30
 layout: post
 slug: top-ten-20th-century-hotels
-title: 'Top ten 20th-century hotels '
+title: 'Top 10 20th-century hotels '
 wordpress_id: 711
 categories:
 - Work
