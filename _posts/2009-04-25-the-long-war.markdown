@@ -17,6 +17,6 @@ tags:
 
 Adam Dean spent three weeks embedded with US troops in Kunar, a province in Afghanistan. I planned, designed and created this multimedia package (now offline). I also edited the video.
 
-[![](http://www.robertocarroll.com/wp-content/uploads/2012/06/korengal.jpg)](http://www.robertocarroll.com/2009/04/25/the-long-war/korengal/)
+<a href="http://www.flickr.com/photos/robertocarroll/9140616637/" title="korengal by robertocarroll, on Flickr"><img src="http://farm4.staticflickr.com/3690/9140616637_2f9b144eac_z.jpg" width="100%" height="auto" alt="korengal"></a>
 
 
