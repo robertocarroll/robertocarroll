@@ -1,0 +1,18 @@
+---
+author: roberto
+comments: false
+date: 2013-04-10 09:35:48
+layout: post
+slug: bbc-pilot
+title: BBC Connected Studio Pilot
+categories:
+- Work
+tags:
+- Web development
+---
+
+[Barjeel Art Foundation](http://www.barjeelartfoundation.org) was the first big project for [We Are Thought Fox](http://wearethoughtfox.com).   
+
+We created a new identity for the foundation in digital and print. Clint has [written about this process on Barjeel's website](http://www.barjeelartfoundation.org/news/barjeel-rebranded). 
+
+<img src="http://farm4.staticflickr.com/3770/9146539016_3b9382d3f6_z.jpg" width="100%" height="auto" alt="Barjeel">
