@@ -1,10 +1,10 @@
 ---
 author: roberto
 comments: false
-date: 2009-06-01 09:35:48
+date: 2009-06-16 09:35:48
 layout: post
 slug: wire-sanaa
-title: Global Ear: Sana'a - The Wire
+title: Global Ear: Sanaa - The Wire
 categories:
 - Work
 tags:
