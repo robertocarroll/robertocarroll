@@ -52,7 +52,7 @@ Trains hark back to a different era, when travel was unhurried and journeys took
   10. The Canadian
 
 
-You can read the [full article which was published in The National](http://www.thenational.ae/lifestyle/travel/get-the-inside-track-on-luxury-with-the-10-best-rail-journeys?pageCount=0) on 14 May 2011.
+*You can read the [full article which was published in The National](http://www.thenational.ae/lifestyle/travel/get-the-inside-track-on-luxury-with-the-10-best-rail-journeys?pageCount=0) on 14 May 2011.*
 
 
 
