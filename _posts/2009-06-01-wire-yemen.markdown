@@ -12,4 +12,6 @@ tags:
 - Music
 ---
 
-test
+I wrote an article about music in Yemen for The Wire magazine. 
+
+<img src="http://farm4.staticflickr.com/3728/9150463451_27734d7d47_z.jpg" width="100%" height="auto" alt="Wire">
