@@ -15,7 +15,7 @@ tags:
 - The National
 ---
 
-Road to Safety was an investigation into accidents on the UAE's roads. I planned, designed and created this interactive package and also did a video which documented various examples of unsafe driving. 
+Road to Safety was an investigation into accidents on the UAE's roads (now offline). I planned, designed and created this interactive package and also did a video which documented various examples of unsafe driving. 
 
 <img src="http://farm8.staticflickr.com/7364/9156823121_488b44f5c0_z.jpg" width="100%" height="auto" alt="stamps">
 
