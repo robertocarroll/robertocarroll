@@ -3,17 +3,35 @@
   padding-top: 8em;
   margin-right: 1em;
   border-left: 1px solid #E2E2E2;
+
+  @include respond-to(mobile) { 
+    @include gs-span(m, all);
+    @include gs-pad(m, padinfull);
+    clear:both;
+    }
 }
 
 
 .content {
   @include gs-span(d, 3, 5, (2, 5));
   padding-right: 4em;
+
+  @include respond-to(mobile) { 
+    @include gs-span(m, all);
+    @include gs-pad(m, padinfull);
+   
+    }
  }
 
 .content-list {
   @include gs-span(d, 4, 5, (2, 5));
   padding-right: 4em;
+
+  @include respond-to(mobile) { 
+    @include gs-span(m, all);
+    @include gs-pad(m, padinfull);
+ 
+    }
  }
 
 .main-content {
