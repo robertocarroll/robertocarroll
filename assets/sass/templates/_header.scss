@@ -4,3 +4,9 @@
   padding-left: 2em;
   padding-right: 2em;
 }
+
+
+.navigation {
+	@extend .nav;
+	@extend .nav--stacked;	
+}
