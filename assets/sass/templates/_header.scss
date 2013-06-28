@@ -3,6 +3,13 @@
   padding-top: 8em;
   padding-left: 2em;
   padding-right: 2em;
+
+   @include respond-to(mobile) { 
+    @include gs-span(m, all);
+    @include gs-pad(m, padinfull);
+    clear:both;
+    }
+
 }
 
 
