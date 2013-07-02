@@ -15,10 +15,10 @@ gs = {
 				switch (e.which || e.keyCode) {
 					case 71:
 					
-						var gw = document.querySelectorAll('.gridsetoverlaywrap, #gridsetoverlaystyles, #gridscreenwidthwrap');
+						var gw = document.getElementById('gridsetoverlaywrap');
 					
-						if (gw.length == 0) gs.show();
-						else { window.location.href = window.location.href.replace('?gridset=show', '') }
+						if (!gw) gs.show();
+						else gs.remove(gw);
 						
 						gs.prevent(e);
 						break;
@@ -32,6 +32,15 @@ gs = {
 	
 	},
 	
+	remove: function (gw) {
+	
+		document.body.removeChild(gw);
+		
+		if(window.detachEvent) window.detachEvent('onresize', gs.width);
+		else window.removeEventListener('resize', gs.width, false);
+	
+	},
+	
 	width: function () {
 		
 		var swv = document.getElementById('gridscreenwidthval');
@@ -41,117 +50,60 @@ gs = {
 
 	show: function () {
 	
-		var b = document.getElementsByTagName('body')[0],
-				gridareas = document.querySelectorAll('[class*=-showgrid]'),
-				areacount = gridareas.length,
-				wrapper = document.querySelectorAll('.wrapper'),
-			
-				styles = '.gridsetoverlaywrap{display:block;position:absolute;top:0;left:0;width:100%;height:100%;z-index:10000;pointer-events:none;}.gridsetnoareas .gridsetoverlaywrap{position:fixed;}.gridwrap{display:block;position:absolute;top:0;left:0;width:100%;height:100%;font-family:Helvetica, Arial, sans-serif !important;}.gridoverlay{position:relative;height:100%;overflow:hidden !important;background:none !important;}.gridoverlay .gridset{position:absolute;width:100%;height:100%;top:0;left:0;opacity:0.8; display:block;}.gridoverlay .gridset div{text-align:left;font-size:10px !important;border:1px solid #FFD800 !important;-moz-box-sizing:border-box;-webkit-box-sizing:border-box;box-sizing:border-box;height:100%;}.gridoverlay .gridset > div{border:none !important;height:100%;position:absolute;top:0;left:0;width:100%;}.gridoverlay div small{width:100%;display:block;text-align:center;font-weight:400 !important;letter-spacing: 1px !important;padding-top:0 !important;text-transform:none !important;height:22px !important;line-height:22px !important;text-style:normal !important;border-bottom:1px solid #FFD800 !important;color:#333 !important;background-color:#FFF79F !important;}.gridsetnoareas .gridoverlay .gridset > div:nth-child(2){border-style:dashed;padding-top:23px;}.gridsetnoareas .gridoverlay .gridset > div:nth-child(2) small{border-style:dashed;}.gridsetnoareas .gridoverlay .gridset > div:nth-child(3){border-style:dotted;padding-top:45px;}.gridsetnoareas .gridoverlay .gridset > div:nth-child(3) small{border-style:dotted;}.gridsetoverlaywrap .noshow{display:none;}#gridscreenwidthwrap{display:block;width:100%;position:fixed !important;z-index:10000 !important;bottom:0 !important;left:0 !important;height:30px !important;opacity:0.95;border-top:1px solid #FFD800 !important;color:#333;background-color:#FFF79F !important;font-family:Helvetica, Arial, sans-serif !important;}.gridsetnoareas #gridscreenwidthwrap{position:fixed;}#gridscreenwidth{display:block;width:100%;text-align:center;font-size:12px;line-height:1;padding-top:8px;}#gridscreenwidth strong{text-transform:none;}';
+		var p = ['d','t','m'],
+			c = [5,4,3],
+			w = [1100,768,320],
+			b = document.getElementsByTagName('body')[0],
+			gw = '<div id="gridwrap"><div id="gridscreenwidthwrap"><p id="gridscreenwidth">Screen width: <strong id="gridscreenwidthval"></strong></p></div><div id="gridoverlay" class="wrapper">',
 		
-		if (areacount) {
+			k = 0, breaks = '',
 			
-			var j = areacount;
-			
-			while (j-- > 0) {
-			
-				var area = gridareas[j];
-			
-				gs.buildgrid(area, j, areacount);
-				
-				if (window.getComputedStyle(area,null).getPropertyValue("position") == 'static') area.style.position = 'relative';
-				
+			styles = '<style id="gridsetoverlaystyles" type="text/css">#gridsetoverlaywrap{position:static;}#gridwrap{display:block;position:fixed;top:0;left:0;width:100%;height:100%;z-index:1000;pointer-events:none;font-family:Helvetica, Arial, sans-serif !important;}#gridoverlay{position:relative;height:100%;overflow:hidden !important;background:none !important;}#gridoverlay div{display:block;position:static;height:100%;color:#bcbcff;}#gridoverlay .gridset{position:absolute;width:100%;height:100%;top:0;left:0;opacity:0.7;}#gridoverlay .gridset div{text-align:left;font-size:10px !important;border-right:1px solid #bcbcff;border-left:1px solid #bcbcff;-moz-box-sizing:border-box;-webkit-box-sizing:border-box;box-sizing:border-box;}#gridoverlay div small{width:100%;display:block;text-align:center;color:#7D80DB;font-weight:700 !important;border-bottom:1px solid #bcbcff;border-top:1px solid #bcbcff;padding-top:0 !important;background-color:rgb(240,240,255) !important;text-transform:none !important;height:22px !important;line-height:22px !important;text-style:normal !important;}#gridoverlay .gridset:nth-child(2) div{border-style:dashed;padding-top:23px;}#gridoverlay .gridset:nth-child(2) small{border-style:dashed;}#gridoverlay .gridset:nth-child(3) div{border-style:dotted;padding-top:45px;}#gridoverlay .gridset:nth-child(3) small{border-style:dotted;}#gridsetoverlaywrap .noshow{display:none;}#gridscreenwidthwrap{display:block !important;width:100% !important;position:absolute !important;bottom:0 !important;left:0 !important;height:30px !important;border-top:1px solid #7D80DB !important;opacity:0.7 !important;background-color:rgb(240,240,255) !important;}#gridscreenwidth{display:block !important;width:100% !important;text-align:center !important;font-size:12px !important;line-height:1 !important;padding-top:8px !important;font-family:Helvetica, Arial, sans-serif !important; margin: 0 !important;color:#7D80DB !important;}@media only screen and (max-width:767px) {#gridsetoverlaywrap [class*=m1],#gridsetoverlaywrap [class*=m2],#gridsetoverlaywrap [class*=m3],#gridsetoverlaywrap .m-all{display:block;float:left;margin-right:-100%;}#gridsetoverlaywrap [class*=m1]{width:19.0625%;margin-left:0%;}#gridsetoverlaywrap [class*=m2]{width:19.0625%;margin-left:19.0625%;}#gridsetoverlaywrap [class*=m3]{width:61.59077216659695%;margin-left:38.125%;}#gridsetoverlaywrap .m-hide{display:none !important;}}@media only screen and (min-width:768px) and (max-width:1099px) {#gridsetoverlaywrap [class*=t1],#gridsetoverlaywrap [class*=t2],#gridsetoverlaywrap [class*=t3],#gridsetoverlaywrap [class*=t4],#gridsetoverlaywrap .t-all{display:block;float:left;margin-right:-100%;}#gridsetoverlaywrap [class*=t1]{width:30.901699302197535%;margin-left:0%;}#gridsetoverlaywrap [class*=t2]{width:9.5703125%;margin-left:30.901699302198%;}#gridsetoverlaywrap [class*=t3]{width:9.5703125%;margin-left:40.472011802198%;}#gridsetoverlaywrap [class*=t4]{width:50.00000049350038%;margin-left:50.042324302198%;}#gridsetoverlaywrap .t-hide{display:none !important;}}@media only screen and (min-width:1100px) {#gridsetoverlaywrap [class*=d1],#gridsetoverlaywrap [class*=d2],#gridsetoverlaywrap [class*=d3],#gridsetoverlaywrap [class*=d4],#gridsetoverlaywrap [class*=d5],#gridsetoverlaywrap .d-all{display:block;float:left;margin-right:-100%;}#gridsetoverlaywrap [class*=d1]{width:27.639320200883223%;margin-left:0%;}#gridsetoverlaywrap [class*=d2]{width:8.54545454%;margin-left:27.639320200883%;}#gridsetoverlaywrap [class*=d3]{width:8.54545454%;margin-left:36.184774740883%;}#gridsetoverlaywrap [class*=d4]{width:10.55728058645084%;margin-left:44.730229280883%;}#gridsetoverlaywrap [class*=d5]{width:44.721360148174746%;margin-left:55.287509867334%;}#gridsetoverlaywrap .d-hide{display:none !important;}}</style>';
+						
+		while (p[k]) {
+		
+			var hides = '', 
+				l = 0;
+		
+			if (w[k] != breaks && k == 0) gw += '<div>';
+			else if (w[k] != breaks) gw += '</div><div>';
+		
+			while (p[l]) {
+		
+				if (l != k && w[l] != w[k]) hides += p[l] + '-hide ';
+				l++;			
+		
 			}
-			
-		}
-		else {
-			
-			if (!b.className.match('gridsetnoareas')) b.className += ' gridsetnoareas';
-			
-			gs.buildgrid(b, j, areacount);
+		
+			gw += '<div class="gridset ' + hides + '"><div class="'+p[k]+'1"><small>'+p[k]+'1</small></div>';
+		
+			var i = 1;
+		
+			while (i++ < c[k]) gw += '<div class="'+p[k]+i+'"><small>'+p[k]+i+'</small></div>';
+		
+			gw += '</div>';
+		
+			if (k == w.length - 1) gw += '</div>';
+		
+			breaks = w[k];
+		
+			k++;
 		
 		}
 		
-		var newstyles = document.createElement('style'),
-				newwidth = document.createElement('div');
+		gw += '</div></div>';
 		
-		newstyles.id = 'gridsetoverlaystyles';
-		newstyles.innerHTML = styles;
-		newstyles.type = 'text/css';
+		var newgw = document.createElement('div');
 		
-		newwidth.id = 'gridscreenwidthwrap';
-		newwidth.innerHTML = '<p id="gridscreenwidth">Screen width: <strong id="gridscreenwidthval"></strong></p>';
+		newgw.id = 'gridsetoverlaywrap';
 		
-		b.appendChild(newstyles);
-		b.appendChild(newwidth);
+		newgw.innerHTML = gw + styles;
+		
+		b.appendChild(newgw);
 		
 		gs.width();
 		gs.bind(window, 'resize', gs.width);
-		
-		var head = document.getElementsByTagName('head'),
-				newfavicon = document.createElement('link');
-			
-		newfavicon.rel = "shortcut icon";
-		newfavicon.id = "gridsetfavicon";
-		newfavicon.href = "http://dev.gridsetapp.com/app/img/favicon.ico";
-		
-		head[0].appendChild(newfavicon);
 	
-	},
-	
-	buildgrid: function (area, j, showgrid) {
-		
-		var set = JSON.parse('{"id":"20375","name":"Roberto (marber) 2","widths":{"1100":{"width":1100,"grids":{"d":{"name":"Desktop","prefix":"d","width":1100,"columns":{"d1":{"name":"d1","unit":"%","percent":27.6393202,"px":304.03},"d2":{"name":"d2","unit":"%","percent":8.54545454,"px":94},"d3":{"name":"d3","unit":"%","percent":8.54545454,"px":94},"d4":{"name":"d4","unit":"%","percent":10.55728059,"px":116.13},"d5":{"name":"d5","unit":"%","percent":44.72136015,"px":491.93}},"gutter":{"unit":"px","px":0,"percent":0},"ratio":{"name":"golden","value":0.61803398}}}},"768":{"width":768,"grids":{"t":{"name":"Tablet","prefix":"t","width":768,"columns":{"t1":{"name":"t1","unit":"%","percent":30.9016993,"px":237.33},"t2":{"name":"t2","unit":"%","percent":9.5703125,"px":73.5},"t3":{"name":"t3","unit":"%","percent":9.5703125,"px":73.5},"t4":{"name":"t4","unit":"%","percent":50.00000049,"px":384}},"gutter":{"unit":"px","px":0,"percent":0},"ratio":{"name":"golden","value":0.61803398}}}},"320":{"width":320,"grids":{"m":{"name":"Mobile","prefix":"m","width":320,"columns":{"m1":{"name":"m1","unit":"%","percent":19.0625,"px":61},"m2":{"name":"m2","unit":"%","percent":19.0625,"px":61},"m3":{"name":"m3","unit":"%","percent":61.59077217,"px":197.09}},"gutter":{"unit":"px","px":0,"percent":0},"ratio":{"name":"golden","value":0.61803398}}}}},"prefixes":{"index":["d","t","m"],"1100":["d"],"768":["t"],"320":["m"]}}'),
-		
-				gridwrap = document.createElement('div'),
-				gridinner = (showgrid) ? '<div class="gridwrap"><div class="gridoverlay">' : '<div class="gridwrap"><div class="gridoverlay wrapper">';
-		
-		if (showgrid) gridwrap.className = 'gridsetoverlaywrap';
-		else gridwrap.className = 'gridsetoverlaywrap';	
-		
-		for (w in set.widths) {
-			
-			var width = set.widths[w],
-					hides = '';
-			
-			for (p in set.prefixes) {
-				
-				if (p != w && p != 'index') hides += set.prefixes[p][0] + "-hide ";
-				
-			}
-			
-			gridinner += '<div class="gridset">';
-			
-			for (j in width.grids) {
-			
-				var grid = width.grids[j];
-				
-				if (!showgrid || area.className.match(grid.prefix + '-showgrid')) {
-				
-					gridinner += '<div class="' + hides + '">';
-					
-					for (k in grid.columns) {
-						
-						var col = grid.columns[k];
-						
-						gridinner += '<div class="' + col.name + '"><small>' + col.name + '</small></div>';
-					
-					}
-					
-					gridinner += '</div>';
-				
-				}
-			}
-			
-			gridinner += '</div>';
-		
-		}
-		
-		gridinner += '</div></div>';
-		
-		gridwrap.innerHTML = gridinner;
-		
-		area.appendChild(gridwrap);
-		
 	},
 	
 	bind : function (t, e, f) {
