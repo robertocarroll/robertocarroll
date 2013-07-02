@@ -52,7 +52,6 @@ gs = {
 				newwidth = document.createElement('div'),
 				head = document.getElementsByTagName('head'),
 				newfavicon = document.createElement('link'),
-				scripts = document.getElementsByTagName('script'),
 				newgsstyles = document.createElement('link');
 		
 		newstyles.id = 'gridsetoverlaystyles';
@@ -77,7 +76,7 @@ gs = {
 		
 			newgsstyles.rel = "stylesheet";
 			newgsstyles.id = "gridsetstyles";
-			newgsstyles.href = scripts[scripts.length-1].src.replace('overlay/', '');
+			newgsstyles.href = "https://get.gridsetapp.com/21188/";
 			head[0].appendChild(newgsstyles);
 		
 		}
