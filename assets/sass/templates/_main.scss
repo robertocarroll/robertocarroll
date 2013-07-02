@@ -20,7 +20,6 @@
 
   @include respond-to(mobile) { 
     @include gs-span(m, 2);
-    padding-right: 0;
    
     }
  }
@@ -31,7 +30,6 @@
 
   @include respond-to(mobile) { 
     @include gs-span(m, 2);
-    padding-right: 0;
  
     }
  }
