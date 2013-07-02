@@ -16,4 +16,8 @@
 .navigation {
 	@extend .nav;
 	@extend .nav--stacked;	
+
+	@include respond-to(mobile) { 
+		
+    }
 }
