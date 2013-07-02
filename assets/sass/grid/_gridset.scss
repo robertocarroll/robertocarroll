@@ -53,6 +53,7 @@
 @function gs-grid($prefix){
 
   @if $prefix == m	{ @return (7.5,85,7.5); }
+  @if $prefix == t	{ @return (7.5,85,7.5); }
   @if $prefix == d	{ @return (27.639320200883223,8.54545454,8.54545454,10.55728058645084,44.721360148174746); }
 
 }
@@ -60,6 +61,7 @@
 @function gs-pxcols($prefix){
   
   @if $prefix == m	{ @return (false,false,false); }
+  @if $prefix == t	{ @return (false,false,false); }
   @if $prefix == d	{ @return (false,false,false,false,false); }
 
 }
@@ -69,6 +71,7 @@
   $gutter: 0;
 
   @if $prefix == m	{ $gutter: 0; }
+  @if $prefix == t	{ $gutter: 0; }
   @if $prefix == d	{ $gutter: 0; }
 
   @if $unit == true { @return #{gs-adjust($prefix, $gutter, $container) + '%'}; }
@@ -191,8 +194,15 @@
     @media only screen and (min-width: 1100px) { @content; }
   }
 
+  @if $prefix == t {
+    @if ($type == min) { @media only screen and (min-width: 768px) { @content; } }
+    @else if ($type == max) { @media only screen and (max-width: 1099px) { @content; } }
+    @else if ($type == min-max) { @media only screen and (min-width: 768px) and (max-width: 1099px) { @content; } }
+    @else { @media only screen and (min-width: 768px) { @content; } }
+  }
+
   @if $prefix == m {
-    @media only screen and (max-width: 1099px) { @content; }
+    @media only screen and (max-width: 767px) { @content; }
   }
 
 }
@@ -288,4 +298,4 @@
 //   
 //   -------------------------------------------------------------- 
 
-$gs-prefixes: m, d;
+$gs-prefixes: m, t, d;
