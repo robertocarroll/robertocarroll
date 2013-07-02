@@ -46,7 +46,41 @@ gs = {
 				areacount = gridareas.length,
 				wrapper = document.querySelectorAll('.wrapper'),
 			
-				styles = '.gridsetoverlaywrap{display:block;position:absolute;top:0;left:0;width:100%;height:100%;z-index:10000;pointer-events:none;}.gridsetnoareas .gridsetoverlaywrap{position:fixed;}.gridwrap{display:block;position:absolute;top:0;left:0;width:100%;height:100%;font-family:Helvetica, Arial, sans-serif !important;}.gridoverlay{position:relative;height:100%;overflow:hidden !important;background:none !important;}.gridoverlay .gridset{position:absolute;width:100%;height:100%;top:0;left:0;opacity:0.8; display:block;}.gridoverlay .gridset div{text-align:left;font-size:10px !important;border:1px solid #FFD800 !important;-moz-box-sizing:border-box;-webkit-box-sizing:border-box;box-sizing:border-box;height:100%;}.gridoverlay .gridset > div{border:none !important;height:100%;position:absolute;top:0;left:0;width:100%;}.gridoverlay div small{width:100%;display:block;text-align:center;font-weight:400 !important;letter-spacing: 1px !important;padding-top:0 !important;text-transform:none !important;height:22px !important;line-height:22px !important;text-style:normal !important;border-bottom:1px solid #FFD800 !important;color:#333 !important;background-color:#FFF79F !important;}.gridsetnoareas .gridoverlay .gridset > div:nth-child(2){border-style:dashed;padding-top:23px;}.gridsetnoareas .gridoverlay .gridset > div:nth-child(2) small{border-style:dashed;}.gridsetnoareas .gridoverlay .gridset > div:nth-child(3){border-style:dotted;padding-top:45px;}.gridsetnoareas .gridoverlay .gridset > div:nth-child(3) small{border-style:dotted;}.gridsetoverlaywrap .noshow{display:none;}#gridscreenwidthwrap{display:block;width:100%;position:fixed !important;z-index:10000 !important;bottom:0 !important;left:0 !important;height:30px !important;opacity:0.95;border-top:1px solid #FFD800 !important;color:#333;background-color:#FFF79F !important;font-family:Helvetica, Arial, sans-serif !important;}.gridsetnoareas #gridscreenwidthwrap{position:fixed;}#gridscreenwidth{display:block;width:100%;text-align:center;font-size:12px;line-height:1;padding-top:8px;}#gridscreenwidth strong{text-transform:none;}';
+				styles = '.gridsetoverlaywrap{display:block;position:absolute;top:0;left:0;width:100%;height:100%;z-index:10000;pointer-events:none;}.gridsetnoareas .gridsetoverlaywrap{position:fixed;}.gridwrap{display:block;position:absolute;top:0;left:0;width:100%;height:100%;font-family:Helvetica, Arial, sans-serif !important;}.gridoverlay{position:relative;height:100%;overflow:hidden !important;background:none !important;}.gridoverlay .gridset{position:absolute;width:100%;height:100%;top:0;left:0;opacity:0.8; display:block;}.gridoverlay .gridset div{text-align:left;font-size:10px !important;border:1px solid #FFD800 !important;-moz-box-sizing:border-box;-webkit-box-sizing:border-box;box-sizing:border-box;height:100%;}.gridoverlay .gridset > div{border:none !important;height:100%;position:absolute;top:0;left:0;width:100%;}.gridoverlay div small{width:100%;display:block;text-align:center;font-weight:400 !important;letter-spacing: 1px !important;padding-top:0 !important;text-transform:none !important;height:22px !important;line-height:22px !important;text-style:normal !important;border-bottom:1px solid #FFD800 !important;color:#333 !important;background-color:#FFF79F !important;}.gridsetnoareas .gridoverlay .gridset > div:nth-child(2){border-style:dashed;padding-top:23px;}.gridsetnoareas .gridoverlay .gridset > div:nth-child(2) small{border-style:dashed;}.gridsetnoareas .gridoverlay .gridset > div:nth-child(3){border-style:dotted;padding-top:45px;}.gridsetnoareas .gridoverlay .gridset > div:nth-child(3) small{border-style:dotted;}.gridsetoverlaywrap .noshow{display:none;}#gridscreenwidthwrap{display:none;width:100%;position:fixed !important;z-index:10000 !important;bottom:0 !important;left:0 !important;height:30px !important;opacity:0.95;border-top:1px solid #FFD800 !important;color:#333;background-color:#FFF79F !important;font-family:Helvetica, Arial, sans-serif !important;}.gridsetnoareas #gridscreenwidthwrap{position:fixed;}#gridscreenwidth{display:block;width:100%;text-align:center;font-size:12px;line-height:1;padding-top:8px;}#gridscreenwidth strong{text-transform:none;}',
+				
+				newstyles = document.createElement('style'),
+				newwidth = document.createElement('div'),
+				head = document.getElementsByTagName('head'),
+				newfavicon = document.createElement('link'),
+				scripts = document.getElementsByTagName('script'),
+				newgsstyles = document.createElement('link');
+		
+		newstyles.id = 'gridsetoverlaystyles';
+		newstyles.innerHTML = styles;
+		newstyles.type = 'text/css';
+		
+		newwidth.id = 'gridscreenwidthwrap';
+		newwidth.innerHTML = '<p id="gridscreenwidth">Screen width: <strong id="gridscreenwidthval"></strong></p>';
+		
+		b.appendChild(newstyles);
+		b.appendChild(newwidth);
+		
+		var newwidthdisplay = (newwidth.currentStyle) ? newwidth.currentStyle.display : getComputedStyle(newwidth, null).display;
+		
+		newfavicon.rel = "shortcut icon";
+		newfavicon.id = "gridsetfavicon";
+		newfavicon.href = "http://dev.gridsetapp.com/app/img/favicon.ico";
+		
+		head[0].appendChild(newfavicon);
+		
+		if (newwidthdisplay != 'block') {
+		
+			newgsstyles.rel = "stylesheet";
+			newgsstyles.id = "gridsetstyles";
+			newgsstyles.href = scripts[scripts.length-1].src.replace('overlay/', '');
+			head[0].appendChild(newgsstyles);
+		
+		}
 		
 		if (areacount) {
 			
@@ -71,30 +105,8 @@ gs = {
 		
 		}
 		
-		var newstyles = document.createElement('style'),
-				newwidth = document.createElement('div');
-		
-		newstyles.id = 'gridsetoverlaystyles';
-		newstyles.innerHTML = styles;
-		newstyles.type = 'text/css';
-		
-		newwidth.id = 'gridscreenwidthwrap';
-		newwidth.innerHTML = '<p id="gridscreenwidth">Screen width: <strong id="gridscreenwidthval"></strong></p>';
-		
-		b.appendChild(newstyles);
-		b.appendChild(newwidth);
-		
 		gs.width();
 		gs.bind(window, 'resize', gs.width);
-		
-		var head = document.getElementsByTagName('head'),
-				newfavicon = document.createElement('link');
-			
-		newfavicon.rel = "shortcut icon";
-		newfavicon.id = "gridsetfavicon";
-		newfavicon.href = "http://dev.gridsetapp.com/app/img/favicon.ico";
-		
-		head[0].appendChild(newfavicon);
 	
 	},
 	
@@ -119,7 +131,7 @@ gs = {
 				
 			}
 			
-			gridinner += '<div class="gridset">';
+			gridinner += '<div class="gridset ' + hides + '">';
 			
 			for (j in width.grids) {
 			
@@ -127,7 +139,7 @@ gs = {
 				
 				if (!showgrid || area.className.match(grid.prefix + '-showgrid')) {
 				
-					gridinner += '<div class="' + hides + '">';
+					gridinner += '<div>';
 					
 					for (k in grid.columns) {
 						
