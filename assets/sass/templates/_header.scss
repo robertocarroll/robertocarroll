@@ -18,8 +18,12 @@
 	@extend .nav--stacked;
   
 @include respond-to(tablet) { 
+
+  text-align:center;
   
     > li{
+
+        display:inline;
 
         &,
         > a{
