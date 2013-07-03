@@ -12,6 +12,6 @@ tags:
 - Music
 ---
 
-I wrote an article about music in Yemen for The Wire magazine. (The image below is intentionally blurry. The Wire did not want it published anywhere.)
+I wrote an article about music in Yemen for The Wire magazine. (The image below is intentionally blurry. The Wire did not want the article published online.)
 
 <img src="http://farm4.staticflickr.com/3728/9150463451_27734d7d47_z.jpg" width="100%" height="auto" alt="Wire">

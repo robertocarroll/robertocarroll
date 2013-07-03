@@ -4,10 +4,10 @@
   padding-left: 2em;
   padding-right: 2em;
 
-   @include respond-to(mobile) { 
-    @include gs-span(m, all);
-    @include gs-pad(m, padinfull);
+   @include respond-to(tablet) { 
+    @include gs-span(m, 2);
     clear:both;
+    padding-top: $half-spacing-unit;
     }
 
 }

@@ -4,8 +4,8 @@
   margin-right: 1em;
   border-left: 1px solid #E2E2E2;
 
-  @include respond-to(mobile) { 
-    @include gs-span(m, 2);
+  @include respond-to(tablet) { 
+    @include gs-span(m, all);
     padding-top: 1em;
     margin-right: 0;
     border-left: none;
@@ -18,7 +18,7 @@
   @include gs-span(d, 3, 5, (2, 5));
   padding-right: 4em;
 
-  @include respond-to(mobile) { 
+  @include respond-to(tablet) { 
     @include gs-span(m, 2);
    
     }
@@ -28,7 +28,7 @@
   @include gs-span(d, 4, 5, (2, 5));
   padding-right: 4em;
 
-  @include respond-to(mobile) { 
+  @include respond-to(tablet) { 
     @include gs-span(m, 2);
  
     }

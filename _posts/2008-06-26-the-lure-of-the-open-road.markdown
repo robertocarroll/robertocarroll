@@ -26,4 +26,4 @@ Dig a bit deeper and there is a roll call of famous victims, from James Dean to 
 
 But as I prepare to join the fray, to buy a car and drive around the city, I forget all about the dangers. I am ­seduced by the freedoms of the road, the ability to go where I want, when I want. The car has cast its spell and the hex is ­robust enough to survive all but the most ­catastrophic impact.
 
-Published in [The National](http://www.thenational.ae/thenationalconversation/lifestyle-comment/the-lure-of-the-open-road)
+*Published in [The National](http://www.thenational.ae/thenationalconversation/lifestyle-comment/the-lure-of-the-open-road)*
