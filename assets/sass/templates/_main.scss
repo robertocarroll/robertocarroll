@@ -45,6 +45,15 @@
     }
 }
 
+.summary {
+  @extend .zeta;
+
+  @include respond-to(tablet) { 
+    margin-bottom: $half-spacing-unit;
+    }
+
+}
+
 .date {
   @extend .epsilon;
   @extend .italic;
