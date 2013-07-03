@@ -14,8 +14,21 @@
 
 }
 
-
 .navigation {
-	@extend .nav;
-	@extend .nav--stacked;	
+	@extend .nav--stacked;
+  
+@include respond-to(tablet) { 
+  
+    > li{
+
+        &,
+        > a{
+            display:inline-block;
+           *display:inline;
+            zoom:1;
+        }
+    }
+
+  }
+
 }
