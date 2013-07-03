@@ -6,7 +6,8 @@
 
   @include respond-to(tablet) { 
     @include gs-span(m, all);
-    padding-top: 1em;
+    padding-top: 2*($base-spacing-unit);
+    padding-bottom: 2*($base-spacing-unit);
     margin-right: 0;
     border-left: none;
     clear:both;
@@ -33,6 +34,7 @@
   @include respond-to(tablet) { 
     @include gs-span(m, 2);
     padding-right: 0; 
+    text-align: center;
     }
 
 
