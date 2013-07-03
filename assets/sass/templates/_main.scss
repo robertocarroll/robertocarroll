@@ -37,9 +37,20 @@
     text-align: center;
     }
 
-
-
  }
+
+.page-header {
+    @include respond-to(tablet) { 
+    text-align: center;
+    }
+}
+
+.date {
+  @extend .epsilon;
+  @extend .italic;
+  @extend .grey;
+  @extend .margin-below;
+}
 
 .main-content {
  	font-size: $h5-size;
