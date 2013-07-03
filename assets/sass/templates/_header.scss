@@ -8,6 +8,8 @@
     @include gs-span(m, 2);
     clear:both;
     padding-top: $half-spacing-unit;
+    padding-left: 0;
+    padding-right: 0;
     }
 
 }
