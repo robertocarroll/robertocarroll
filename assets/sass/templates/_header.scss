@@ -21,6 +21,7 @@
 @include respond-to(tablet) { 
 
   text-align:center;
+  margin-bottom: $half-spacing-unit;
   
     > li{
 
