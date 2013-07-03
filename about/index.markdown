@@ -8,7 +8,7 @@ title: About
 wordpress_id: 11
 ---
 
-I'm a writer, editor and programmer based in Yorkshire. I am a principal and co-founder of <a href="http://wearethoughtfox.com/">We Are Thought Fox</a>. 
+I'm a writer, editor and web developer based in Yorkshire. I am a principal and co-founder of <a href="http://wearethoughtfox.com/">We Are Thought Fox</a>. 
 
 I’ve written articles for The National, The Wire, Ultra Travel, The Guardian, Time Out and Profile magazine on subjects as diverse as [mirror neurons](http://www.thenational.ae/news/uae-news/science/mirror-mirror-in-the-brain), [Martin Parr](http://www.thenational.ae/arts-culture/art/a-lens-on-luxury), [parenting](http://www.thenational.ae/lifestyle/the-bonding-ritual-known-as-the-family-snapshot), [Syrian monasteries](http://www.thenational.ae/lifestyle/travel/a-twist-of-faith-in-the-syrian-desert) and [silent disco](http://www.thenational.ae/arts-culture/music/a-quiet-night-out).
 	
