@@ -18,7 +18,7 @@ I'm an experienced web developer who creates standards-driven CSS, HTML and Java
 
 I'm also an experienced writer, editor and content strategist who has led big web projects and has first-rate reporting, writing and sub-editing skills.  
 
-I work best on the borders of editorial and technology experimenting with new forms interactive and multimedia storytelling.   
+I work best on the borders of editorial and technology experimenting with new forms of interactive and multimedia storytelling.   
 
 
 
