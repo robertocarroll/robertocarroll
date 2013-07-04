@@ -47,8 +47,11 @@
 
 .summary {
 
+  @extend .zeta;
+
   @include respond-to(tablet) { 
     margin-bottom: $half-spacing-unit;
+    font-size: $micro-size;
     }
 
 }
@@ -58,6 +61,10 @@
   @extend .italic;
   @extend .grey;
   @extend .margin-below;
+
+  @include respond-to(tablet) { 
+    font-size: $micro-size;
+    }
 }
 
 .main-content {

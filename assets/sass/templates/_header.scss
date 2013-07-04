@@ -38,5 +38,12 @@
 
   }
 
+}
+
+.page-title {
+
+  @include respond-to(tablet) { 
+      font-size: $h3-size;
+    }
 
 }
