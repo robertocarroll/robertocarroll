@@ -1,11 +1,16 @@
 ---
 author: roberto
 comments: false
-date: 2011-10-10 09:06:32
+date: 2013-07-04 09:06:32
 layout: page
 slug: about-me
 title: About
 wordpress_id: 11
+
+sitemap:
+  priority: 0.7
+  changefreq: weekly
+  lastmod: 2013-07-04T18:56:19+02:00
 ---
 
 I'm a writer, editor and web developer based in Yorkshire. I am a principal and co-founder of <a href="http://wearethoughtfox.com/">We Are Thought Fox</a>. 

@@ -48,6 +48,7 @@
 .summary {
 
   font-size: $h6-size;
+  line-height: $lowest-line-height;
 
   @include respond-to(tablet) { 
     margin-bottom: $half-spacing-unit;
