@@ -47,7 +47,7 @@
 
 .summary {
 
-  @extend .zeta;
+  font-size: $h6-size;
 
   @include respond-to(tablet) { 
     margin-bottom: $half-spacing-unit;
@@ -57,7 +57,7 @@
 }
 
 .date {
-  @extend .epsilon;
+  font-size: $h5-size;
   @extend .italic;
   @extend .grey;
   @extend .margin-below;
