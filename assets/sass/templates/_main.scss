@@ -51,7 +51,7 @@
 
   @include respond-to(tablet) { 
     margin-bottom: $half-spacing-unit;
-    font-size: $micro-size;
+    font-size: $milli-size;
     }
 
 }
@@ -63,7 +63,7 @@
   @extend .margin-below;
 
   @include respond-to(tablet) { 
-    font-size: $micro-size;
+    font-size: $milli-size;
     }
 }
 
