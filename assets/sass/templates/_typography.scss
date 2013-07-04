@@ -92,10 +92,14 @@
 	.uppercase {text-transform: uppercase;}
 
 	.subtitle {
-		@extend .delta;
+		font-size: $h4-size;
 		font-style: italic;
 		font-weight: 400;
 		line-height: $mid-line-height;
+
+		@include respond-to(tablet) { 
+    		font-size: $h6-size;
+    	}
 	}
 
 	/*  <strong>For emphasizing a snippet of text with important</strong> */
