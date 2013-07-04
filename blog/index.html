@@ -18,7 +18,7 @@ title: Blog
 		{% endif %}
 	    <article class="post margin-below">
 	        <h1 class="epsilon margin-below-quarter"><a href="{{ post.url }}">{{ post.title }}</a></h1>
-	        <h2 class="epsilon italic grey">{{ post.date | date: "%d %B %Y" }}</h2>
+	        <h2 class="date">{{ post.date | date: "%d %B %Y" }}</h2>
 	    </article>
 		
 	{% endfor %}
