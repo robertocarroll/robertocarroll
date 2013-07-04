@@ -98,7 +98,8 @@
 		line-height: $mid-line-height;
 
 		@include respond-to(tablet) { 
-    		font-size: $h6-size;
+    		font-size: $h5-size;
+    		line-height: $lowest-line-height;
     	}
 	}
 
