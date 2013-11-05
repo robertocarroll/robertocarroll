@@ -5,14 +5,16 @@ title: Home
 
 <div class="main" role="main">
 	
-<div class="content">		
+	<div class="content">		
 
-  {% assign post = site.posts.first %}
-  {% assign content = post.content %}
-  {% include post_detail.html %}
+	  {% assign post = site.posts.first %}
+	  {% assign content = post.content %}
+	  {% include post_detail.html %}
 
-  <a href="/blog">Older posts</a>
-
+		<div class="controls">
+		  <a href="/blog">Older posts</a>
+		</div>	
+    
     </div>
 
 </div>  
