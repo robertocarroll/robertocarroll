@@ -13,8 +13,7 @@ categories:
 The internet and freedom are often connected, but discussions tend to break down with a dearth of tangible examples of the network as agent of democracy. Nulpunt is an exciting new project, which aims to help citizens follow and control government. Take a look:  
 
 
-[0. Democracy without secrets.](http://vimeo.com/43562090) from [nulpunt](http://vimeo.com/user12034399) on [Vimeo](http://vimeo.com).
-
+<div class='embed-container'><iframe src='http://player.vimeo.com/video/43562090' frameborder='0'></iframe></div>
 
 
 I love the potential for this project as a document system, which encourages users to search, comment on and share documents at a national level. Users can register, subscribe to topics they are interested in, follow the activities of other users, highlight and comment on documents. This approach has been successful in various different contexts from WikiLeaks to MP’s expenses. It turns the emphasis around: from users waiting for a press release or government document to be released to being alerted about information specifically of interest to them. Along with the [GOV.UK](https://www.gov.uk/), it's another example of the state using technology in a good way.  

@@ -27,7 +27,7 @@ To create a pictoral and oral history of the UAE. Week on week the project aimed
 <img src="http://farm4.staticflickr.com/3703/9143413594_f40d089ee8_z.jpg" width="100%" height="auto" alt="istabsir2">
 
 ## The solution
-Design and build a simple, attractive and user-friendly website, which acts as a stage for compelling storytelling using photographs, audio, video and words. Scalability is vital. If successful, the project could continue for many months, building up scores of stories in the process. Slideshow Pro handles the content and Twitter helps to increase interaction with the audience and generate story leads. [ The Abu Dhabi Film Festival praised the project's "impressive design".](http://www.abudhabifilmfestival.ae/en/abu-dhabi/abu-dhabi-feature/Istabsir)
+Design and build a simple, attractive and user-friendly website, which acts as a stage for compelling storytelling using photographs, audio, video and words. Scalability is vital. If successful, the project could continue for many months, building up scores of stories in the process. Slideshow Pro handles the content and Twitter helps to increase interaction with the audience and generate story leads. [The Abu Dhabi Film Festival praised the project's "impressive design".](http://www.abudhabifilmfestival.ae/en/abu-dhabi/abu-dhabi-feature/Istabsir)
 
 
 ## My role in the project

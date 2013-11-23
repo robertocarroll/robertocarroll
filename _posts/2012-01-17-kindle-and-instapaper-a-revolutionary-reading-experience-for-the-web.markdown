@@ -14,9 +14,7 @@ Millions of people got a Kindle over Christmas. It seems [exactly how many have 
 
 I didn't use it for a few weeks after Christmas, but now I use it every day. Of course, there's lots of free books and loads of other things to read, but one of the most promising features is how it works with Instapaper to complete transform the experience of reading on the web. 
 
-There's all sorts of ways to hook up the Kindle to read things from the web including Chrome apps such as [Send to Kindle](https://chrome.google.com/webstore/detail/ipkfnchcgalnafehpglfbommidgmalan) and [Readability](http://www.readability.com/) which seems to be cropping up on websites as another sharing button like this: [![](http://www.robertocarroll.com/wp-content/uploads/2012/01/Random-signs-of-the-future-Friday-edition-Ben-Hammersleys-Dangerous-Precedent.png)](http://www.robertocarroll.com/2012/01/17/kindle-and-instapaper-a-revolutionary-reading-experience-for-the-web/random-signs-of-the-future-friday-edition-ben-hammersleys-dangerous-precedent/)
-
-_↑ [Ben Hammersley's blog](https://www.benhammersley.com/en/2011/06/random-signs-of-the-future-friday-edition/) uses a Send to Kindle button._
+There's all sorts of ways to hook up the Kindle to read things from the web including Chrome apps such as [Send to Kindle](https://chrome.google.com/webstore/detail/ipkfnchcgalnafehpglfbommidgmalan) and [Readability](http://www.readability.com/) which seems to be cropping up on websites as another sharing button.
 
 I use [Instapaper](http://www.instapaper.com/) on my iPhone. The Kindle hook up seemed a natural extension of a process I'd already got used to: sending any article over 500 words to Instapaper to read later. 
 
