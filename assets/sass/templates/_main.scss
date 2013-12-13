@@ -70,6 +70,7 @@
 
 .main-content {
  	font-size: $h5-size;
+  padding-bottom: $base-spacing-unit;
 
   @include respond-to(tablet) { 
     font-size: $h6-size;
