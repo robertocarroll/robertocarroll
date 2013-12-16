@@ -1,19 +1,22 @@
 ---
 author: roberto
 comments: false
-date: 2013-05-04 09:35:48
+date: 2013-10-24 09:35:48
 layout: post
-slug: msn-jobseekers
-title: Jobseekers - MSN
+slug: ippf-map
+title: Map - IPPF
 categories:
 - Work
 tags:
 - Multimedia journalism
 - Editing
+- Maps
 ---
 
-[MSN Jobseekers](http://jobseekers.news.uk.msn.com) was an investigation into life without a job. Over the course of this nine-week project, we followed the lives of six jobseekers as they looked for work. 
+[We Are Thought Fox](http://wearethoughtfox.com) designed and developed an interactive map for [The International Planned Parenthood Federation](http://www.ippf.org/) to show the policy effects of the IPPF’s work around the world this year.
 
-Working as part of [Devolve Communications](http://www.devolvecommunications.co.uk), I was the editor on the project - planning, commissioning, editing and writing articles on a range of issues from [finding out about how jobseekers spend their days](http://extras.uk.msn.com/jobseekers/msn-jobseekers-a-day-in-the-life-of-a-jobseeker) to charting [the rise of zero hours contracts](http://extras.uk.msn.com/jobseekers/zero-hours-contracts-on-the-rise).  
+We used [Mapbox](http://mapbox.com) rather than Google Maps and Google Fusion. It is hosted on Github and updates are done through [Prose](http://prose.io/).
+
+[You can see the map here](http://ippf.github.io/ippf/)
 
 
