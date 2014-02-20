@@ -17,7 +17,7 @@
 
 .navigation {
 	@extend .nav--stacked;
-  list-style: none;
+  
   
 @include respond-to(tablet) { 
 
@@ -41,6 +41,10 @@
   }
 
 }
+
+.navigation li {
+   list-style-type: none; 
+  }
 
 .page-title {
 
