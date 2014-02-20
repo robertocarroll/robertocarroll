@@ -30,6 +30,9 @@
 @import "templates/main";
 @import "templates/typography";
 
+html {
+    -webkit-text-size-adjust: 100%;
+}
 
 body {
     color: $base-font-color;
