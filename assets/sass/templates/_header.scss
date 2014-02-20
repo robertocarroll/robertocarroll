@@ -17,6 +17,7 @@
 
 .navigation {
 	@extend .nav--stacked;
+  list-style: none;
   
 @include respond-to(tablet) { 
 
@@ -26,6 +27,7 @@
     > li{
 
         display:inline;
+        list-style: none;
 
         &,
         > a{
