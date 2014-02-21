@@ -3,7 +3,7 @@ author: roberto
 comments: false
 date: 2011-05-14 11:06:36
 layout: post
-slug: dubai-view-from-above
+slug: dubai-view-above
 title: 'Dubai: The view from above'
 categories:
 - Blog
