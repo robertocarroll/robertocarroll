@@ -3,7 +3,7 @@ author: roberto
 comments: false
 date: 2007-02-02 15:25:25
 layout: post
-slug: runner-up-virgin-trains-time-for-a-short-story-competition
+slug: short-story-competition
 title: 'Virgin Trains ''Time For A Short Story'' competition'
 wordpress_id: 119
 categories:

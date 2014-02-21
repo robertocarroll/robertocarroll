@@ -121,6 +121,10 @@ img {
  	margin-bottom: $base-spacing-unit;
  }
 
+.small-image {
+  max-width: 250px !important;
+}
+
 .controls {
   padding-top: $base-spacing-unit;
   padding-bottom: $base-spacing-unit;
