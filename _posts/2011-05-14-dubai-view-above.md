@@ -12,6 +12,7 @@ tags:
 - Urban
 - Video
 ---
+<div class='embed-container'><iframe src='http://player.vimeo.com/video/30948214' frameborder='0'></iframe></div>
 
 This video - which contains spectacular aerial images of Dubai but does go on a bit - shows how Dubai has been built with aliens in mind. It's a city built for the view from space.
 
@@ -19,7 +20,7 @@ In contrast, London is all about the spontaneous order emerging from below. Stre
 
 It's nothing like Falcon City. 
 
-<img src="https://farm4.staticflickr.com/3760/12664448673_28a7d3e8d7_s.jpg" alt="Falcon City"> 
+<img src="https://farm4.staticflickr.com/3760/12664448673_28a7d3e8d7_s.jpg" width="100%" height="auto" alt="Falcon City"> 
 
 
 
