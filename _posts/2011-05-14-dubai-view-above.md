@@ -12,7 +12,6 @@ tags:
 - Urban
 - Video
 ---
-<div class='embed-container'><iframe src='http://player.vimeo.com/video/30948214' frameborder='0'></iframe></div>
 
 This video - which contains spectacular aerial images of Dubai but does go on a bit - shows how Dubai has been built with aliens in mind. It's a city built for the view from space.
 
