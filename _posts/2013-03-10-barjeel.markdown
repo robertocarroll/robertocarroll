@@ -17,6 +17,6 @@ We created a new identity for the foundation in digital and print. Clint has [wr
 
 I was responsible for creating the information architecture, which highlighted the relationships between artists, countries and exhibitions and encouraged people to explore the collection.
 
-I built the WordPress theme using standards-driven CSS, HTML and JavaScript and responsive design to create a great experience on any device. ****
+I built the WordPress theme using standards-driven CSS, HTML and JavaScript and responsive design to create a great experience on any device.
 
 <img src="http://farm4.staticflickr.com/3770/9146539016_3b9382d3f6_z.jpg" width="100%" height="auto" alt="Barjeel">
