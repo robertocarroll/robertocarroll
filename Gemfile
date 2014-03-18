@@ -4,3 +4,5 @@ source 'https://rubygems.org'
 
 gem 'thor'
 gem 'stringex'
+gem 'RedCloth'
+gem 'fleakr'
