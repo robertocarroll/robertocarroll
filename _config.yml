@@ -4,6 +4,7 @@ permalink: /:categories/:title
 
 exclude: [".rvmrc", ".rbenv-version", "README.md", "Rakefile", "changelog.md"]
 pygments: true
+safe: false
 
 baseurl: http://robertocarroll.com
 
