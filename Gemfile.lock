@@ -1,7 +1,6 @@
 GEM
   remote: https://rubygems.org/
   specs:
-    flickraw (0.9.7)
     stringex (2.4.2)
     thor (0.18.1)
 
@@ -9,6 +8,5 @@ PLATFORMS
   ruby
 
 DEPENDENCIES
-  flickraw
   stringex
   thor
