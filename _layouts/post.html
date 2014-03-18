@@ -16,11 +16,7 @@ layout: default
 		</div>
 
 	    <div class="main-content">	
-	     	{% for flickr_url in post.flickr %}
-			<a href="{{ flickr_url }}">{{ flickr_url | flickr_image }}</a>
-			{% endfor %}		
-
-	      	{{ content }}
+	      {{ content }}
 	    </div>  
 
     </div>
