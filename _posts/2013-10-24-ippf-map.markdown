@@ -15,7 +15,7 @@ tags:
 
 [We Are Thought Fox](http://wearethoughtfox.com) designed and developed an interactive map for [The International Planned Parenthood Federation](http://www.ippf.org/) to show the policy effects of the IPPF’s work around the world this year.
 
-We used [Mapbox](http://mapbox.com) rather than Google Maps and Google Fusion. It is hosted on Github and updates are done through [Prose](http://prose.io/).
+We used [Mapbox](http://mapbox.com) rather than Google Maps and Google Fusion. It is hosted on Github and updates are done through [geojson.io](http://geojson.io/).
 
 [You can see the map here](http://ippf.github.io/ippf/)
 

@@ -1,0 +1,23 @@
+---
+author: roberto
+comments: false
+date: 2014-04-24 09:35:48
+layout: post
+slug: icc-alpha
+title: ICC Alpha
+categories:
+- Work
+tags:
+- UX
+- Web development
+---
+
+I led a new digital project for the International Criminal Court.
+
+I conducted research and analysis - interviews, surveys, search logs and analytics - to determine the shape of the alpha and instill a ruthless adherence to serving user needs. 
+
+I helped put together a team and we worked remotely following an agile approach to build a prototype of the most important parts of the site. The site took four months to design and build and was tested on a variety of users around the world. ICC Beta began later in the year. 
+
+[![Top of the case layout of ICC Alpha](assets/images/01-01_Case.jpg)
+
+
