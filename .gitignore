@@ -1,6 +1,10 @@
 _site/*
 _theme_packages/*
 
+# Ignore docs files
+.sass-cache
+.sass-cache/* 
+
 Thumbs.db
 .DS_Store
 
