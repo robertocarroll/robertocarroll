@@ -1,0 +1,63 @@
+// Footer
+
+footer {
+  clear: both;
+  @include inuit-font-size($inuit-heading-size-6, 1.4);
+}
+
+.summary {
+	background-color: $inuit-base-grey-color-3; 
+	padding: $inuit-base-spacing-unit;
+	height: 14em;
+	display: flex;
+	
+	@include breakpoint(small) { 
+		@include gs-span(m, all); 
+		padding-bottom: 6*$inuit-base-spacing-unit;
+	}
+
+	@include breakpoint(medium) { 
+		width: 50%;
+		height: 21em;
+	}
+
+	@include breakpoint(large) { 
+		width: 50%;
+		height: 14em;
+	}
+}
+
+.copyright {
+	padding-top: $inuit-base-spacing-unit;
+}
+
+.elsewhere {
+	background-color: $lightPrimaryColor; 
+	padding: $inuit-base-spacing-unit;
+	height: 14em;
+	display: flex;
+
+	@include breakpoint(small) { 
+		@include gs-span(m, all); 
+		clear:both;
+	}
+
+	@include breakpoint(medium) { 
+		width: 50%;
+		clear:none;
+		height: 21em;
+	}
+
+	@include breakpoint(large) { 
+		width: 50%;
+		clear:none;
+		height: 14em;
+	}
+}
+
+.elsewhere ul {
+	list-style: outside none none;
+	padding: 0;
+	padding-left: $inuit-base-spacing-unit;
+	margin-bottom: $inuit-base-spacing-unit--small;
+}

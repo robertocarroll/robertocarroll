@@ -1,19 +1,21 @@
-	
-	<script src="/assets/build/main.min.js"></script>
+ <footer class="footer">
 
-		<script type="text/javascript">
+ 	<div class="summary">
+	  <div class="about">Robert Carroll is a {{ site.job_description }}. He runs {{ site.description }}.</div>
+	  <div class="contact"><em>For new project enquiries, please email <a rel="me" href="mailto:rob@wearethoughtfox.com">rob@wearethoughtfox.com</a>.</em></div>
+	  <div class="copyright">© {{ site.time | date: '%Y' }} <a href="mailto:rob@wearethoughtfox.com">Robert Carroll</a>. All rights reserved.</div>
+	</div>  
 
-  var _gaq = _gaq || [];
-  _gaq.push(['_setAccount', 'UA-7490466-1']);
-  _gaq.push(['_trackPageview']);
-
-  (function() {
-    var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
-    ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
-    var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
-  })();
-
-</script>
-
-</body>
-</html>  
+	<div class="elsewhere">	
+		<h2 class="zeta no-margin-top">Elsewhere</h2>
+		  <ul>
+		  	<li><a rel="me" href="https://twitter.com/robertocarroll">Twitter</a></li>
+		  	<li><a rel="me" href="https://github.com/robertocarroll">GitHub</a></li>	    
+		    <li><a href="https://github.com/robertocarroll/ideas/issues">Ideas</a></li>
+		    <li><a rel="me" href="https://flickr.com/photos/robertocarroll">Flickr</a></li>
+		    <li><a rel="me" href="https://plus.google.com/+RobertCarrollz">Flickr</a></li>
+		    <li><a href="{{ site.baseurl }}/atom.xml">RSS</a></li>
+		  </ul>
+	</div>
+ </footer>
+    

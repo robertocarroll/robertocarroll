@@ -1,0 +1,51 @@
+---
+layout: wide
+---
+
+<article class="work-main">
+  <h1 class="work-main-title">{{ page.title }}</h1>
+
+  <hr class="clear">
+
+  <p class="work-main-excerpt">{{ page.excerpt }}</p>
+
+  {{ content }}
+
+</article>
+
+<aside class="meta centre clear delta">
+  <h2 class="meta-header">Year</h2>
+  {{ page.date | date: '%Y' }}
+  
+  <h2 class="meta-header">Services</h2>
+  <ul class="services">
+    {% for services in page.services %}
+      <li>{{ services }}</li>
+    {% endfor %}
+  </ul>
+</aside>
+
+<!-- Within category next/previous without a plugin -->
+<nav class="next-previous">
+	{% for category in site.categories %}
+    {% assign catg_name = category.first %}
+    {% if catg_name == page.categories.first | downcase %}
+        {% assign catg_posts = category.last %}
+    {% endif %}
+{% endfor %}
+{% for post in catg_posts %}
+    {% if post.title == page.title %}
+        {% unless forloop.last %}
+            {% assign next = catg_posts[forloop.index] %}
+            <a href="{{ site.baseurl }}{{ next.url }}" class="previous-link" title="Previous Project">↫ previous</a>
+
+        {% endunless %}
+        {% unless forloop.first %}
+            <a href="{{ site.baseurl }}{{ prev.url }}" class="next-link" title="Next Project">next ↬</a>
+         {% endunless %}
+    {% endif %}
+    {% assign prev = post %}
+{% endfor %}
+
+</nav>	
+

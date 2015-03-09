@@ -1,10 +1,20 @@
----
-layout: default
----
-{% include header.html %}
-{% include nav.html %}
+<!DOCTYPE html>
+<html lang="en">
 
-      {{ content }}
+  {% include head.html %}
 
-{% include footer.html %}
+  <body>
 
+  	{% include nav.html %}
+
+    <div class="main" role="main">
+        {{ content }}
+    </div>
+
+      {% include footer.html %}
+
+    <script src="{{ site.baseurl }}/javascripts/gridset-overlay.js"> </script>
+
+  </body>
+
+</html>

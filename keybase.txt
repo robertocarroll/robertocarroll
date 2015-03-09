@@ -1,0 +1,73 @@
+==================================================================
+https://keybase.io/robertocarroll
+--------------------------------------------------------------------
+
+I hereby claim:
+
+  * I am an admin of http://robertocarroll.com
+  * I am robertocarroll (https://keybase.io/robertocarroll) on keybase.
+  * I have a public key with fingerprint AFFC 5153 69B8 1096 CD0C  CAB0 EC4E 1A22 FE52 B740
+
+To do so, I am signing this object:
+
+{
+    "body": {
+        "key": {
+            "fingerprint": "affc515369b81096cd0ccab0ec4e1a22fe52b740",
+            "host": "keybase.io",
+            "key_id": "ec4e1a22fe52b740",
+            "kid": "0101e2a2048f0679d702189fa46407579623d5507a8a4e091f7e5df9b5af3a89f75c0a",
+            "uid": "204d7215e9a31923846e9d6096e23200",
+            "username": "robertocarroll"
+        },
+        "revoke": {
+            "sig_ids": [
+                "f70fd8293296a1f1508df25d62569fb49ea53cb06daee75739dc5f33626a87530f"
+            ]
+        },
+        "service": {
+            "hostname": "robertocarroll.com",
+            "protocol": "http:"
+        },
+        "type": "web_service_binding",
+        "version": 1
+    },
+    "ctime": 1425845099,
+    "expire_in": 157680000,
+    "prev": "768d1e876ddba431056ff87f03172c9e50a79641089e40bc2a34b85be507109c",
+    "seqno": 4,
+    "tag": "signature"
+}
+
+which yields the signature:
+
+-----BEGIN PGP MESSAGE-----
+Version: Keybase OpenPGP v2.0.8
+Comment: https://keybase.io/crypto
+
+yMJcAnicbZJbbA1BGMdPqWrrfomIW2TULZpjZnZnd+d4EESIBDloSFqp2Z2ZWufY
+Pd2zp7TNcUuFKPFGU41ElEokXggVHnohkVTcIiKKuIYXt4SIEjHb8GZeJvN9//l9
+//nmuzFqaKy0YOnq65sedRxeWNDXfS4X2/DrfKoR2D6vB4lGkBKDm3S9GhFkAtcL
+QQIwKR2CiGZQ20KQGg6HjsNsKBxdIIaxFATbpg5BOdjqZ6MbCmOzrIi7voqpQ7XL
+VfQ/+tRgAiKIBGYY6paEhkm5CTGyqGS6oUOTmNTAGicEmsxiuoAUSVMQLqlNmNSY
+EprEgUzhcoM4xeEmRkRQpiGKNUs3BOWGci6whmFUN5cVgce2C6UOfFsEoe+wIPDT
+aZAvB4Go81Mi6kPWrVHWsyBRCaQJJbcw1TA1GJKIQItLTLiBiUGlrVPBiObY0OBM
+COVZo9whUtMMbDDLJBqUYLNiq7p1rjMIj3r1Xw9xx9+uPGYCX4X8tMpvDcNMIrIW
+1mci/Q5hV/8lVduux9V3qQt1Isi6vgcSSCmd0I3QSMfE0gmktByInRk3ENVupCCm
+YUG1ojKiTiHVmSNhmQbnNtM1BIkhpWVKqCETO1QQyNQ/6AhaVOjQdjDTdNsitkqY
+aigcEL2t1vNBQlc2WY1Cqu55LMwFAuR7uqoKYwWlsaJhQ6KBi5WWjP03hrdWFceu
+1p7dUtj34+X0JNrVO+Tn55I3ZfF6e+7jqw9mHYjvriz+Nql74qzfR5tLujryvwv5
+ue72o1OPd3yfN+dnYtvdzxUjhh9ft/5Mw962JWOekkXzBvZ96T1S+v5a4eWyN/Nf
+ZYomNG0cuqtqoGhfZco7WHWgf9G0L+t4Nlw8vokceVvTeufai/3BjfinBW2v3Vxy
+crjSb9tyenl+2aqe1MNDLRcWJ2e0zLQqnq/9UXz7SmeyNd3YMLXg/pMd7X1dRbUf
+3u15dq95zv5jA/0Xl3zEU5pbb45r6e25e+VxMn9+U8OJ1ZPQxKavl/ovTnh9sm2F
+N1ybFnT+grdOlV1Pj17TOez56IqRs9d8XPAHMCREbg==
+=78b2
+-----END PGP MESSAGE-----
+
+And finally, I am proving ownership of this host by posting or
+appending to this document.
+
+View my publicly-auditable identity here: https://keybase.io/robertocarroll
+
+==================================================================

@@ -1,19 +1,36 @@
-# This is the default format. 
-# For more see: https://github.com/mojombo/jekyll/wiki/Permalinks
-permalink: /:categories/:title 
+# Dependencies
+markdown:            redcarpet
+highlighter:         pygments
 
-exclude: [".rvmrc", ".rbenv-version", "README.md", "Rakefile", "changelog.md"]
-pygments: true
-
-baseurl: http://robertocarroll.com
-
-# Themes are encouraged to use these universal variables 
-# so be sure to set them if your theme uses them.
+# Permalinks
 #
-title : 
-tagline: 
-author :
-  name : Robert Carroll
-  email : rob@wearethoughtfox.com
-  github : robertocarroll
-  twitter : robertocarroll
+# Use of `relative_permalinks` ensures post links from the index work properly.
+permalink:           /:categories/:title 
+relative_permalinks: true
+
+# Setup
+title:               Robert Carroll
+tagline:             The writing and design of Robert Carroll
+url:                 http://robertocarroll.com
+baseurl:             /
+job_description: "writer, designer and programmer"
+description: "a tiny digital design and development studio called <a href='http://wearethoughtfox.com/'>We Are Thought Fox</a>"
+
+# Assets
+#
+# We specify the directory for Jekyll so we can use @imports.
+sass:
+  sass_dir:          _scss
+  style:            :compressed
+
+# About/contact
+author:
+  name:              Robert Carroll
+  url:               https://twitter.com/robertocarroll
+  email:             rob@wearethoughtfox.com
+  twitter:           robertocarroll
+
+# Custom vars
+version:             1.0.0
+github:
+  repo:              https://github.com/robertocarroll/robertocarroll

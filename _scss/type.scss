@@ -1,0 +1,109 @@
+// Typography
+//
+// Body text, lists, and other misc typographic elements.
+
+// Body text
+p {
+  margin-top: 0;
+  margin-bottom: $inuit-base-spacing-unit;
+}
+
+strong {
+  color: #303030;
+}
+
+// Lists
+ul, ol, dl {
+  margin-top: 0;
+  margin-bottom: $inuit-base-spacing-unit;
+  padding-left: 0;
+}
+
+ul li:before {
+    content: "– ";
+    margin-left: -$inuit-base-spacing-unit--small;
+}
+
+ul {
+	list-style: outside none;
+}
+
+
+dt {
+  font-weight: bold;
+}
+dd {
+  margin-bottom: .5rem;
+}
+
+// Misc
+hr {
+  position: relative;
+  margin: 1.5rem 0;
+  border: 0;
+  border-top: 1px solid #eee;
+  border-bottom: 1px solid #fff;
+}
+
+abbr {
+  font-size: 85%;
+  font-weight: bold;
+  color: #555;
+  text-transform: uppercase;
+}
+abbr[title] {
+  cursor: help;
+  border-bottom: 1px dotted #e5e5e5;
+}
+
+/* Quotes */
+blockquote {
+  color: $inuit-base-grey-color-2;
+  border-left: 0.25rem solid $lightPrimaryColor;
+  clear:both;
+  margin: 0;
+}
+
+blockquote p {
+	margin-left: $inuit-base-spacing-unit--small;
+	font-style: italic;
+}
+
+time {
+  color: $lightPrimaryColor;
+  @include inuit-font-size($inuit-heading-size-5);
+  display: block; 
+  font-family: $inuit-heading-font;
+}
+
+// Custom type
+//
+// Extend paragraphs with `.lead` for larger introductory text.
+
+.lead {
+  font-size: 1.25rem;
+  font-weight: 300;
+}
+
+.firstcharacter {
+	display: block;
+  float: left;
+  @include inuit-font-size(108px, 1);
+  margin: -10px 6px -20px 3px;
+}
+
+.arrow {
+    cursor: pointer;
+    margin-left: 6px;
+    margin-right: auto;
+    transform: rotate(90deg);
+    transition: all 0.4s ease 0s;
+}
+
+hr {
+	 border-style: solid none none;
+   border-width: 3px medium medium;
+   margin: 2em auto;
+   max-width: 10em;
+}
+

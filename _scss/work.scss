@@ -1,0 +1,145 @@
+// Work list 
+
+.content-list {
+	padding-bottom: $inuit-base-spacing-unit;
+}
+
+.work-article {
+	padding-top: $inuit-base-spacing-unit;
+	padding-bottom: $inuit-base-spacing-unit;
+	border-top: 1px solid $inuit-base-grey-color-4;
+}
+
+.work-title {
+	@include inuit-font-size($inuit-heading-size-2);
+	margin: 0;
+	margin-bottom: $inuit-base-spacing-unit--smallest;
+}
+
+.work-excerpt {
+	font-style: italic;
+	margin: 0;
+	color: $inuit-base-grey-color-2;
+	@include inuit-font-size($inuit-heading-size-3);
+}
+
+// Work single 
+
+.work-main-title {
+	@include breakpoint(small) { 
+		@include gs-span(m, 2); 
+	}
+
+	@include breakpoint(medium) { 
+		@include gs-span(t, 2, 6); 
+	}
+
+	@include breakpoint(large) { 
+		@include gs-span(d, 3, 7); 
+	}
+	text-align: center;
+	padding-top: $inuit-base-spacing-unit--large;
+}
+
+.work-main-excerpt {
+	font-style: italic;
+	color: $lightPrimaryColor;
+	@include inuit-font-size($inuit-heading-size-2, 1.2);
+	text-align: center;
+}
+
+.work-main p, .work-main ul, .work-main ol, .work-main blockquote {
+
+	@include breakpoint(small) { 
+		@include gs-span(m, 2); 
+	}
+
+	@include breakpoint(medium) { 
+		@include gs-span(t, 2, 6); 
+	}
+
+	@include breakpoint(large) { 
+		@include gs-span(d, 3, 7); 
+	}
+
+	clear:both;
+}
+
+.work-main blockquote {
+	margin-bottom: $inuit-base-spacing-unit;
+}
+
+.work-main blockquote p {
+	margin: 0;
+	margin-left: $inuit-base-spacing-unit;
+	width: 90%;
+}
+
+.work-main h2 {
+
+	letter-spacing: 2px;
+  text-transform: uppercase;
+
+	@include breakpoint(small) { 
+		@include gs-span(m, 2); 
+	}
+
+	@include breakpoint(medium) { 
+		@include gs-span(t, 2, 6); 
+	}
+
+	@include breakpoint(large) { 
+		@include gs-span(d, 3, 7); 
+	}
+	clear: both
+}
+
+ul.services {
+	margin: 0;
+	padding: 0;
+	list-style-type: none;
+	width: 100%;
+}
+
+ul.services li:before {
+    content: "";
+    margin-left: 0;
+}
+
+.meta-header {
+	margin-top: $inuit-base-spacing-unit;
+	margin-bottom: $inuit-base-spacing-unit--smallest;
+}
+
+.next-previous {
+	padding: $inuit-base-spacing-unit;
+	padding-bottom: $inuit-base-spacing-unit*2;
+	letter-spacing: 2px;
+  text-transform: uppercase;
+  font-family: $inuit-heading-font;
+  font-weight: normal;
+
+  @include inuit-font-size($inuit-heading-size-6);
+
+	@include breakpoint(small) { 
+		@include gs-span(m, 2); 
+	}
+
+	@include breakpoint(medium) { 
+		@include gs-span(t, 2, 6); 
+	}
+
+	@include breakpoint(large) { 
+		@include gs-span(d, 3, 7); 
+	}
+
+	clear:both;
+}
+
+.previous-link {
+	float: left;
+}
+
+.next-link {
+	float: right;
+}

@@ -1,0 +1,87 @@
+---
+layout: default
+---
+
+<article class="post">
+  <h1 class="post-title">{{ page.title }}</h1>
+  <time datetime="{{ page.date | date_to_xmlschema }}" class="page-date padding-below">{{ page.date | date_to_string }}</time>
+
+  {% assign result = page.date | date: "%m-%y" %}
+	
+	{{ page.top_image }}  
+
+	{% for goal in site.data.month_reports %}
+		{% if goal.date == result %}
+				<h2>Summary</h2> 
+				<p>{{goal.summary}}</p>
+				<h2>Outcome of last month's goal</h2> 
+				<p>{{goal.prev_goal}}</p>
+				<h2>New goal</h2> 
+				<p>{{goal.new_goal}}</p>
+			{% endif %}	
+	{% endfor %}
+
+  {{ content }}
+
+  {% for film in site.data.films %}
+		
+			{% if film.date == result %}
+				{% assign therearefilms = "true" %}
+			{% endif %}	
+	{% endfor %}
+
+	{% if therearefilms == "true" %}
+	<h2>Films I enjoyed</h2>
+	<ul>
+		{% for film in site.data.films %} 
+			{% if film.date == result %}
+				<li>{{ film.title }}</li>
+			{% endif %}
+		{% endfor %}
+	</ul>
+	{% endif %}
+
+	{% for book in site.data.books %}
+	{% if book.date == result %}
+		{% assign therearebooks = "true" %}
+	{% endif %}	
+	{% endfor %}
+
+	{% if therearebooks == "true" %}
+	<h2>Books I enjoyed</h2>
+		<ul>
+			{% for book in site.data.books %}
+				{% if book.date == result %}
+				  <li><em>{{ book.title }}</em> by {{ book.author }}  
+				  </li>
+				{% endif %}
+			{% endfor %}
+		</ul>
+	{% endif %}
+
+</article>
+
+<aside class="next-previous-post"> 
+{% for post in site.categories.journal %}
+  {% if post.url == page.url %}
+      {% assign post_index0 = forloop.index0 %}
+      {% assign post_index1 = forloop.index %}
+  {% endif %}
+{% endfor %}
+  {% for post in site.categories.journal %}
+      {% if post_index0 == forloop.index %}
+          {% assign next_post = post.url %}
+          {% assign next_post_title = post.title %}
+      {% endif %}
+      {% if post_index1 == forloop.index0 %}
+          {% assign prev_post = post.url %}
+          {% assign prev_post_title = post.title %}
+      {% endif %}
+  {% endfor %}
+   {% if prev_post %}
+      <a href="{{ prev_post }}" class="previous-post">↫ {{ prev_post_title }}</a>
+  {% endif %}
+  {% if next_post %}
+      <a href="{{ next_post }}" class="next-post">{{ next_post_title }} ↬</a>
+  {% endif %}
+</aside>

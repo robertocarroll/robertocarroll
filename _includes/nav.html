@@ -1,12 +1,63 @@
- <header class="page-head">
+<header role="banner">
 
- 	<h1 class="summary">Robert Carroll is a writer, editor and web developer. He is a principal and co-founder of <a href="http://wearethoughtfox.com/">We Are Thought Fox.</a></h1>
-                
-    <ul class="navigation nav">
-        <li><a href="/">Home</a></li><!--
-     --><li><a href="/about/">About</a></li><!--
-     --><li><a href="/blog/">Blog</a></li>
-     <li><a href="/work/">Work</a></li>
-    </ul>
-            
-</header><!-- /page-head -->
+	<div class="breadcrumb" xmlns:v="http://rdf.data-vocabulary.org/#">
+
+	{% if page.title == "Home" %}
+
+		<span typeof="v:Breadcrumb" >
+     <a href="/" rel="v:url" property="v:title">Home</a>
+   </span>
+
+		{% else %}
+
+		<span typeof="v:Breadcrumb">
+     <a href="/" rel="v:url" property="v:title">@robertocarroll</a>
+   </span> →
+
+   	<span typeof="v:Breadcrumb">
+     <a href="{{ site.baseurl }}/{{ page.categories}}" rel="v:url" property="v:title">{{ page.categories}}</a>
+   </span> 
+
+		{% endif %}
+
+		<span id="menu-button" class="button-open"></span>
+
+	</div>
+
+	<nav role="navigation" id="the-nav">
+		<ul class="nav">
+					<li><a title="Home" href="/">Home</a></li>		  
+			    <li><a title="Journal" href="/journal">Journal</a></li>
+			    <li><a title="Work" href="/work">Work</a></li>
+			    <li><a title="About" href="/about">About</a></li>
+		</ul>
+	</nav>
+
+	<script>	
+		// hasClass
+		function hasClass(elem, className) {
+			return new RegExp(' ' + className + ' ').test(' ' + elem.className + ' ');
+		}
+		// toggleClass
+		function toggleClass(elem, className) {
+			var newClass = ' ' + elem.className.replace( /[\t\r\n]/g, " " ) + ' ';
+		    if (hasClass(elem, className)) {
+		        while (newClass.indexOf(" " + className + " ") >= 0 ) {
+		            newClass = newClass.replace( " " + className + " " , " " );
+		        }
+		        elem.className = newClass.replace(/^\s+|\s+$/g, '');
+		    } else {
+		        elem.className += ' ' + className;
+		    }
+		}
+		document.getElementById('menu-button').onclick = function() {
+				var thenav = document.getElementById('the-nav');
+		    toggleClass(thenav, 'open');
+		    toggleClass(this, 'button-open');
+		    toggleClass(this, 'button-close');
+		}
+
+
+	</script>
+
+</header>
