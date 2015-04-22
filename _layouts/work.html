@@ -26,26 +26,27 @@ layout: wide
 </aside>
 
 <!-- Within category next/previous without a plugin -->
-<nav class="next-previous">
-	{% for category in site.categories %}
-    {% assign catg_name = category.first %}
-    {% if catg_name == page.categories.first | downcase %}
-        {% assign catg_posts = category.last %}
-    {% endif %}
+<aside class="next-previous">
+{% for post in site.categories.work %}
+  {% if post.url == page.url %}
+      {% assign post_index0 = forloop.index0 %}
+      {% assign post_index1 = forloop.index %}
+  {% endif %}
 {% endfor %}
-{% for post in catg_posts %}
-    {% if post.title == page.title %}
-        {% unless forloop.last %}
-            {% assign next = catg_posts[forloop.index] %}
-            <a href="{{ site.baseurl }}{{ next.url }}" class="previous-link" title="Previous Project">↫ previous</a>
+  {% for post in site.categories.work %}
+      {% if post_index0 == forloop.index %}
+          {% assign next_post = post.url %}
+      {% endif %}
+      {% if post_index1 == forloop.index0 %}
+          {% assign prev_post = post.url %}
+      {% endif %}
+  {% endfor %}
+   {% if prev_post %}
+      <a href="{{ prev_post }}" class="previous-link">↫ previous</a>
+  {% endif %}
+  {% if next_post %}
+      <a href="{{ next_post }}" class="next-link">next ↬</a>
+  {% endif %}
+</aside>
 
-        {% endunless %}
-        {% unless forloop.first %}
-            <a href="{{ site.baseurl }}{{ prev.url }}" class="next-link" title="Next Project">next ↬</a>
-         {% endunless %}
-    {% endif %}
-    {% assign prev = post %}
-{% endfor %}
-
-</nav>	
 
