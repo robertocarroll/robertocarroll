@@ -8,18 +8,43 @@ layout: default
 
   {% assign result = page.date | date: "%m-%y" %}
 	
-	{{ page.top_image }}  
+	{% if page.top_image %}
+
+		<figure class="post_image">
+		<img src="{{ site.baseurl }}images/{{ page.top_image }}" alt="{{ page.top_image_caption }}">
+			<figcaption>{{ page.top_image_caption }}</figcaption>
+		</figure>
+
+	{% endif %}		
 
 	{% for goal in site.data.month_reports %}
 		{% if goal.date == result %}
-				<h2>Summary</h2> 
-				<p>{{goal.summary}}</p>
-				<h2>Outcome of last month's goal</h2> 
-				<p>{{goal.prev_goal}}</p>
-				<h2>New goal</h2> 
-				<p>{{goal.new_goal}}</p>
+
+				{% if goal.summary %} 
+				
+					<h2>Summary</h2> 
+					<p>{{goal.summary}}</p>
+
+				{% endif %}		
+
+				{% if goal.prev_goal %} 
+
+					<h2>Outcome of last month's goal</h2> 
+					<p>{{goal.prev_goal}}</p>
+
+				{% endif %}		
+
+				{% if goal.new_goal %} 
+
+					<h2>New goal</h2> 
+					<p>{{goal.new_goal}}</p>
+
+				{% endif %}		
+
 			{% endif %}	
 	{% endfor %}
+
+	<hr>
 
   {{ content }}
 
