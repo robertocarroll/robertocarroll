@@ -2,6 +2,8 @@
 layout: default
 title: Home
 modified-date: 2015-03-05
+categories:
+- about
 ---
 
 <h2 class="page-heading-caps extra-top-padding">{{ site.title }}</h2>
