@@ -5,7 +5,7 @@ modified-date: 2015-04-21
 ---
 
 <h2 class="page-heading-caps extra-top-padding">{{ site.title }}</h2>
-I'm a {{ site.job_description }}.
+I'm a [{{ site.job_description }}](/about).
 
 <h2 class="page-heading-caps">Work</h2>
 I run {{ site.description }}.
