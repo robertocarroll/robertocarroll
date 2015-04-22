@@ -30,7 +30,6 @@
 
 
 .next-previous-post {
-	padding: $inuit-base-spacing-unit;
 	padding-bottom: $inuit-base-spacing-unit*2;
 	@include inuit-font-size($inuit-heading-size-6, 22px);
   text-transform: capitalize;
@@ -39,14 +38,9 @@
 }
 
 .previous-post {
-	width: 40%;
 	float: left;
-	text-align: right;
-	margin-right: 5%;
 }
 
 .next-post {
-	width: 40%;
 	float: right;
-	margin-left: 5%;
 }
