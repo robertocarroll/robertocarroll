@@ -25,9 +25,7 @@ rob at wearethoughtfox.com
 <section id="summary">
 	<a class="anchor" id="top"></a>
 ## Writer, designer and programmer
-Working on the web since 2000. Loves 
-
-accessible design, optimizing flows, content testing, writing style guides, and inerface writing.
+Working on the web since 2000. 
 </section>
 
 <section id="experience">
