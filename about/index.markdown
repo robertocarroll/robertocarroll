@@ -2,6 +2,8 @@
 layout: default
 title: About
 modified-date: 2015-03-05
+categories:
+- about
 ---
 <h1 class="page-heading-caps extra-top-padding">{{ page.title }}</h1>
 I'm a {{ site.job_description }} based in Yorkshire. I run {{ site.description }}. 
