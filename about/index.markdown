@@ -1,7 +1,6 @@
 ---
 layout: default
 title: About
-modified-date: 2015-03-05
 categories:
 - about
 ---

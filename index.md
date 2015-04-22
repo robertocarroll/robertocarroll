@@ -1,9 +1,7 @@
 ---
 layout: default
 title: Home
-modified-date: 2015-03-05
-categories:
-- about
+modified-date: 2015-04-21
 ---
 
 <h2 class="page-heading-caps extra-top-padding">{{ site.title }}</h2>
@@ -21,13 +19,14 @@ I’ve written articles for The National, The Wire, Ultra Travel, The Guardian, 
 
 <h2 class="page-heading-caps">Current projects</h2>
 <ul class="home-list">
+	<li>Remix the Gallery - Hepworth Labs</li>
 	<li>Fabric of the City - Manchester Evening News</li>
 	<li>iOS and Android app - Barjeel Art Foundation</li>
 </ul>
 
 <h2 class="page-heading-caps">Current reading</h2>
 <ul class="home-list">
- 	<li>Like a Fiery Elephant by Jonathan Coe</li>
+ 	<li><em>Like a Fiery Elephant</em> by Jonathan Coe</li>
 </ul>
 
 <div class="extra-top-padding">
