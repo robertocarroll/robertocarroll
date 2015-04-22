@@ -1,9 +1,7 @@
 
 Website for robertocarroll.com
 
-When generating locally, use this to make the baseurl blank:
-
-jekyll serve --watch --baseurl=
+jekyll serve 	
 
 ## create a new post in blog category with today's date
 thor post:new "Automate Jekyll post creation with Thor"

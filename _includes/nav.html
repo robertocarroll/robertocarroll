@@ -15,7 +15,7 @@
    </span> →
 
    	<span typeof="v:Breadcrumb">
-     <a href="{{ site.baseurl }}/{{ page.categories}}" rel="v:url" property="v:title">{{ page.categories}}</a>
+     <a href="{{ site.baseurl }}{{ page.categories}}" rel="v:url" property="v:title">{{ page.categories}}</a>
    </span> 
 
 		{% endif %}
@@ -26,7 +26,7 @@
 
 	<nav role="navigation" id="the-nav">
 		<ul class="nav">
-					<li><a title="Home" href="/">Home</a></li>		  
+					<li><a title="Home" href="{{ site.baseurl }}">Home</a></li>		  
 			    <li><a title="Journal" href="/journal">Journal</a></li>
 			    <li><a title="Work" href="/work">Work</a></li>
 			    <li><a title="About" href="/about">About</a></li>

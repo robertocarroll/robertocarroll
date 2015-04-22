@@ -1,6 +1,7 @@
 // Home
 
-.home-heading {
+.page-heading-caps {
+	@include inuit-font-size($inuit-heading-size-2);
 	padding-top: $inuit-base-spacing-unit;
 	margin: 0;
 	margin-bottom: $inuit-base-spacing-unit--smallest;

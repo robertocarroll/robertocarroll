@@ -1,0 +1,24 @@
+<aside class="next-previous-post"> 
+{% for post in site.categories.journal %}
+  {% if post.url == page.url %}
+      {% assign post_index0 = forloop.index0 %}
+      {% assign post_index1 = forloop.index %}
+  {% endif %}
+{% endfor %}
+  {% for post in site.categories.journal %}
+      {% if post_index0 == forloop.index %}
+          {% assign next_post = post.url %}
+          {% assign next_post_title = post.title %}
+      {% endif %}
+      {% if post_index1 == forloop.index0 %}
+          {% assign prev_post = post.url %}
+          {% assign prev_post_title = post.title %}
+      {% endif %}
+  {% endfor %}
+   {% if prev_post %}
+      <a href="{{ prev_post }}" class="previous-post">↫ {{ prev_post_title }}</a>
+  {% endif %}
+  {% if next_post %}
+      <a href="{{ next_post }}" class="next-post">{{ next_post_title }} ↬</a>
+  {% endif %}
+</aside>
