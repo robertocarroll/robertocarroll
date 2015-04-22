@@ -11,6 +11,9 @@ thor post:new "Automate Jekyll post creation with Thor" --date=2014-01-01
 
 See [Automate Jekyll](http://www.guyroutledge.co.uk/blog/automate-jekyll-post-creation-with-thor/) for details.
 
+## Images
+At the moment, I'm going with 1200 x 741
+
 ----------------------------
 Home
 Work - Show range of work 

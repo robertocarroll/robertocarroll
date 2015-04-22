@@ -8,7 +8,7 @@ footer {
 .summary {
 	background-color: $inuit-base-grey-color-3; 
 	padding: $inuit-base-spacing-unit;
-	height: 14rem;
+	height: 15rem;
 	display: flex;
 	
 	@include breakpoint(small) { 
@@ -18,12 +18,10 @@ footer {
 
 	@include breakpoint(medium) { 
 		width: 50%;
-		height: 21rem;
 	}
 
 	@include breakpoint(large) { 
 		width: 50%;
-		height: 14rem;
 	}
 }
 
@@ -34,25 +32,22 @@ footer {
 .elsewhere {
 	background-color: $lightPrimaryColor; 
 	padding: $inuit-base-spacing-unit;
-	height: 14rem;
+	height: 15rem;
 	display: flex;
 
 	@include breakpoint(small) { 
 		@include gs-span(m, all); 
 		clear:both;
-		height: 15rem;
 	}
 
 	@include breakpoint(medium) { 
 		width: 50%;
 		clear:none;
-		height: 21rem;
 	}
 
 	@include breakpoint(large) { 
 		width: 50%;
 		clear:none;
-		height: 14rem;
 	}
 }
 

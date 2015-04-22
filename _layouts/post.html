@@ -5,6 +5,16 @@ layout: default
 <article class="post">
   <h1 class="post-title">{{ page.title }}</h1>
   <time datetime="{{ page.date | date_to_xmlschema }}" class="page-date padding-below">{{ page.date | date_to_string }}</time>
+
+  {% if page.top_image %}
+
+		<figure class="post_image">
+		<img src="{{ site.baseurl }}images/{{ page.top_image }}" alt="{{ page.top_image_caption }}">
+			<figcaption>{{ page.top_image_caption }}</figcaption>
+		</figure>
+
+	{% endif %}		
+
   {{ content }}
 </article>
 
