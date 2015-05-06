@@ -30,6 +30,7 @@
 .work-main-title {
 	@include breakpoint(small) { 
 		@include gs-span(m, 2); 
+		line-height: 1.15em;
 	}
 
 	@include breakpoint(medium) { 

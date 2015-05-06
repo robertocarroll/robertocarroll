@@ -11,7 +11,7 @@ tags:
 - javascript
 ---
 
-I'm going to use this post to keep all the useful things about JavaScript. [General code snippets are in another post](/journal/code-snippets).
+I'm going to use this post to keep all the useful things about JavaScript. [General code snippets are in another post](/journal/useful-code-snippets).
 
 ## Map, filter and reduce
 
