@@ -25,6 +25,11 @@ I'm going to use this post to keep all the useful things about Git in particular
 * `git merge <branchname> --no-ff`
 * `git push origin master`
 
+## Update gh-pages with master
+* git checkout gh-pages
+* git merge master
+* git push origin gh-pages
+
 ## Create Github page branch
 * `git checkout -b gh-pages`
 * `git commit -m "First commit to gh-pages branch"`
@@ -42,6 +47,12 @@ I'm going to use this post to keep all the useful things about Git in particular
 * `git rm --cached -r mydirectory`
 * `git rm --cached -r platforms`
 * `git rm -r --cached some-directory`
+
+## Remove node_modules
+* add 'node_modules' to .gitignore file
+* `git rm -r --cached node_modules`
+* `git commit -m 'Remove the now ignored directory node_modules'`
+* `git push origin master`
 
 ## Roll back to previous commit 
 `git revert --no-commit d657a48842e4c14b19fd579bf8fb5ea2e713e846..HEAD`
@@ -63,6 +74,16 @@ This will revert everything from the HEAD back to the commit hash. (The --no-com
 * `git checkout -b gh-pages`
 * `git push origin gh-pages`
 
+## Keep gh-pages up to date with a master branch
+* `git add .`
+* `git status` // to see what changes are going to be commited
+* `git commit -m` 'Some descriptive commit message'
+* `git push origin master`
+* `git checkout gh-pages` // go to the gh-pages branch
+* `git rebase master` // bring gh-pages up to date with master
+* `git push origin gh-pages` // commit the changes
+* `git checkout master` // return to the master branch
+
 ## Kill processes
 * `$ top`
 * `$ kill -9 PID, e.g. $ kill -9 93799`
@@ -71,6 +92,8 @@ This will revert everything from the HEAD back to the commit hash. (The --no-com
 * `python -m SimpleHTTPServer 8888 &`
 
 Go to http://localhost:8888/
+
+* For Python 3: 'python3 -m http.server'
 
 ## Open bash profile in textedit
 1. `touch ~/.bash_profile; open ~/.bash_profile`
@@ -85,6 +108,13 @@ rvm allows you to have many different installations of ruby. You can copy gem se
 * `rvm gem set copy old new`
 * `rvm gem set copy 2.0.0-p353 2.1.3`
 
+## Ruby versions and sudo 
+* `rvm list`
+* `rvm use RUBY-VERSION`
+* `rvm gemset list`
+
+
+
 ## Python versions using pyenv
 http://jespertoftkristensen.com/JTK/Blog/Entries/2014/10/27_Full_control_of_your_Python_and_Development_Environment.html
 
@@ -96,3 +126,11 @@ http://jespertoftkristensen.com/JTK/Blog/Entries/2014/10/27_Full_control_of_your
 * `pyenv virtualenv 2.7.7 my_project`
 * `pyenv activate my_project`
 * `pyenv deactivate`
+
+## Get rid of new mail (bouncebacks) in Terminal
+$ mail
+$ delete delete 1-* where * is the number of messages
+$ q
+
+## List globally installed NPM packages and version
+npm list -g --depth=0
