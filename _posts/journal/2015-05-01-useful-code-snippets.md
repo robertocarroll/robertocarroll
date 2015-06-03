@@ -112,7 +112,7 @@ rvm allows you to have many different installations of ruby. You can copy gem se
 * `rvm list`
 * `rvm use RUBY-VERSION`
 * `rvm gemset list`
-
+* `gem install GEM --no-document`
 
 
 ## Python versions using pyenv
@@ -127,10 +127,23 @@ http://jespertoftkristensen.com/JTK/Blog/Entries/2014/10/27_Full_control_of_your
 * `pyenv activate my_project`
 * `pyenv deactivate`
 
+## Python checks
+* `python-config --prefix`
+* `which python`
+* `pyenv which python`
+* `brew --prefix`
+* `echo $PYTHONPATH`
+
+## Python and Homebrew 
+* Only brew install while pyenv global is set to system and never brew while in a virtual environment. `pyenv global system` [Reference](http://amaral-lab.org/blog/troubleshooting-pyenv)
+
+
 ## Get rid of new mail (bouncebacks) in Terminal
-$ mail
-$ delete delete 1-* where * is the number of messages
-$ q
+* mail
+* delete delete 1-* where * is the number of messages
+* q
 
 ## List globally installed NPM packages and version
-npm list -g --depth=0
+* npm list -g --depth=0
+
+

@@ -8,7 +8,9 @@ title: Connected Studio Pilot – BBC
 categories:
 - Work
 services:
-- Web development
+- Concept and strategy
+- Experience design
+- Digital development
 excerpt: Prototyping a digital companion for children
 ---
 
