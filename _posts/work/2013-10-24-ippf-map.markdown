@@ -9,7 +9,7 @@ categories:
 - Work
 services:
 - Concept and strategy
-- Design
+- Experience design
 - Digital development
 - Data and maps
 excerpt: Exploring the IPPF’s work around the world

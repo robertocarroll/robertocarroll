@@ -12,7 +12,7 @@ tags:
 - The National
 - Travel
 services: 
-- writing
+- Writing and editing
 excerpt: Icons of 20th-century architecture and design
 ---
 

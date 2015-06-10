@@ -49,3 +49,15 @@ function new_count(word) {
 }
 
 </code>
+
+## Interate through dates
+<code>
+var moment = require('moment');
+var a = moment('2013-01-01');
+var b = moment('2013-06-01');
+
+for (var m = moment(a); m.isBefore(b); m.add('days', 1)) {
+    console.log(m.format('YYYY-MM-DD'));
+}
+
+</code>
