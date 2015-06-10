@@ -17,23 +17,19 @@ categories:
 		
 			{% assign myArray = {{result}} | split: "|" | sort | %}
 
-			<ul id="filter" class="nav centre">
+		<div id="list">
 
+		<h1 class="page-heading-caps">Work</h1>
+
+		<ul id="filter" class="navigation">
 			{% for theservice in myArray %}	
-
 			{% if theservice == '' %}
 					<li id="nav-country-{{theservice | downcase | replace: ' ', '-'}}"><a href="#{{theservice | downcase | replace: ' ', '-'}}">All</a></li>
 			{% else %}
 					<li id="nav-country-{{theservice | downcase | replace: ' ', '-'}}"><a href="#{{theservice | downcase | replace: ' ', '-'}}">{{theservice}}</a></li>
 			{% endif %}	
-
 			{% endfor %}
-
 		</ul>
-
-		<div id="list">
-
-		<h1 class="page-heading-caps">Work</h1>
 
 		{% assign curr_year = "" %}
 	
@@ -49,7 +45,7 @@ categories:
 
 				{% endif %}
 
-			<article class="work-article {% for service in post.services %}{{service | downcase | replace: ' ', '-'}} {% endfor %}" data-type="{% for tag in post.tags %}{{ tag }}{% if forloop.last != true %} {% endif %} {% endfor %}">
+			<article class="work-article {% for service in post.services %}{{service | downcase | replace: ' ', '-'}} {% endfor %}">
 
 	    	<time datetime="{{ post.date | date_to_xmlschema }}" class="page-date">{{ post.date | date: "%B %Y" }}</time>
 	        <h1 class="work-title"><a href="{{ post.url }}">{{ post.title }}</a></h1>
@@ -108,20 +104,41 @@ function chopHash(hash) {
 	return hash;
 }
 
+// helper function for querySelectorAll
+var forEach = function (array, callback, scope) {
+  for (var i = 0; i < array.length; i++) {
+    callback.call(scope, i, array[i]); // passes back stuff we need
+  }
+};
+
+// helper function for hasClass
+Element.prototype.hasClass = function(className) {
+    return this.className && new RegExp("(^|\\s)" + className + "(\\s|$)").test(this.className);
+};
+
 function updateNav(hash) {  
 	var hashValue = hash.raw;
-	$('#filter .current').removeClass('current');
+	var removeCurrent = document.querySelectorAll('#filter .current');
+
+	forEach(removeCurrent, function (index, value) {
+  	value.classList.remove('current');
+	});
+
 	var navValue = document.getElementById('nav-country-' + hashValue);
 	navValue.setAttribute("class", "current");
 
 	if (!hashValue || 0 === hashValue.length) {
-        $('#list article.hidden').fadeIn('slow').removeClass('hidden');
+        var showAllHidden = document.querySelectorAll('#list article.hidden');
+				forEach(showAllHidden, function (index, value) {
+			  	value.classList.remove('hidden');
+				});
     } else {
-			    	$('#list article').each(function () {
-			      if (!$(this).hasClass(hashValue)) {
-			          $(this).fadeOut('fast').addClass('hidden');
+    				var allArticles = document.querySelectorAll('#list article');
+			    	forEach(allArticles, function (index, value) {
+			      if (value.hasClass(hashValue)) {
+			          value.classList.remove('hidden');
 			      } else {
-			          $(this).fadeIn('slow').removeClass('hidden');
+			          value.classList.add('hidden');
 			      }
 			  });
 		}		    	
@@ -137,49 +154,7 @@ initHashNav(updateNav);
 	display: none;
 }
 
-.current {
-	border-bottom: 3px solid #00f;
-}
+
 
 </style> 
 
-<!-- var forEach = function (array, callback, scope) {
-  for (var i = 0; i < array.length; i++) {
-    callback.call(scope, i, array[i]); // passes back stuff we need
-  }
-};
-
-function updateNav(hash) {  
-	var hashValue = hash.raw; 
-	var removeCurrent = document.querySelectorAll('#filter .current');
-
-	forEach(removeCurrent, function (index, value) {
-  	value.classList.remove('current');
-  	console.log(value); 
-	});
-
-	var navValue = document.getElementById('nav-country-' + hashValue);
-	navValue.setAttribute("class", "current");
-	console.log (hashValue);
-
-	if (!hashValue || 0 === hashValue.length) {
-				var showAllHidden = document.querySelectorAll('#list article.hidden');
-				forEach(showAllHidden, function (index, value) {
-			  	value.classList.remove('current');
-			  	console.log(value); 
-				});
-    } else {
-    	var showAll = document.querySelectorAll('#list article');
-    	forEach(showAll, function (index, value) {
-			  	value.classList.remove('current');
-			  	console.log(value); 
-				});
-			    	$('#list article').each(function () {
-			      if (!$(this).hasClass(hashValue)) {
-			          $(this).fadeOut('fast').addClass('hidden');
-			      } else {
-			          $(this).fadeIn('slow').removeClass('hidden');
-			      }
-			  });
-		}		    	
-} -->

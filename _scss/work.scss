@@ -25,6 +25,37 @@
 	@include inuit-font-size($inuit-heading-size-4);
 }
 
+.navigation {
+    list-style:none;
+    margin-left:0;
+    margin-bottom: 0;
+
+    > li{
+    	list-style: none;
+    	padding-right: $inuit-base-spacing-unit--smallest;
+
+        &,
+        > a{
+            display:inline-block;
+           *display:inline;
+            zoom:1;
+        }
+    }
+}
+
+#filter {
+	 @include inuit-font-size(16px, 1.6);
+}
+
+ul#filter li::before {
+    content: " ";
+    margin-left: 0;
+}
+
+.current {
+	text-decoration: underline;
+}
+
 // Work single 
 
 .work-main-title {
