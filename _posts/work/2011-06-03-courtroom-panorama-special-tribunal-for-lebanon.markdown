@@ -13,7 +13,6 @@ tags:
 - Panoramic
 - Web Development
 services:
-- Concept and strategy
 - Digital development
 excerpt: Tour the courtroom and find out about the participants
 ---

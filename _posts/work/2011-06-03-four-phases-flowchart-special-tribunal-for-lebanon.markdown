@@ -12,7 +12,6 @@ tags:
 - Multimedia journalism
 - Web Development
 services:
-- Concept and strategy
 - Digital development
 excerpt: Helping people to understand the phases of a case
 ---

@@ -1,5 +1,9 @@
 What are human taxonomies???
 
+Mood 
+
+User reaction 
+
 Cicardian rhythms ....
 
 Seasons
