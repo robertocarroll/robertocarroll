@@ -13,6 +13,9 @@ tags:
 
 I'm going to use this post to keep all the useful things about JavaScript. [General code snippets are in another post](/journal/useful-code-snippets).
 
+## Format JavaScript in Sublime Text
+"ctrl + shift + p", Jsformat appears as "Format: Javascript"
+
 ## Map, filter and reduce
 
 - Use .map for transforming values
@@ -23,10 +26,9 @@ I'm going to use this post to keep all the useful things about JavaScript. [Gene
 Map and filter return arrays and are functions on arrays. They can be chained together.
 
 <code>
-var rockinCatsOnly = ['cats', 'dogs']
-    .filter(thatsACat)
-    .map(theyRock);
-// ['cats rock']
+var filterednames = names.filter(function(obj) {
+    return (obj.name === "Joe") && (obj.age < 30);
+});
 </code>
 
 ## Scope

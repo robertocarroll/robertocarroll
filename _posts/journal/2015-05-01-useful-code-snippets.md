@@ -55,9 +55,12 @@ I'm going to use this post to keep all the useful things about Git in particular
 * `git push origin master`
 
 ## Roll back to previous commit 
-`git revert --no-commit d657a48842e4c14b19fd579bf8fb5ea2e713e846..HEAD`
+`git revert --no-commit 544993f8416a6e8a0cde66f7ea28379f9ebf446c .HEAD`
 
 This will revert everything from the HEAD back to the commit hash. (The --no-commit flag lets git revert all the commits at once, instead of littering history with messages for each commit in the range.)
+
+to discard all the changes, and get a clean working tree:
+* `git reset --hard HEAD`
 
 `git revert --continue`
 
