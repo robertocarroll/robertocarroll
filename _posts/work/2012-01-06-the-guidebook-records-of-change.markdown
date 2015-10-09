@@ -7,7 +7,7 @@ slug: the-guidebook-records-of-change
 title: 'The guidebook: records of change  – The National'
 categories:
 - Work
-services: 
+services:
 - Writing and editing
 excerpt: Snapshots of places survive in old editions
 ---
@@ -53,6 +53,6 @@ These photographs were not intended to have an after, but the online medium has 
 We have not yet worked out ways to craft and frame narratives in this new atemporal world, but it's an exciting new realm to explore.
 
 ## Update 2
-Jon Rafman's project, [The Nine Eyes of Google Street View](http://9-eyes.com/), is a great example of this kind of thing. Bizarre images captured by the all-seeing eye.
+Jon Rafman's project, [The Nine Eyes of Google Street View](http://9-eyes.com/), is a great example of this kind of thing. Bizarre images captured by the all-seeing eye. Artsy have a good page on [Jon Rafman](https://www.artsy.net/artist/jon-rafman).
 
 

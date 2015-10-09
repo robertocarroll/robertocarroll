@@ -1,6 +1,53 @@
+
 // Typography
-//
-// Body text, lists, and other misc typographic elements.
+// Heading, Body text, lists, and other misc typographic elements.
+
+/*------------------------------------*\
+    #HEADINGS
+\*------------------------------------*/
+
+/**
+ * Headings 1–6, with corresponding Greek-alphabet abstract classes for double-
+ * stranded heading hierarchy: csswizardry.com/2012/02/pragmatic-practical-font-sizing-in-css
+ */
+
+h1, h2, h3, h4, h5, h6 {
+  font-family: $inuit-heading-font;
+  font-weight: normal;
+  color: $textPrimaryColor;
+  text-rendering: optimizeLegibility;
+}
+
+h1,
+.alpha {
+    @include inuit-font-size($inuit-heading-size-1);
+}
+
+h2,
+.beta {
+    @include inuit-font-size($inuit-heading-size-2);
+}
+
+h3,
+.gamma {
+    @include inuit-font-size($inuit-heading-size-3);
+}
+
+h4,
+.delta {
+    @include inuit-font-size($inuit-heading-size-4);
+}
+
+h5,
+.epsilon {
+    @include inuit-font-size($inuit-heading-size-5);
+}
+
+h6,
+.zeta {
+    @include inuit-font-size($inuit-heading-size-6);
+}
+
 
 // Body text
 p {
@@ -25,7 +72,7 @@ ul li:before {
 }
 
 ul {
-	list-style: outside none;
+  list-style: outside none;
 }
 
 
@@ -65,14 +112,14 @@ blockquote {
 }
 
 blockquote p {
-	margin-left: $inuit-base-spacing-unit--small;
-	font-style: italic;
+  margin-left: $inuit-base-spacing-unit--small;
+  font-style: italic;
 }
 
 time {
   color: $lightPrimaryColor;
   @include inuit-font-size($inuit-heading-size-5);
-  display: block; 
+  display: block;
   font-family: $inuit-heading-font;
 }
 
@@ -86,7 +133,7 @@ time {
 }
 
 .firstcharacter {
-	display: block;
+  display: block;
   float: left;
   @include inuit-font-size(108px, 1);
   margin: -10px 6px -20px 3px;
@@ -101,7 +148,7 @@ time {
 }
 
 hr {
-	 border-style: solid none none;
+   border-style: solid none none;
    border-width: 3px medium medium;
    margin: 2em auto;
    max-width: 10em;

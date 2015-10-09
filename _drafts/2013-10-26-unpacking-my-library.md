@@ -12,4 +12,11 @@ categories:
 
 Dyer 
 
+Benjamin
+
 http://www.brainpickings.org/index.php/2013/03/15/sorted-books-nina-katchadourian-book/
+
+Book 
+1. Advertisement
+2. Reading - information delivery 
+3. Souvenir - repository or holder of memory

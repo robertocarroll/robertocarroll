@@ -29,7 +29,7 @@ categories:
 Etiam porta **sem malesuada magna** mollis euismod. Cras mattis consectetur purus sit amet fermentum. Aenean lacinia bibendum nulla sed consectetur.
 
 ## Dashes
-- en dash (–, <code>`&ndash;`</code> which is the width of a lowercase “n”). Use with a space either side for dashes in text and (no spaces) to indicate ranges of numbers (such as 7–10 days) 
+- en dash (–, <code>`&ndash;`</code> which is the width of a lowercase “n”). Use with a space either side for dashes in text and (no spaces) to indicate ranges of numbers (such as 7–10 days)
 - em dash (—, <code>`&mdash;`</code>, which is the width of a lowercase “m”)
 - Don’t confuse these with the hyphen (-), which isn’t a dash at all but a punctuation mark
 
@@ -38,8 +38,8 @@ Etiam porta **sem malesuada magna** mollis euismod. Cras mattis consectetur puru
 
 ## Symbols
 Right arrow →
-Left arrow ← 
-Up arrow ↑ 
+Left arrow ←
+Up arrow ↑
 Down arrow ↓
 Double arrow ↔
 Nice symbol ◆
@@ -61,9 +61,10 @@ HTML defines a long list of available inline tags, a complete list of which can 
 
 Most of these elements are styled by browsers with few modifications on our part.
 
-## Heading
-
-Vivamus sagittis lacus vel augue rutrum faucibus dolor auctor. Duis mollis, est non commodo luctus, nisi erat porttitor ligula, eget lacinia odio sem nec elit. Morbi leo risus, porta ac consectetur ac, vestibulum at eros.
+# Heading 1
+## Heading 2
+### Heading 3
+#### Heading 4
 
 ### Code
 
@@ -158,4 +159,3 @@ Nullam id dolor id nibh ultricies vehicula ut id elit. Sed posuere consectetur e
 
 -----
 
-Want to see something else added? <a href="https://github.com/poole/poole/issues/new">Open an issue.</a>

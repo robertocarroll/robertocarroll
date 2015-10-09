@@ -26,9 +26,9 @@ I'm going to use this post to keep all the useful things about Git in particular
 * `git push origin master`
 
 ## Update gh-pages with master
-* git checkout gh-pages
-* git merge master
-* git push origin gh-pages
+* `git checkout gh-pages`
+* `git merge master`
+* `git push origin gh-pages`
 
 ## Create Github page branch
 * `git checkout -b gh-pages`
@@ -61,8 +61,7 @@ This will revert everything from the HEAD back to the commit hash. (The --no-com
 
 to discard all the changes, and get a clean working tree:
 * `git reset --hard HEAD`
-
-`git revert --continue`
+* `git revert --continue`
 
 ## See history of commits
 `git log`
@@ -92,11 +91,8 @@ to discard all the changes, and get a clean working tree:
 * `$ kill -9 PID, e.g. $ kill -9 93799`
 
 ## Start a webserver - cd into directory and: 
-* `python -m SimpleHTTPServer 8888 &`
-
-Go to http://localhost:8888/
-
-* For Python 3: 'python3 -m http.server'
+* `python -m SimpleHTTPServer 8888 &` // Go to http://localhost:8888/
+* `python3 -m http.server` // For Python 3: 
 
 ## Open bash profile in textedit
 1. `touch ~/.bash_profile; open ~/.bash_profile`
@@ -117,9 +113,16 @@ rvm allows you to have many different installations of ruby. You can copy gem se
 * `rvm gemset list`
 * `gem install GEM --no-document`
 
+## Homebrew
+* `brew info <package>`
+* `brew switch node 0.12.7_1`
+* `brew switch node 4.1.1`
+
+## Homebrew permissions
+* `sudo chown -R $(whoami) /usr/local`
 
 ## Python versions using pyenv
-http://jespertoftkristensen.com/JTK/Blog/Entries/2014/10/27_Full_control_of_your_Python_and_Development_Environment.html
+[Reference](http://jespertoftkristensen.com/JTK/Blog/Entries/2014/10/27_Full_control_of_your_Python_and_Development_Environment.html)
 
 * `pyenv install 2.7.7`
 * `pyenv versions`
@@ -129,6 +132,8 @@ http://jespertoftkristensen.com/JTK/Blog/Entries/2014/10/27_Full_control_of_your
 * `pyenv virtualenv 2.7.7 my_project`
 * `pyenv activate my_project`
 * `pyenv deactivate`
+* `pyenv shell Cellar` - sets to Homebrew Python
+*  Use `pyenv shell system` when installing something relating to python via brew
 
 ## Python checks
 * `python-config --prefix`
@@ -139,14 +144,35 @@ http://jespertoftkristensen.com/JTK/Blog/Entries/2014/10/27_Full_control_of_your
 
 ## Python and Homebrew 
 * Only brew install while pyenv global is set to system and never brew while in a virtual environment. `pyenv global system` [Reference](http://amaral-lab.org/blog/troubleshooting-pyenv)
+* To fix brew doctor issue try `echo 'alias brew="env PATH=${PATH//$(pyenv root)\/shims:/} brew"' >> .bash_profile` or `echo 'alias brew="env PATH=${PATH/\/Users\/roberto\/\.pyenv\/shims:/} brew"' >> .bash_profile`
 
+## Use pyenv and virtualenv
+Virtualenv lets you create isolated Python environments where you can pin down versions of site-packages specific to a particular project.
+$ pip install virtualenv
+$ pyenv install 2.7.2
+$ pyenv shell 2.7.2
+$ virtualenv `which python` foo
+$ source foo/bin/activate    
+$ pip install pandas
+$ pip install numpy
 
 ## Get rid of new mail (bouncebacks) in Terminal
-* mail
-* delete delete 1-* where * is the number of messages
-* q
+* `mail`
+* `delete delete 1-` where  is the number of messages
+* `q`
 
 ## List globally installed NPM packages and version
-* npm list -g --depth=0
+* “global installs are for command-line applications. Local installs are for things you require().”
+* `npm list -g --depth=0`
+* On [npm and homebrew](https://gist.github.com/DanHerbert/9520689)
 
+## Smart quotes
+* ‘Single opening - alt + ]’ 
+* ‘Single closing & apostrophe - alt + shift + ]’ 
+* ‘Double opening - alt + [’ 
+* ‘Double closing - alt + shift + [’ 
+* See [Smart Quotes](http://smartquotesforsmartpeople.com/) for details. 
 
+## Merging topojson
+When combining two or more files, you can specify the properties to keep:
+* ’topojson -o select.json -p sov0name,name -- subunits.json places.json’ 

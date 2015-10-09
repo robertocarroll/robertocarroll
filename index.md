@@ -1,7 +1,7 @@
 ---
 layout: default
 title: Home
-modified-date: 2015-06-10
+modified-date: 2015-10-05
 ---
 
 <h2 class="page-heading-caps extra-top-padding">{{ site.title }}</h2>
@@ -19,15 +19,15 @@ I’ve written articles for The National, The Wire, Ultra Travel, The Guardian, 
 
 <h2 class="page-heading-caps">Current projects</h2>
 <ul class="home-list">
-	<li>Fabric of the City - Manchester Evening News</li>
-	<li>iOS and Android app - Barjeel Art Foundation</li>
+	<li>Quite busy. Email for availability.
 </ul>
 
 <h2 class="page-heading-caps">Current reading</h2>
 <ul class="home-list">
- 	<li><em>Contingency, Irony, and Solidarity</em> by Richard Rorty</li>
+ 	<li><em>Satin Island </em> by Tom McCarthy</li>
+ 	<li><em>The Taming of the Shrew </em> by William Shakespeare</li>
 </ul>
 
 <div class="extra-top-padding">
 	<em class="zeta">Last updated {{page.modified-date | date: "%-d %B %Y"}}</em>
-</div>	
+</div>

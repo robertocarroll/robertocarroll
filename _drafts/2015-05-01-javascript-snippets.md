@@ -10,14 +10,12 @@ categories:
 tags:
 - javascript
 ---
-
 I'm going to use this post to keep all the useful things about JavaScript. [General code snippets are in another post](/journal/useful-code-snippets).
 
 ## Format JavaScript in Sublime Text
 "ctrl + shift + p", Jsformat appears as "Format: Javascript"
 
 ## Map, filter and reduce
-
 - Use .map for transforming values
 - Use .filter for filtering values
 - Use .reduce for aggregating values
@@ -25,14 +23,11 @@ I'm going to use this post to keep all the useful things about JavaScript. [Gene
 
 Map and filter return arrays and are functions on arrays. They can be chained together.
 
-<code>
-var filterednames = names.filter(function(obj) {
+<code>var filterednames = names.filter(function(obj) {
     return (obj.name === "Joe") && (obj.age < 30);
-});
-</code>
+});</code>
 
 ## Scope
-
 - Blocks and functions both have {}
 - Only functions give you scope, ie variables contained within only exist within it
 - for loops are blocks, ie no scope and variables leak in and out
@@ -41,16 +36,13 @@ var filterednames = names.filter(function(obj) {
 See [Beyond the for Loop](http://www.macwright.org/presentations/beyondfor) for more detail
 
 ## Syllable count
-<code>
-function new_count(word) {
+<code>function new_count(word) {
   word = word.toLowerCase();                                     //word.downcase!
   if(word.length <= 3) { return 1; }                             //return 1 if word.length <= 3
   word = word.replace(/(?:[^laeiouy]es|ed|[^laeiouy]e)$/, '');   //word.sub!(/(?:[^laeiouy]es|ed|[^laeiouy]e)$/, '')
   word = word.replace(/^y/, '');                                 //word.sub!(/^y/, '')
   return word.match(/[aeiouy]{1,2}/g).length;                    //word.scan(/[aeiouy]{1,2}/).size
-}
-
-</code>
+}</code>
 
 ## Interate through dates
 <code>
@@ -61,5 +53,4 @@ var b = moment('2013-06-01');
 for (var m = moment(a); m.isBefore(b); m.add('days', 1)) {
     console.log(m.format('YYYY-MM-DD'));
 }
-
 </code>

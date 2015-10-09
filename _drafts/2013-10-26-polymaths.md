@@ -13,6 +13,7 @@ categories:
 
 Combine into post - with james burke video
 
+http://www.brainpickings.org/2013/03/08/buckminster-fuller-synergetics/
 
 http://www.aeonmagazine.com/world-views/anyone-can-learn-to-be-a-polymath/
 
