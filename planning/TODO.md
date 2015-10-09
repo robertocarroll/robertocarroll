@@ -4,6 +4,8 @@
 - http://typecast.com/blog/a-more-modern-scale-for-web-typography
 - https://ia.net/know-how/responsive-typography-the-basics
 
+https://github.com/inuitcss/getting-started
+
 ### responsive images & images themselves
 - https://github.com/robwierzbowski/jekyll-picture-tag
 - https://github.com/scottjehl/picturefill

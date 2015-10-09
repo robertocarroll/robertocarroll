@@ -1,7 +1,6 @@
-
 Website for robertocarroll.com
 
-jekyll serve 	
+jekyll serve
 
 ## create a new post in blog category with today's date
 thor post:new "Automate Jekyll post creation with Thor"
@@ -16,8 +15,8 @@ At the moment, I'm going with 1200 x 741
 
 ----------------------------
 Home
-Work - Show range of work 
-Journal - 
+Work - Show range of work
+Journal -
 About - What I do / contact
 
 ## Layouts
@@ -34,7 +33,7 @@ Stuff I'm reading / looking at / listening to / thinking about.
 http://janzheng.com/2013/06/tumblr_integration.html
 http://atlanticnoir.stylehatch.co/
 
-## Ideas  
+## Ideas
 - Link to Github
 
 ## Elsewhere
