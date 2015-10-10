@@ -1,11 +1,12 @@
-Three in rhetoric 
+Three in rhetoric
 
-Immutable - numerology 
+Immutable - numerology
 
-Add any number and if the sum is divisible by three the number will be. 
+Add any number and if the sum is divisible by three the number will be.
 
-Teams - 37 signals 
+Teams - 37 signals
 
+The bit from The Dreamers
 
 http://kottke.org/12/01/the-thing-about-998001-is
 

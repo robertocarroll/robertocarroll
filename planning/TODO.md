@@ -21,8 +21,8 @@ This includes adding the menu JS (currently in head.html) as a separate file and
 ## Work - to add
 - MEN
 - Hepworth
-- ICC Beta
-- ICC Beta map
+- ICC Beta, esp http://robertocarroll.com/icc-beta/style-guide/
+- ICC Beta map http://robertocarroll.com/icc-beta/map-v3/
 - Barjeel app
 
 ### Books / Library
@@ -36,8 +36,8 @@ Paste in an Amazon link and writing a short paragraph - Why is this book special
 
 Get title, image, ISBN from Amazon
 
-### Logging
-- Minute is logging my
+## Make every month
+
 
 ### Jekyll - indieweb stuff http://indiewebcamp.com/IndieMark
 - http://microformats.org/wiki/hcard
