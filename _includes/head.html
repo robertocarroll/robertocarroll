@@ -4,7 +4,7 @@
   <link href="http://gmpg.org/xfn/11" rel="profile">
   <meta http-equiv="X-UA-Compatible" content="IE=Edge">
   {% if page.excerpt %}
-    <meta name="description" content="{{ page.excerpt }}" />
+    <meta name="description" content="{{ page.excerpt | strip_html | truncatewords: 50 }}" />
   {% else %}
     <meta name="description" content="{{ site.tagline }}" />
   {% endif %}

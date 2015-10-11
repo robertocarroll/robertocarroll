@@ -25,7 +25,7 @@ h1,
 
 h2,
 .beta {
-    @include inuit-font-size($inuit-heading-size-2);
+    @include inuit-font-size($inuit-heading-size-2, 1.2);
 }
 
 h3,
