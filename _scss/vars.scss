@@ -1,0 +1,30 @@
+//Define the various variables
+
+$inuit-base-font-size: 21px !default;
+$inuit-base-line-height: 32px !default;
+
+//palette
+$textPrimaryColor: #212121;
+$backgroundColor: #fff;
+$linkColor: #607D8B;
+$hoverColor: #f2dc00;
+$lightPrimaryColor: #CFD8DC;
+$inuit-base-grey-color-2: #727272;
+$inuit-base-grey-color-3: #F0EDE7;
+$inuit-base-grey-color-4: #B6B6B6;
+
+$inuit-base-spacing-unit: $inuit-base-line-height;
+$inuit-base-spacing-unit--smallest: round($inuit-base-spacing-unit / 4);
+$inuit-base-spacing-unit--small: round($inuit-base-spacing-unit / 2);
+$inuit-base-spacing-unit--large: round($inuit-base-spacing-unit * 2);
+
+$inuit-heading-font: 'Gotham SSm A', 'Gotham SSm B', Helvetica, sans-serif;
+$inuit-body-font: 'Georgia', serif;
+
+// Predefine the variables below in order to alter and enable specific features.
+$inuit-heading-size-1:  48px !default;
+$inuit-heading-size-2:  32px !default;
+$inuit-heading-size-3:  24px !default;
+$inuit-heading-size-4:  21px !default;
+$inuit-heading-size-5:  18px !default;
+$inuit-heading-size-6:  16px !default;

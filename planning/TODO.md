@@ -6,6 +6,8 @@
 
 https://github.com/inuitcss/getting-started
 
+Lucky Them
+
 ### responsive images & images themselves
 - https://github.com/robwierzbowski/jekyll-picture-tag
 - https://github.com/scottjehl/picturefill

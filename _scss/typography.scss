@@ -51,8 +51,9 @@ h6,
 
 // Body text
 p {
+  @include inuit-font-size($inuit-heading-size-4, none);
   margin-top: 0;
-  margin-bottom: $inuit-base-spacing-unit;
+  @include rem(margin-bottom, $inuit-base-spacing-unit);
 }
 
 strong {
