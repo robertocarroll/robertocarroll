@@ -1,6 +1,4 @@
-// Layout
-//
-// Styles for managing the structural hierarchy of the site.
+// Misc
 
 .no-margin {
 	margin: 0;
@@ -50,41 +48,65 @@
   margin-right: auto;
 }
 
+.grey-1 {
+  background-color: $lightPrimaryColor;
+}
+
+.grey-2 {
+  background-color: $inuit-base-grey-color-2;
+}
+
+.grey-3 {
+  background-color: $inuit-base-grey-color-3;
+}
+
+.grey-4 {
+  background-color: $inuit-base-grey-color-4;
+}
+
+.link {
+  background-color: $linkColor;
+}
+
+.hover {
+  background-color: $hoverColor;
+}
+
 .main {
 	padding-top: $inuit-base-spacing-unit--large;
 	padding-bottom: $inuit-base-spacing-unit--large;
 
-	@include breakpoint(small) { 
-		@include gs-span(m, 2); 
+	@include breakpoint(small) {
+		@include gs-span(m, 2);
 	}
 
-	@include breakpoint(medium) { 
-		@include gs-span(t, 2, 6); 
+	@include breakpoint(medium) {
+		@include gs-span(t, 2, 6);
 	}
 
-	@include breakpoint(large) { 
-		@include gs-span(d, 3, 7); 
+	@include breakpoint(large) {
+		@include gs-span(d, 3, 7);
 	}
-	
+
 }
 
-.embed-container { 
-    position: relative; 
-    padding-bottom: 56.25%; 
+.embed-container {
+    position: relative;
+    padding-bottom: 56.25%;
     padding-top: $inuit-base-spacing-unit--large;
-    margin-bottom: $inuit-base-spacing-unit; 
-    height: 0; 
-    overflow: hidden; 
-    max-width: 100%; 
-    height: auto; 
+    margin-bottom: $inuit-base-spacing-unit;
+    height: 0;
+    overflow: hidden;
+    max-width: 100%;
+    height: auto;
     clear: both;
-  } 
+  }
 
-  .embed-container iframe, .embed-container object, .embed-container embed { 
-    position: absolute; 
-    top: 0; 
-    left: 0; 
-    width: 100%; 
-    height: 100%; 
+  .embed-container iframe, .embed-container object, .embed-container embed {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
   }
 
