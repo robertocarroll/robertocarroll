@@ -1,4 +1,4 @@
-// Work list 
+// Work list
 
 //.page-heading-caps is in home.scss
 
@@ -56,20 +56,20 @@ ul#filter li::before {
 	text-decoration: underline;
 }
 
-// Work single 
+// Work single
 
 .work-main-title {
-	@include breakpoint(small) { 
-		@include gs-span(m, 2); 
+	@include breakpoint(small) {
+		@include gs-span(m, 2);
 		line-height: 1.15em;
 	}
 
-	@include breakpoint(medium) { 
-		@include gs-span(t, 2, 6); 
+	@include breakpoint(medium) {
+		@include gs-span(t, 2, 6);
 	}
 
-	@include breakpoint(large) { 
-		@include gs-span(d, 3, 7); 
+	@include breakpoint(large) {
+		@include gs-span(d, 3, 7);
 	}
 	text-align: center;
 	padding-top: $inuit-base-spacing-unit--large;
@@ -84,16 +84,16 @@ ul#filter li::before {
 
 .work-main p, .work-main ul, .work-main ol, .work-main blockquote {
 
-	@include breakpoint(small) { 
-		@include gs-span(m, 2); 
+	@include breakpoint(small) {
+		@include gs-span(m, 2);
 	}
 
-	@include breakpoint(medium) { 
-		@include gs-span(t, 2, 6); 
+	@include breakpoint(medium) {
+		@include gs-span(t, 2, 6);
 	}
 
-	@include breakpoint(large) { 
-		@include gs-span(d, 3, 7); 
+	@include breakpoint(large) {
+		@include gs-span(d, 3, 7);
 	}
 
 	clear:both;
@@ -113,17 +113,18 @@ ul#filter li::before {
 
 	letter-spacing: 2px;
   text-transform: uppercase;
+  @include rem(margin-top, $inuit-base-spacing-unit);
 
-	@include breakpoint(small) { 
-		@include gs-span(m, 2); 
+	@include breakpoint(small) {
+		@include gs-span(m, 2);
 	}
 
-	@include breakpoint(medium) { 
-		@include gs-span(t, 2, 6); 
+	@include breakpoint(medium) {
+		@include gs-span(t, 2, 6);
 	}
 
-	@include breakpoint(large) { 
-		@include gs-span(d, 3, 7); 
+	@include breakpoint(large) {
+		@include gs-span(d, 3, 7);
 	}
 	clear: both
 }
@@ -155,16 +156,16 @@ ul.services li:before {
 
   @include inuit-font-size($inuit-heading-size-6);
 
-	@include breakpoint(small) { 
-		@include gs-span(m, 2); 
+	@include breakpoint(small) {
+		@include gs-span(m, 2);
 	}
 
-	@include breakpoint(medium) { 
-		@include gs-span(t, 2, 6); 
+	@include breakpoint(medium) {
+		@include gs-span(t, 2, 6);
 	}
 
-	@include breakpoint(large) { 
-		@include gs-span(d, 3, 7); 
+	@include breakpoint(large) {
+		@include gs-span(d, 3, 7);
 	}
 
 	clear:both;

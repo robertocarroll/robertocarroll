@@ -17,7 +17,7 @@
 }
 
 .padding-above {
-	padding-top: $inuit-base-spacing-unit;
+  @include rem(padding-top, $inuit-base-spacing-unit);
 }
 
 .padding-below {
