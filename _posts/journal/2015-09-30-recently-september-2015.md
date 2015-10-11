@@ -11,6 +11,7 @@ categories:
 - Journal
 tags:
 - recently
+excerpt: Here's what I got up to in September 2015.
 ---
 
 ## Civilisation Under Attack by Dan Cruickshank
