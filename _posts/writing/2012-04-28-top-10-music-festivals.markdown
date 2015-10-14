@@ -6,14 +6,13 @@ layout: work
 slug: top-10-music-festivals
 title: Top 10 music festivals – The National
 categories:
-- Work
-tags:
 - Writing
+tags:
 - The National
 - Top 10
 - Travel
-services: 
-- Writing and editing
+services:
+- Article
 excerpt: Not just a list of muddy fields
 ---
 

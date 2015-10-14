@@ -6,9 +6,8 @@ layout: work
 slug: luddites
 title: Technology's wreckers and breakers  – The Kernel
 categories:
-- Work
-tags:
 - Writing
+tags:
 - History
 - Technology
 - The Kernel
