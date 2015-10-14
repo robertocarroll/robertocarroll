@@ -13,9 +13,9 @@ I run {{ site.description }}.
 <a href="/work">See my work</a>
 
 <h2 class="page-heading-caps">Writing</h2>
-I’ve written articles for The National, The Wire, Ultra Travel, The Guardian, Time Out and Profile magazine on subjects as diverse as [mirror neurons](/work/mirror-neurons/), [Martin Parr](/work/martin-parr), [parenting](/work/dad-matters-thenational), [Syrian monasteries](/work/mar-musa-monastery-syria) and [silent disco](/work/a-quiet-night-out).
+I’ve written articles for The National, The Wire, Ultra Travel, The Guardian, Time Out and Profile magazine on subjects as diverse as [mirror neurons](/writing/mirror-neurons/), [Martin Parr](/writing/martin-parr), [parenting](/writing/dad-matters-thenational), [Syrian monasteries](/writing/mar-musa-monastery-syria) and [silent disco](/writing/a-quiet-night-out).
 
-<a href="/work#writing-and-editing">See more</a>
+<a href="/writing">See more</a>
 
 <h2 class="page-heading-caps">Current projects</h2>
 <ul class="home-list">

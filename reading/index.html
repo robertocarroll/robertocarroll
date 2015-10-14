@@ -1,0 +1,25 @@
+---
+layout: default
+title: Reading
+categories:
+- reading
+---
+
+  <div class="content-list">
+
+    <h1 class="page-heading-caps padding-below-half">Reading</h1>
+
+   {% for post in site.categories.reading  %}
+  <article class="work-article">
+    <h1 class="work-title"><a href="{{ post.url }}">{{ post.title }}</a></h1>
+    <p class="work-author">{{ post.author }}</p>
+    <p class="work-excerpt">{{ post.excerpt }}</p>
+    <p class="work-excerpt">{{ post.cover }}</p>
+  </article>
+  {% endfor %}
+
+  </div>
+
+
+
+

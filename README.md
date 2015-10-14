@@ -13,11 +13,13 @@ See [Automate Jekyll](http://www.guyroutledge.co.uk/blog/automate-jekyll-post-cr
 ## Images
 At the moment, I'm going with 1200 x 741
 
-----------------------------
-Home
-Work - Show range of work
-Journal -
-About - What I do / contact
+## Categories
+- Home
+- Work - Show range of work
+- Journal -
+- About - What I do / contact
+- Reading - notes, recently, yearnotes, code, design
+- Writing - stories, essays, articles, letters
 
 ## Layouts
 - Essay (Steer clear of personal details)
@@ -30,6 +32,7 @@ Stuff I'm reading / looking at / listening to / thinking about.
 - Quotes
 - Books
 - Images
+
 http://janzheng.com/2013/06/tumblr_integration.html
 http://atlanticnoir.stylehatch.co/
 
@@ -50,26 +53,19 @@ http://atlanticnoir.stylehatch.co/
 - Video
 - Writing and editing
 
-### Rems, `font-size`, and scaling
-
-Poole is built almost entirely with `rem`s (instead of pixels). `rem`s are like `em`s, but instead of building on the immediate parent's `font-size`, they build on the root element, `<html>`.
-
-By default, we use the following:
-
-```css
-html {
-  font-size: 16px;
-  line-height: 1.5;
-}
-@media (min-width: 38em) {
-  html {
-    font-size: 20px;
-  }
-}
-
-```
-
-To easily scale your site's typography and components, simply customize the base `font-size`s here.
+## Subjects
+- Serious/playful, imagined/factual discussion
+- Travel
+- Technology
+- Literature
+- Cities and places
+- Design
+- Sustainability
+- Parenting
+- Books
+- Films
+- Music
+- Art
 
 ## License
 The content of this project itself is licensed under the

@@ -1,4 +1,4 @@
-// Masthead and navigation 
+// Masthead and navigation
 
 header {
 	position: fixed;
@@ -10,16 +10,16 @@ header {
   font-weight: normal;
   color: $lightPrimaryColor;
 
-  @include breakpoint(small) { 
-		@include gs-span(m, all); 
+  @include breakpoint(small) {
+		@include gs-span(m, all);
 	}
 
-	@include breakpoint(medium) { 
-		@include gs-span(t, 5, 7); 
+	@include breakpoint(medium) {
+		@include gs-span(t, 5, 7);
 	}
 
-  @include breakpoint(large) { 
-		@include gs-span(d, 7, 9); 
+  @include breakpoint(large) {
+		@include gs-span(d, 7, 9);
 	}
 }
 
@@ -27,41 +27,41 @@ header {
 	border-bottom: 1px solid rgba(0, 0, 0, 0.2);
 	padding: $inuit-base-spacing-unit--small;
 
-	@include breakpoint(medium) { 
+	@include breakpoint(medium) {
 		border-left: 1px solid rgba(0, 0, 0, 0.2);
 	}
 
-	@include breakpoint(large) { 
+	@include breakpoint(large) {
 		border-left: 1px solid rgba(0, 0, 0, 0.2);
 	}
 }
 
 #the-nav {
 	position: absolute;
-	top: -180px;
+	top: -245px;
 	width: 100%;
   background: #fff;
 
-  @include breakpoint(medium) { 
+  @include breakpoint(medium) {
 		border-left: 1px solid rgba(0, 0, 0, 0.2);
 	}
 
-  @include breakpoint(large) { 
+  @include breakpoint(large) {
 		border-left: 1px solid rgba(0, 0, 0, 0.2);
 	}
 }
 
 .open {
-	
-	@include breakpoint(small) { 
+
+	@include breakpoint(small) {
 		top: 60px !important;
 	}
 
-	@include breakpoint(medium) { 
+	@include breakpoint(medium) {
 		top: 65px !important;
 	}
 
-  @include breakpoint(large) { 
+  @include breakpoint(large) {
 		top: 65px !important;
 	}
 }
@@ -109,9 +109,9 @@ header {
 
 nav a, .breadcrumb a, .button-open:after, .button-close:after {
     color: $lightPrimaryColor;
-}    
+}
 
 nav a:hover, .breadcrumb a:hover, {
     color: $linkColor;
     text-decoration: none;
-}  
+}

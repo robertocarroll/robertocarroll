@@ -1,33 +1,10 @@
-### Responsive typography
--  match up inuit base font size with the size in html
-- http://typecast.com/blog/jordan-moore-on-mobile-first-type-layout
-- http://typecast.com/blog/a-more-modern-scale-for-web-typography
-- https://ia.net/know-how/responsive-typography-the-basics
-
-https://github.com/inuitcss/getting-started
-
-Lucky Them
-
-### responsive images & images themselves
-- https://github.com/robwierzbowski/jekyll-picture-tag
-- https://github.com/scottjehl/picturefill
-Good photo layout:
-- http://phiffer.org/photos/first-days-of-1wtc/#skip-nav
-- https://medium.com/the-story/introducing-image-grids-c592e5bc16d8
-
-- Lazy load images: https://github.com/dinbror/blazy#demo
 - Page-specific assets: http://mattgemmell.com/page-specific-assets-with-jekyll/
 
 This includes adding the menu JS (currently in head.html) as a separate file and the work filter (in work > index.html) as as separate file.
 
-## Work - to add
-- MEN
-- Hepworth
-- ICC Beta, esp http://robertocarroll.com/icc-beta/style-guide/
-- ICC Beta map http://robertocarroll.com/icc-beta/map-v3/
-- Barjeel app
-
 ### Books / Library
+Consider changing journal to writing and having reading ...
+
 - Jekyll collection
 - Kindle highlights:
 https://github.com/infovore/clippr
@@ -66,6 +43,8 @@ Get title, image, ISBN from Amazon
 
 Comments on Twitter please. Link to Tweet
 
+### Index
+http://pages.sachachua.com/sharing/blog.html
 
 ### Yearnote examples
 https://mountanalogue.wordpress.com/2013/12/29/2013-best-things/
@@ -112,79 +91,11 @@ http://qblog.aaronsw.com/
 
 With Evernote —> Pinboard ——> IFTTT
 
-- http://fictivecameron.com/writing
-- https://www.flickr.com/photos/stml/3626200318/in/photostream/
-- https://adactio.com/journal/7698
-- http://harperreed.com/
-- http://www.paulkingsnorth.net/
-- http://tumblr.austinkleon.com/
-- http://www.armbrust.co/
-- http://darngood.co/
-- http://www.jon.gd/
-- https://medium.com/@ftrain
 
-### Projects
-- http://jsomers.net/
-- http://aaronuhrmacher.com/
-- http://www.nicolefenton.com/
-- http://ginatrapani.org/
-- http://nicoleslaw.com/
-- http://aworkinglibrary.com/writing/index-cards/
-- http://frankchimero.com/intros/quilt/
-- http://www.aaronland.info/weblog/
-- http://www.aaronsw.com/weblog/fullarchive
-- http://martinbelam.com/about-martin-belam/
-- http://www.cityofsound.com/blog/2006/09/starters_for_te.html
-- http://www.cityofsound.com/blog/cities_places/page/40/
-- http://www.cityofsound.com/blog/2002/01/about_cityofsou.html
-- http://www.theatlantic.com/geoff-manaugh-and-nicola-twill
-- http://www.ftrain.com/TOCForwardChronologicalPublish.html
-- https://archive.org/search.php?query=subject%3A%22thisisaaronland%22
-- http://www.iainbroome.com/about/
-- http://www.idlewords.com/
-- http://infovore.org/tag/me/
-- http://www.cityofsound.com/blog/page/82/
 
-Booktwo essays - monthly, meaty 
-John M Harrison 
 
-Welcome to my website. In these dusty e-stacks I store essays, books, poetry, strange maps, scrappy jottings, diaries and other yellowing papers. Enjoy rummaging.
 
-To read:
-http://boingboing.net/2012/04/13/how-to-blog.html
-http://kottke.org/11/05/three-step-dance
-http://russelldavies.typepad.com/planning/2006/11/how_to_be_inter.html
-http://www.43folders.com/2008/08/19/good-blogs
 
-serious/playful, imagined/factual discussion
 
-Travel
-Technology
-Literature
-Cities and places
-Design
 
-Sustainability
-Parenting
 
-Books
-Films
-Music
-Art
-
-images:
-
-about, work, blog/notes/journal
-
-book, essay, and note
-image, quote
-
-Journal
-
-Essays
-
-Steer clear of personal details
-
-### CV (deleted)
-Prefer linkin
-https://github.com/pyro2927/resume

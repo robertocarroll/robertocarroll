@@ -5,7 +5,7 @@ highlighter:         pygments
 # Permalinks
 #
 # Use of `relative_permalinks` ensures post links from the index work properly.
-permalink:           /:categories/:title 
+permalink:           /:categories/:title
 relative_permalinks: true
 
 # Setup
@@ -34,3 +34,4 @@ author:
 version:             1.0.0
 github:
   repo:              https://github.com/robertocarroll/robertocarroll
+
