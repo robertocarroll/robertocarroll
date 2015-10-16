@@ -2,7 +2,7 @@
 author: roberto
 comments: false
 date: 2009-07-25 14:35:16
-layout: work
+layout: writing
 slug: the-mani-greece
 title: The Mani, Greece – The National
 categories:

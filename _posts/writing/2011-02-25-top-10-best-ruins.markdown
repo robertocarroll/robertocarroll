@@ -2,7 +2,7 @@
 author: roberto
 comments: false
 date: 2011-02-25 14:35:52
-layout: work
+layout: writing
 slug: top-10-best-ruins
 title: Top 10 best ruins – The National
 categories:

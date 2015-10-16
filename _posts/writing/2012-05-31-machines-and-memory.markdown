@@ -2,7 +2,7 @@
 author: roberto
 comments: false
 date: 2012-05-31 13:58:44
-layout: work
+layout: writing
 slug: machines-and-memory
 title: Machines and memory – The Kernel
 categories:

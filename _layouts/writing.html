@@ -1,0 +1,42 @@
+---
+layout: wide
+---
+
+<article class="work-main">
+  <h1 class="work-main-title">{{ page.title }}</h1>
+
+  <hr class="clear">
+
+  <p class="work-main-excerpt">{{ page.excerpt }}</p>
+
+  <p class="centre">{{ page.date | date: '%Y' }}</p>
+
+  {{ content }}
+
+</article>
+
+<!-- Within category next/previous without a plugin -->
+<aside class="next-previous">
+{% for post in site.categories.writing %}
+  {% if post.url == page.url %}
+      {% assign post_index0 = forloop.index0 %}
+      {% assign post_index1 = forloop.index %}
+  {% endif %}
+{% endfor %}
+  {% for post in site.categories.writing %}
+      {% if post_index0 == forloop.index %}
+          {% assign next_post = post.url %}
+      {% endif %}
+      {% if post_index1 == forloop.index0 %}
+          {% assign prev_post = post.url %}
+      {% endif %}
+  {% endfor %}
+   {% if prev_post %}
+      <a href="{{ prev_post }}" class="previous-link">↫ previous</a>
+  {% endif %}
+  {% if next_post %}
+      <a href="{{ next_post }}" class="next-link">next ↬</a>
+  {% endif %}
+</aside>
+
+

@@ -2,7 +2,7 @@
 author: roberto
 comments: false
 date: 2012-04-28 14:48:01
-layout: work
+layout: writing
 slug: top-10-music-festivals
 title: Top 10 music festivals – The National
 categories:

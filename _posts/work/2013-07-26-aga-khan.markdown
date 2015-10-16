@@ -15,6 +15,6 @@ services:
 excerpt: Research and strategy for a new website
 ---
 
-High-level strategy for the new website for the Aga Khan Museum. Included user research, principles and suggested approaches for the project.  
+Research and strategy work for the new website for the Aga Khan Museum. Included user research, principles and suggested approaches for the project.
 
 

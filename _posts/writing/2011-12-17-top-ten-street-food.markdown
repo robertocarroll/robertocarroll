@@ -2,7 +2,7 @@
 author: roberto
 comments: false
 date: 2011-12-17 17:04:14
-layout: work
+layout: writing
 slug: top-ten-street-food
 title: Top 10 street food – The National
 categories:

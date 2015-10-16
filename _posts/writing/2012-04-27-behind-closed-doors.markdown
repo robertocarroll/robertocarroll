@@ -2,7 +2,7 @@
 author: roberto
 comments: false
 date: 2012-04-27 14:41:00
-layout: work
+layout: writing
 slug: behind-closed-doors
 title: Behind closed doors – The Kernel
 categories:

@@ -2,7 +2,7 @@
 author: roberto
 comments: false
 date: 2009-09-05 20:02:15
-layout: work
+layout: writing
 slug: antony-gormley
 title: Antony Gormley – The National
 categories:

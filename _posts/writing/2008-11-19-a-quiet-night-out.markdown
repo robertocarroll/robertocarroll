@@ -2,7 +2,7 @@
 author: roberto
 comments: false
 date: 2008-11-19 20:06:54
-layout: work
+layout: writing
 slug: silent-disco-a-quiet-night-out
 title: Silent disco – The National
 categories:

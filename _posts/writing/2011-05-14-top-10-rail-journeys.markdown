@@ -2,7 +2,7 @@
 author: roberto
 comments: false
 date: 2011-05-14 14:25:36
-layout: work
+layout: writing
 slug: top-10-rail-journeys
 title: Top 10 rail journeys – The National
 categories:

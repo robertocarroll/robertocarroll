@@ -2,7 +2,7 @@
 author: roberto
 comments: false
 date: 2008-07-25 19:41:39
-layout: work
+layout: writing
 slug: a-walker-in-the-city
 title: A walker in the city – The Review
 categories:
@@ -52,4 +52,4 @@ Walking maps out a series of pathways through a city, a collection of well-trodd
 
 Orientation begins with geography, but it is not simply answering the question, “where am I?” It also helps you to work out how you fit in to the landscape, whether you are indeed where you are supposed to be.
 
-*Published in The Review section of The National on 25 July 2008.*
+*Published in The Review of The National on 25 July 2008.*

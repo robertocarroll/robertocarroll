@@ -2,7 +2,7 @@
 author: roberto
 comments: false
 date: 2011-08-06 14:17:55
-layout: work
+layout: writing
 slug: the-a-to-z-of-travel-technology
 title: The A to Z of travel technology – The National
 categories:

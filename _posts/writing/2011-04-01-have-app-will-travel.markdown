@@ -2,7 +2,7 @@
 author: roberto
 comments: false
 date: 2011-04-01 14:32:09
-layout: work
+layout: writing
 slug: have-app-will-travel
 title: iPhone apps and travel – The National
 categories:

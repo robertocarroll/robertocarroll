@@ -2,7 +2,7 @@
 author: roberto
 comments: false
 date: 2011-07-29 14:20:03
-layout: work
+layout: writing
 slug: my-kind-of-place-the-season-of-culture-in-edinburgh
 title: 'My kind of place: Edinburgh – The National'
 categories:

@@ -58,6 +58,11 @@ ul#filter li::before {
 
 // Work single
 
+.work-main {
+  @include rem(padding-top, $inuit-base-spacing-unit--large);
+  @include rem(padding-bottom, $inuit-base-spacing-unit);
+}
+
 .work-main-title {
 	@include breakpoint(small) {
 		@include gs-span(m, 2);
@@ -73,6 +78,7 @@ ul#filter li::before {
 	}
 	text-align: center;
 	padding-top: $inuit-base-spacing-unit--large;
+  padding-bottom: $inuit-base-spacing-unit;
 }
 
 .work-main-excerpt {
@@ -110,7 +116,6 @@ ul#filter li::before {
 }
 
 .work-main h2 {
-
 	letter-spacing: 2px;
   text-transform: uppercase;
   @include rem(margin-top, $inuit-base-spacing-unit);

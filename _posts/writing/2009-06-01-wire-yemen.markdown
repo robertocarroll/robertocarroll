@@ -2,7 +2,7 @@
 author: roberto
 comments: false
 date: 2009-06-01 20:06:54
-layout: work
+layout: writing
 slug: wire-yemen
 title: Yemen – The Wire
 categories:

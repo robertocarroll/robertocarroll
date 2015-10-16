@@ -2,7 +2,7 @@
 author: roberto
 comments: false
 date: 2012-01-06 12:27:31
-layout: work
+layout: writing
 slug: the-guidebook-records-of-change
 title: 'The guidebook: records of change  – The National'
 categories:

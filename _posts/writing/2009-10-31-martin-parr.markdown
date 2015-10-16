@@ -2,7 +2,7 @@
 author: roberto
 comments: false
 date: 2009-10-31 20:11:27
-layout: work
+layout: writing
 slug: martin-parr
 title: Martin Parr – The National
 categories:

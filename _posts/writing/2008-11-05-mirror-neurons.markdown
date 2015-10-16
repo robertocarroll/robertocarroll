@@ -2,7 +2,7 @@
 author: roberto
 comments: false
 date: 2008-11-05 20:00:59
-layout: work
+layout: writing
 slug: mirror-neurons
 title: Mirror neurons – The National
 categories:

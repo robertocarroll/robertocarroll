@@ -2,7 +2,7 @@
 author: roberto
 comments: false
 date: 2008-06-26 09:25:40
-layout: work
+layout: writing
 slug: the-lure-of-the-open-road
 title: The lure of the open road – The National
 categories:

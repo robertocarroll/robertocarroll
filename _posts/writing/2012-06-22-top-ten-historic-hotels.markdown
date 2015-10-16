@@ -2,7 +2,7 @@
 author: roberto
 comments: false
 date: 2012-06-22 15:41:20
-layout: work
+layout: writing
 slug: top-ten-historic-hotels
 title: Top 10 historic hotels – The National
 categories:

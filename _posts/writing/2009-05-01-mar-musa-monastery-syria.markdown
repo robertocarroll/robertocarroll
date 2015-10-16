@@ -2,7 +2,7 @@
 author: roberto
 comments: false
 date: 2009-05-01 20:06:29
-layout: work
+layout: writing
 slug: mar-musa-monastery-syria
 title: Deir Mar Musa, Syria – The National
 categories:
