@@ -26,6 +26,14 @@
   </title>
 
   <!-- CSS -->
+  <style type="text/css">
+    {% capture include_to_scssify %}
+      {% include critical.scss %}
+    {% endcapture %}
+    {{ include_to_scssify | scssify }}
+  </style>
+  </style>
+
   <link rel="stylesheet" href="{{ site.baseurl }}css/styles.css">
 
   <!-- Fonts -->

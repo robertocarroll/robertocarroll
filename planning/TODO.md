@@ -37,6 +37,9 @@ Get title, image, ISBN from Amazon
  - http://craigmod.com/sputnik/hello_again/
  - http://adactio.com/journal/6620/
 
+ - http://www.cityofsound.com/blog/archives.html
+- http://www.cityofsound.com/blog/2006/09/starters_for_te.htmlroku
+
 - quotes
 - principles
 - blog about process - what I do (on wearethoughtfox)
