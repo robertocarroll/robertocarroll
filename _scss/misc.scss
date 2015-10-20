@@ -1,19 +1,27 @@
 // Misc
 
 .no-margin {
-	margin: 0;
+  margin: 0;
 }
 
 .no-margin-top {
-	margin-top: 0;
+  margin-top: 0;
+}
+
+.no-margin-below {
+  margin-bottom: 0;
 }
 
 .margin-below-half {
-	margin-bottom: $inuit-base-spacing-unit--small;
+  @include rem(margin-bottom, $inuit-base-spacing-unit--small);
 }
 
 .margin-below-quarter {
-	margin-bottom: $inuit-base-spacing-unit--smallest;
+  @include rem(margin-bottom, $inuit-base-spacing-unit--smallest);
+}
+
+.no-padding-below {
+  padding-bottom: 0;
 }
 
 .padding-above {
@@ -21,31 +29,27 @@
 }
 
 .padding-below {
-	padding-bottom: $inuit-base-spacing-unit;
+  @include rem(padding-bottom, $inuit-base-spacing-unit);
 }
 
 .padding-below-half {
-	padding-bottom: $inuit-base-spacing-unit--small;
+  @include rem(padding-bottom, $inuit-base-spacing-unit--small);
 }
 
 .padding-below-quarter {
-	padding-bottom: $inuit-base-spacing-unit--smallest;
+  @include rem(padding-bottom, $inuit-base-spacing-unit--smallest);
+}
+
+.extra-top-padding {
+  @include rem(padding-top, $inuit-base-spacing-unit--large);
 }
 
 .centre {
-	text-align: center;
+  text-align: center;
 }
 
 .clear {
-	clear:both;
-}
-
-.container-old {
-  max-width: 38rem;
-  padding-left:  1.5rem;
-  padding-right: 1.5rem;
-  margin-left:  auto;
-  margin-right: auto;
+  clear:both;
 }
 
 .grey-1 {
@@ -73,20 +77,20 @@
 }
 
 .main {
-	padding-top: $inuit-base-spacing-unit--large;
-	padding-bottom: $inuit-base-spacing-unit--large;
+  padding-top: $inuit-base-spacing-unit--large;
+  padding-bottom: $inuit-base-spacing-unit--large;
 
-	@include breakpoint(small) {
-		@include gs-span(m, 2);
-	}
+  @include breakpoint(small) {
+    @include gs-span(m, 2);
+  }
 
-	@include breakpoint(medium) {
-		@include gs-span(t, 2, 6);
-	}
+  @include breakpoint(medium) {
+    @include gs-span(t, 2, 6);
+  }
 
-	@include breakpoint(large) {
-		@include gs-span(d, 3, 7);
-	}
+  @include breakpoint(large) {
+    @include gs-span(d, 3, 7);
+  }
 
 }
 
@@ -102,11 +106,11 @@
     clear: both;
   }
 
-  .embed-container iframe, .embed-container object, .embed-container embed {
-    position: absolute;
-    top: 0;
-    left: 0;
-    width: 100%;
-    height: 100%;
-  }
+.embed-container iframe, .embed-container object, .embed-container embed {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+}
 

@@ -19,14 +19,14 @@ categories:
 
     <div id="list">
 
-    <h1 class="page-heading-caps">Work</h1>
+    <h1 class="page-heading-caps padding-below-half">Work</h1>
 
-    <ul id="filter" class="navigation">
+    <ul id="filter" class="navigation padding-below">
       {% for theservice in myArray %}
       {% if theservice == '' %}
-          <li id="nav-country-{{theservice | downcase | replace: ' ', '-'}}"><a href="#{{theservice | downcase | replace: ' ', '-'}}">All</a></li>
+          <li id="nav-country-{{theservice | downcase | replace: ' ', '-'}}" class="no-margin-below"><a href="#{{theservice | downcase | replace: ' ', '-'}}">All</a></li>
       {% else %}
-          <li id="nav-country-{{theservice | downcase | replace: ' ', '-'}}"><a href="#{{theservice | downcase | replace: ' ', '-'}}">{{theservice}}</a></li>
+          <li id="nav-country-{{theservice | downcase | replace: ' ', '-'}}" class="no-margin-below"><a href="#{{theservice | downcase | replace: ' ', '-'}}">{{theservice}}</a></li>
       {% endif %}
       {% endfor %}
     </ul>

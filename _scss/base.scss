@@ -15,26 +15,25 @@ body {
 }
 
 html {
-  font-family: $inuit-body-font;
-
   @include breakpoint(small) {
-		font-size: $inuit-heading-size-5; // 1.1em
-  	line-height: $inuit-heading-size-3; // 1.4em
+		font-size: $inuit-heading-size-5;
+  	line-height: ($inuit-base-line-height/$inuit-heading-size-3);
 	}
 
 	@include breakpoint(medium) {
-		font-size: $inuit-heading-size-4; //1.3125em
-  	line-height: $inuit-heading-size-2; //1.52381em
+    font-size: $inuit-base-font-size;
+     line-height: ($inuit-base-line-height/$inuit-base-font-size);
 	}
 
 	@include breakpoint(large) {
-		 font-size: $inuit-heading-size-4; //1.3125em
-  	 line-height: $inuit-heading-size-2; //1.52381em
+		 font-size: $inuit-base-font-size;
+  	 line-height: ($inuit-base-line-height/$inuit-base-font-size);
 	}
 }
 
 // ratio: 1.1609981
 body {
+  font-family: $inuit-body-font;
   color: $textPrimaryColor;
   background-color: $backgroundColor;
   -webkit-text-size-adjust: 100%;

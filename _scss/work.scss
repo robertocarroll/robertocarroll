@@ -52,6 +52,10 @@ ul#filter li::before {
     margin-left: 0;
 }
 
+.current {
+  margin-bottom: 0;
+}
+
 .current a {
 	text-decoration: underline;
 }

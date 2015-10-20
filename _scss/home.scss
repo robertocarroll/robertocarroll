@@ -2,15 +2,11 @@
 
 .page-heading-caps {
 	@include inuit-font-size($inuit-heading-size-2);
-	padding-top: $inuit-base-spacing-unit;
+	@include rem(padding-top, $inuit-base-spacing-unit);
 	margin: 0;
-	margin-bottom: $inuit-base-spacing-unit--smallest;
+  @include rem(margin-bottom, $inuit-base-spacing-unit--smallest);
 	letter-spacing: 2px;
   text-transform: uppercase;
-}  
-
-.extra-top-padding {
-	padding-top: $inuit-base-spacing-unit--large;
 }
 
 ul.home-list, ol.home-list {

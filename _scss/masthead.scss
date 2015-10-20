@@ -102,6 +102,10 @@ header {
 	width: 100%;
 }
 
+#the-nav li {
+  margin-bottom: 0;
+}
+
 #the-nav ul li:before {
     content: "";
     margin: 0;
