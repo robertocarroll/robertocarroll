@@ -17,12 +17,12 @@ I’ve written articles for The National, The Wire, Ultra Travel, The Guardian, 
 <a href="/writing">See more</a>
 
 <h2 class="page-heading-caps">Current projects</h2>
-<ul class="home-list">
+<ul class="home__list">
 	<li>Quite busy. Email for availability.
 </ul>
 
 <h2 class="page-heading-caps">Current reading</h2>
-<ul class="home-list">
+<ul class="home__list">
  	<li><em>Satin Island </em> by Tom McCarthy</li>
  	<li><em>The Taming of the Shrew </em> by William Shakespeare</li>
 </ul>

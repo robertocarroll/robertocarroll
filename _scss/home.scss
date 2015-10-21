@@ -9,10 +9,11 @@
   text-transform: uppercase;
 }
 
-ul.home-list, ol.home-list {
+.home__list {
 	width: 100%;
 	clear: both;
 	margin: 0;
 	list-style: outside none none;
-	padding-bottom: $inuit-base-spacing-unit;
+  @include rem(padding-top, $inuit-base-spacing-unit--small);
+  @include rem(padding-bottom, $inuit-base-spacing-unit);
 }

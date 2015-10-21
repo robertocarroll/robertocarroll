@@ -6,54 +6,54 @@ footer {
 }
 
 .summary {
-	background-color: $inuit-base-grey-color-3;
-	padding: $inuit-base-spacing-unit;
-	height: 15rem;
-	display: flex;
+  background-color: $inuit-base-grey-color-3;
+  padding: $inuit-base-spacing-unit;
+  height: 15rem;
+  display: flex;
 
-	@include breakpoint(small) {
-		@include gs-span(m, all);
-		padding-bottom: 6*$inuit-base-spacing-unit;
-	}
+  @include breakpoint(small) {
+    @include gs-span(m, all);
+    padding-bottom: 6*$inuit-base-spacing-unit;
+  }
 
-	@include breakpoint(medium) {
-		width: 50%;
-	}
+  @include breakpoint(medium) {
+    width: 50%;
+  }
 
-	@include breakpoint(large) {
-		width: 50%;
-	}
+  @include breakpoint(large) {
+    width: 50%;
+  }
 }
 
 .copyright {
-	padding-top: $inuit-base-spacing-unit;
+  padding-top: $inuit-base-spacing-unit;
 }
 
 .elsewhere {
-	background-color: $lightPrimaryColor;
-	padding: $inuit-base-spacing-unit;
-	height: 15rem;
-	display: flex;
+  background-color: $lightPrimaryColor;
+  padding: $inuit-base-spacing-unit;
+  height: 15rem;
+  display: flex;
 
-	@include breakpoint(small) {
-		@include gs-span(m, all);
-		clear:both;
-	}
+  @include breakpoint(small) {
+    @include gs-span(m, all);
+    clear:both;
+  }
 
-	@include breakpoint(medium) {
-		width: 50%;
-		clear:none;
-	}
+  @include breakpoint(medium) {
+    width: 50%;
+    clear:none;
+  }
 
-	@include breakpoint(large) {
-		width: 50%;
-		clear:none;
-	}
+  @include breakpoint(large) {
+    width: 50%;
+    clear:none;
+  }
 }
 
-.elsewhere ul {
-	list-style: outside none none;
-	padding: 0;
+.elsewhere__list {
+  list-style: outside none none;
+  padding: 0;
   @include rem(padding-left, $inuit-base-spacing-unit);
   @include rem(margin-bottom, $inuit-base-spacing-unit--small);
 }
