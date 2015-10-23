@@ -138,16 +138,20 @@ ul#filter li::before {
 	clear: both
 }
 
-ul.services {
+.services {
 	margin: 0;
 	padding: 0;
 	list-style-type: none;
 	width: 100%;
 }
 
-ul.services li:before {
+.services__list:before {
     content: "";
     margin-left: 0;
+}
+
+.services__list {
+  margin-bottom: 0;
 }
 
 .meta-header {

@@ -14,7 +14,7 @@ I run {{ site.description }}.
 <h2 class="page-heading-caps">Writing</h2>
 I’ve written articles for The National, The Wire, Ultra Travel, The Guardian, Time Out and Profile magazine on subjects as diverse as [mirror neurons](/writing/mirror-neurons/), [Martin Parr](/writing/martin-parr), [parenting](/writing/dad-matters-thenational), [Syrian monasteries](/writing/mar-musa-monastery-syria) and [silent disco](/writing/a-quiet-night-out).
 
-<a href="/writing">See more</a>
+[See more writing](/writing "See more of Robert Carroll's writing")
 
 <h2 class="page-heading-caps">Current projects</h2>
 <ul class="home__list">

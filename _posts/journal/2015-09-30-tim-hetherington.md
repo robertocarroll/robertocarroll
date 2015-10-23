@@ -14,6 +14,8 @@ excerpt: My notes from the film "Which Way is the Front Line from Here? The Life
 ---
 <div class="message">Here’s my notes from the film “Which Way is the Front Line from Here? The Life and Time of Tim Hetherington”</div>
 
+“I don’t really care about photography. I’m interested in engaging people with ideas and views of the world,”
+
 No neat solutions. Connect with real people. Document their lives in extreme circumstances. Personal reasons and objective truth. Addictive.
 
 Find a way of working that suits you. Bring out what’s important. He becomes deeply embedded in subject. Immerse himself. Personalisations. Individual stories. Individual lives.

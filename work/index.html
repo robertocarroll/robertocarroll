@@ -122,6 +122,7 @@ function updateNav(hash) {
 
   forEach(removeCurrent, function (index, value) {
     value.classList.remove('current');
+    value.classList.add('no-margin-below');
   });
 
   var navValue = document.getElementById('nav-country-' + hashValue);
@@ -153,8 +154,6 @@ initHashNav(updateNav);
 .hidden {
   display: none;
 }
-
-
 
 </style>
 

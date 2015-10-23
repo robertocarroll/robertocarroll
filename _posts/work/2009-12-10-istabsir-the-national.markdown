@@ -26,7 +26,7 @@ It won an award from the [Society for News Design](http://www.snd.org/) in its B
 <img src="http://farm8.staticflickr.com/7293/9143411502_20560904aa_z.jpg" width="100%" height="auto" alt="istabsir1">
 
 ## The challenge
-To create a pictoral and oral history of the UAE. Week on week the project aimed to become an evolving portrait of the country’s diversity, with subjects spanning age, race, religion, nationality and class. Finding interesting people from the UAE who have not featured in The National before, stories would have a range of tones: serious, shocking, funny and beautiful.
+To create a pictorial and oral history of the UAE. Week on week the project aimed to become an evolving portrait of the country’s diversity, with subjects spanning age, race, religion, nationality and class. Finding interesting people from the UAE who have not featured in The National before, stories would have a range of tones: serious, shocking, funny and beautiful.
 
 <img src="http://farm4.staticflickr.com/3703/9143413594_f40d089ee8_z.jpg" width="100%" height="auto" alt="istabsir2">
 
