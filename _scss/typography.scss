@@ -78,7 +78,19 @@ ul, ol, dl {
 }
 
 li {
-  @include rem(margin-bottom, $inuit-base-spacing-unit--small);
+  // @include rem(margin-bottom, $inuit-base-spacing-unit--small);
+
+  @include breakpoint(small) {
+    @include inuit-font-size($inuit-base-font-size,($inuit-base-line-height/$inuit-heading-size-3));
+  }
+
+  @include breakpoint(medium) {
+    @include inuit-font-size($inuit-base-font-size);
+  }
+
+  @include breakpoint(large) {
+    @include inuit-font-size($inuit-base-font-size);
+  }
 }
 
 ul li:before {

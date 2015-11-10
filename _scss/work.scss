@@ -43,10 +43,6 @@
     }
 }
 
-#filter {
-	 @include inuit-font-size(16px, 1.6);
-}
-
 ul#filter li::before {
     content: " ";
     margin-left: 0;

@@ -24,9 +24,9 @@ categories:
     <ul id="filter" class="navigation padding-below">
       {% for theservice in myArray %}
       {% if theservice == '' %}
-          <li id="nav-country-{{theservice | downcase | replace: ' ', '-'}}" class="no-margin-below"><a href="#{{theservice | downcase | replace: ' ', '-'}}">All</a></li>
+          <li id="nav-country-{{theservice | downcase | replace: ' ', '-'}}" class="no-margin-below filter"><a href="#{{theservice | downcase | replace: ' ', '-'}}">All</a></li>
       {% else %}
-          <li id="nav-country-{{theservice | downcase | replace: ' ', '-'}}" class="no-margin-below"><a href="#{{theservice | downcase | replace: ' ', '-'}}">{{theservice}}</a></li>
+          <li id="nav-country-{{theservice | downcase | replace: ' ', '-'}}" class="no-margin-below filter"><a href="#{{theservice | downcase | replace: ' ', '-'}}">{{theservice}}</a></li>
       {% endif %}
       {% endfor %}
     </ul>

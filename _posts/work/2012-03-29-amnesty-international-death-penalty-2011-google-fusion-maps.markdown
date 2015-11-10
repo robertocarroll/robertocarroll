@@ -19,7 +19,7 @@ services:
 excerpt: Mapping death penalties and executions around the world
 ---
 
-I designed and built this project for [Amnesty International](http://www.amnesty.org/en/news/death-penalty-2011-alarming-levels-executions-few-countries-kill-2012-03-27) to give people an overview of the countries with the death penalty and allow them to explore the most recent figures. I used [Google Fusion](http://www.google.com/fusiontables/Home/) to map the data.
+I designed and built this project for [Amnesty International](http://files.amnesty.org/deathpenalty2014/map/en/) to give people an overview of the countries with the death penalty and allow them to explore the most recent figures. I used [Google Fusion](http://www.google.com/fusiontables/Home/) to map the data.
 
 <img src="http://farm4.staticflickr.com/3771/9144871648_aa2de33896_z.jpg" width="100%" height="auto" alt="Death Penalty Maps - Amnesty International">
 

@@ -12,7 +12,7 @@ tags:
 - film-notes
 excerpt: My notes from the film "Which Way is the Front Line from Here? The Life and Time of Tim Hetherington"
 ---
-<div class="message">Here’s my notes from the film “Which Way is the Front Line from Here? The Life and Time of Tim Hetherington”</div>
+<p class="message">Here’s my notes from the film “Which Way is the Front Line from Here? The Life and Time of Tim Hetherington”</p>
 
 “I don’t really care about photography. I’m interested in engaging people with ideas and views of the world,”
 
