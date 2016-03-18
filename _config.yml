@@ -1,11 +1,13 @@
 # Dependencies
-markdown:            redcarpet
+markdown: kramdown
+kramdown:
+  input: GFM
 highlighter:         rouge
 
 # Permalinks
 #
 # Use of `relative_permalinks` ensures post links from the index work properly.
-permalink:           /:categories/:title
+permalink:           /:categories/:title/
 
 # Setup
 title:               Robert Carroll
