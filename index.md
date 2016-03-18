@@ -1,7 +1,7 @@
 ---
 layout: default
 title: Home
-modified-date: 2015-10-05
+modified-date: 2016-03-18
 ---
 <h1 class="page-heading-caps extra-top-padding">{{ site.title }}</h1>
 I'm a [{{ site.job_description }}](/about "Find out more about Robert Carroll").
@@ -18,15 +18,15 @@ I’ve written articles for The National, The Wire, Ultra Travel, The Guardian, 
 
 <h2 class="page-heading-caps">Current projects</h2>
 <ul class="home__list">
-	<li>Quite busy. Email for availability.
+  <li><a title="WorldSkills Abu Dhabi 2017 development blog" href="http://digital-wsad2017.tumblr.com/">WorldSkills Abu Dhabi 2017</a></li>
+  <li><a title="WorldSkills Abu Dhabi 2017 development blog" href="http://wearethoughtfox.com/blog/update-hyperlocal-chat-project/">Hyperlocal chat UI for journalism</a></li>
 </ul>
 
 <h2 class="page-heading-caps">Current reading</h2>
 <ul class="home__list">
- 	<li><em>Satin Island </em> by Tom McCarthy</li>
- 	<li><em>The Taming of the Shrew </em> by William Shakespeare</li>
+  <li><em>Shakespeare: A life in Drama</em> by Stanley Wells</li>
 </ul>
 
 <div class="extra-top-padding">
-	<em class="zeta">Last updated {{page.modified-date | date: "%-d %B %Y"}}</em>
+  <em class="zeta">Last updated {{page.modified-date | date: "%-d %B %Y"}}</em>
 </div>
