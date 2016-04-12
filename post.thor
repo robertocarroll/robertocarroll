@@ -5,7 +5,7 @@ class Post < Thor
   def new(*title)
     title = title.join(" ")
     date = Time.now.strftime('%Y-%m-%d')
-    filename = "_posts/journal/#{date}-#{title.to_url}.md"
+    filename = "journal/_posts/#{date}-#{title.to_url}.md"
 
     if File.exist?(filename)
       abort("#{filename} already exists!")

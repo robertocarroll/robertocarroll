@@ -176,3 +176,10 @@ $ pip install numpy
 ## Merging topojson
 When combining two or more files, you can specify the properties to keep:
 * ’topojson -o select.json -p sov0name,name -- subunits.json places.json’
+
+## Batch crop using Imagemagick
+Quick batch crop:
+* ’mogrify -crop x_sizexy_size+x_offset+y_offset inputfile outputfile’
+Make a new folder called ‘cropped’ to keep the cropped images in.
+* ’mogrify -crop 300x300+150+150 -path ./cropped *.jpg’
+
