@@ -24,12 +24,12 @@ I went for 50m scale. Since I needed countries, I chose [“Admin 0 – Countrie
 
 ## Install the tools you need
 Mike Bostock’s tutorial has great instructions on [installing gdal and topojson](https://bost.ocks.org/mike/map/#installing-tools) for use on the command line. After following those instructions you should be able to type:
-
-<code>
-which ogr2ogr</br>
-which topojson
-</code>
-
+<pre>
+  <code>
+    which ogr2ogr
+    which topojson
+  </code>
+</pre>
 in your terminal and it will print out the path to those programs. If not, start searching on Stack Overflow for your particular error messages.
 
 ## Convert to shapefiles to geojson
