@@ -34,16 +34,17 @@ in your terminal and it will print out the path to those programs. If not, start
 
 ## Convert to shapefiles to geojson
 Natural Earth data comes as shapefiles, which we can convert to geojson using ogr2ogr. Unzip the Natural Earth files you downloaded and cd into that folder in your terminal window. Then paste this into your window:
-
+<pre>
 <code>
 ogr2ogr \
   -f GeoJSON \
   world.json \
   ne_50m_admin_0_countries/ne_50m_admin_0_countries.shp
 </code>
-
+</pre>
 We’re taking the shapefiles from the folder ne_50m_admin_0_countries and converting them to geojson and saving it as world.json. You can also do things like filter by [ISO 3166-1 alpha-3 country codes](http://en.wikipedia.org/wiki/ISO_3166-1_alpha-3) if you only want certain countries, e.g.
 
+<pre>
 <code>
 ogr2ogr \
   -f GeoJSON \
@@ -51,12 +52,13 @@ ogr2ogr \
   world.json \
   ne_50m_admin_0_countries/ne_50m_admin_0_countries.shp
 </code>
-
+</pre>
 but we want all the countries in the world.
 
 ## Convert to geojson to topojson
 geojson is a great format. You can read it and edit it quite easily as well as cut and paste stuff around. You can also use something like [geojson.io](http://geojson.io/) to display it and edit it. But it makes big files. My world.json is 4.6MB. So we’ll convert it to a format called topojson and then you can convert it back to geojson when you load the data in your map. Here's the command:
 
+<pre>
 <code>
 topojson \
   -o world-topo.json \
@@ -65,6 +67,7 @@ topojson \
   — \
   world.json
 </code>
+</pre>
 
 We’re taking the geojson file we made (world.json) and turning it into topojson. [Topojson removes all properties by default](https://github.com/mbostock/topojson/wiki/Command-Line-Reference#properties), so it will strip out all the stuff from your geojson unless you tell it not to. Here we’re making the id the ISO 3166-1 alpha-3 country code and we’re keeping the name property. After this conversion, my 4.6MB world.json has come down to 604KB in world-topo.json.
 
