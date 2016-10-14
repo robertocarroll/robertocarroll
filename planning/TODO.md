@@ -70,11 +70,10 @@ To move from Evernote to Pinboard
 
 Quotes to Tumblr
 
-Keep:
+Text files in folders:
 - Accounting
 - Houses
 - Shopping
-
 
 - Go through ontheroadtonowhere (evernote) and put on Github / Tumblr
 - Go through quotes (evernote) and put on robertocarroll(tumblr)

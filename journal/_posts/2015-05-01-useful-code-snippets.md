@@ -158,13 +158,18 @@ $ pip install numpy
 
 ## Get rid of new mail (bouncebacks) in Terminal
 * `mail`
-* `delete delete 1-` where  is the number of messages
+* `delete 1-` where 1- is the number of message, ie message 1 or 2 etc
 * `q`
 
 ## List globally installed NPM packages and version
 * “global installs are for command-line applications. Local installs are for things you require().”
 * `npm list -g --depth=0`
 * On [npm and homebrew](https://gist.github.com/DanHerbert/9520689)
+
+## nvm and node
+* Note: As of 2016 I am using https://github.com/tj/n for Node version stuff.
+* `nvm alias default node` set alias to node itself to avoid updating the default alias along with node version updates later on.
+* `nvm alias default` version, eg `nvm alias default 0.12.7` sets the default node version in your shell. Then verify that the change persists by closing the shell window, opening a new one, then: node --version.
 
 ## Smart quotes
 * ‘Single opening - alt + ]’
@@ -183,3 +188,24 @@ Quick batch crop:
 Make a new folder called ‘cropped’ to keep the cropped images in.
 * ’mogrify -crop 300x300+150+150 -path ./cropped *.jpg’
 
+## Resize using Imagemagick
+* ’mogrify -resize 640x427 -path ./cropped *.jpg’
+
+## Convert to gif using Imagemagick
+* ’convert -delay 100 -loop 0 input*.jpg animation.gif’
+
+## Regex to replace content between two characters
+* ’(?s)START(.*?)END’ as in ’(?s)<table(.*?)</table>’
+
+## Regex to replace content between two characters
+* First ’brew install rename’
+* Then for dry run ’rename -n 'y/A-Z/a-z/ | s/\s+//g' *.jpg’
+* And remove -n to do it: ’rename 'y/A-Z/a-z/ | s/\s+//g' *.jpg’
+* First one is lowercase and second is white space linked together by pipe (|) and this will do all jpgs in a folder.
+* Note Macs are not case sensitive with filenames so just doing the lowercase won't work on its own.
+
+## Print a list of filenames from a folder
+* ’ls ./ > output.txt’
+
+## PDF to text
+* ’pdftotext -layout -enc UTF-8 inputfilename.pdf outputfilename.md’

@@ -62,13 +62,22 @@ geojson is a great format. You can read it and edit it quite easily as well as c
 <code>
 topojson \
   -o world-topo.json \
-  —id-property iso_a3 \
-  —properties name \
+  --id-property iso_a3 \
+  —-properties name \
   — \
   world.json
 </code>
+
+This one-liner seemed to work better the last time I tried.
+
+<code>
+  topojson --id-property iso_a3 -p name -o world-110-topo.json world-110.json
+</code>
+
 </pre>
 
 We’re taking the geojson file we made (world.json) and turning it into topojson. [Topojson removes all properties by default](https://github.com/mbostock/topojson/wiki/Command-Line-Reference#properties), so it will strip out all the stuff from your geojson unless you tell it not to. Here we’re making the id the ISO 3166-1 alpha-3 country code and we’re keeping the name property. After this conversion, my 4.6MB world.json has come down to 604KB in world-topo.json.
+
+When you load the file make sure the name specified in your JavaScript matches the name at the top of the topojson, e.g. countries.
 
 That’s it! You should now be able to use the world-topo.json in your D3 map. As I said, this post is based on [Let’s Make a Map](https://bost.ocks.org/mike/map/) by Mike Bostock, but I made these notes to explain the process I went through to create a world map.
