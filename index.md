@@ -1,13 +1,13 @@
 ---
 layout: default
 title: Home
-modified-date: 2016-03-18
+modified-date: 2016-10-14
 ---
 <h1 class="page-heading-caps extra-top-padding">{{ site.title }}</h1>
 I'm a [{{ site.job_description }}](/about "Find out more about Robert Carroll").
 
 <h2 class="page-heading-caps">Work</h2>
-I run {{ site.description }}.
+From October 2016-17 I'll be in Abu Dhabi working on [WorldSkills Abu Dhabi 2017](https://worldskillsabudhabi2017.com/en/), considering ways to make this huge event on and of the internet. Normally I run {{ site.description }}.
 
 [See my work](/work "See some of Robert Carroll's work")
 
@@ -19,12 +19,12 @@ I’ve written articles for The National, The Wire, Ultra Travel, The Guardian, 
 <h2 class="page-heading-caps">Current projects</h2>
 <ul class="home__list">
   <li><a title="WorldSkills Abu Dhabi 2017 development blog" href="http://digital-wsad2017.tumblr.com/">WorldSkills Abu Dhabi 2017</a></li>
-  <li><a title="WorldSkills Abu Dhabi 2017 development blog" href="http://wearethoughtfox.com/blog/update-hyperlocal-chat-project/">Hyperlocal chat UI for journalism</a></li>
+  <li><a title="Details of hyperlocal chat UI project" href="http://wearethoughtfox.com/blog/update-hyperlocal-chat-project/">Hyperlocal chat UI for journalism</a></li>
 </ul>
 
 <h2 class="page-heading-caps">Current reading</h2>
 <ul class="home__list">
-  <li><em>Shakespeare: A life in Drama</em> by Stanley Wells</li>
+  <li><em>Discordia</em> by Laurie Penny and Molly Crabapple</li>
 </ul>
 
 <div class="extra-top-padding">
