@@ -209,3 +209,7 @@ Make a new folder called ‘cropped’ to keep the cropped images in.
 
 ## PDF to text
 * ’pdftotext -layout -enc UTF-8 inputfilename.pdf outputfilename.md’
+
+## Keyboard shortcuts
+* On a Mac: System Prefs > Keyboard > Text is where you can create shortcuts for oft-used words and phrases
+* System Prefs > Keyboard > Shortcuts
