@@ -204,6 +204,14 @@ Make a new folder called ‘cropped’ to keep the cropped images in.
 * First one is lowercase and second is white space linked together by pipe (|) and this will do all jpgs in a folder.
 * Note Macs are not case sensitive with filenames so just doing the lowercase won't work on its own.
 
+## Regex to turn change case on text between two characters
+* Using Sublime Text - Make sure case sensitivity is on (Alt + C) and preserve case is off (Alt + A).
+* ’"name": "([a-zA-Z0-9_ ]*+)"’
+* The brackets create capture group. You can create more than one capture group. You reference it using $n, where n is the number of the capture group.
+* ’"name": "\U$1"’ so $1 gets everything between the brackets
+* \u capitalises words and \l uncapitalises words. There's loads more options
+* This is quite a good article: https://codepen.io/jakealbaugh/post/regex-in-sublime-text
+
 ## Print a list of filenames from a folder
 * ’ls ./ > output.txt’
 
@@ -213,3 +221,8 @@ Make a new folder called ‘cropped’ to keep the cropped images in.
 ## Keyboard shortcuts
 * On a Mac: System Prefs > Keyboard > Text is where you can create shortcuts for oft-used words and phrases
 * System Prefs > Keyboard > Shortcuts
+
+## Importing photos from iPhone to computer
+- Use either Image Capture or Preview
+- Select all, move to a folder, then delete from device.
+- Don't use Photos or any other Apple thing because it stores them in a crazy format.

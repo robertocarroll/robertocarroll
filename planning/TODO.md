@@ -1,6 +1,5 @@
-- Page-specific assets: http://mattgemmell.com/page-specific-assets-with-jekyll/
-
-This includes adding the menu JS (currently in head.html) as a separate file and the work filter (in work > index.html) as as separate file.
+## Accessibilty
+- can you navigate using tabs?
 
 ### Books / Library
 Consider changing journal to writing and having reading ...
