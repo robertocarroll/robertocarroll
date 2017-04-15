@@ -9,7 +9,8 @@
       <a href="/" rel="v:url" property="v:title">@robertocarroll</a>
     </span> →
     <span typeof="v:Breadcrumb">
-      <a href="{{ site.baseurl }}{{ page.categories | downcase }}" rel="v:url" property="v:title">{{ page.categories}}</a>
+      <a href="{{ site.baseurl }}{{ page.categories[0] | downcase }}" rel="v:url" property="v:title">
+        {{ page.categories[0]}}</a>
     </span>
     {% endif %}
     <span id="menu-button" class="button-open"></span>

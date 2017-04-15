@@ -226,3 +226,20 @@ Make a new folder called ‘cropped’ to keep the cropped images in.
 - Use either Image Capture or Preview
 - Select all, move to a folder, then delete from device.
 - Don't use Photos or any other Apple thing because it stores them in a crazy format.
+
+## File path locations
+- ’/’ = root of the current drive;
+- ’./’ = current directory;
+- ’../’ = parent of the current directory.
+
+## Fix for blocked camera in Skype
+- Close Skype
+- Terminal: ’sudo killall VDCAssistant’
+- See [here for details](http://fusion94.org/blog/2015/10/23/camera-fix-for-el-capitan/)
+
+## Kill Jekyll
+- Jekyll serve went crazy and create huge files
+- Kill it with ’pkill -f jekyll’
+
+## Activate emoji keyboard
+- Mac OS: control-command-space activates emoji keyboard
