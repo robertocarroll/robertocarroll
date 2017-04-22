@@ -1,10 +1,10 @@
 ---
 author: roberto
 comments: false
-date: 2014-09-05 09:35:48
+date: 2016-07-15 09:35:48
 layout: work
-slug: taqa
-title: TAQA
+slug: worldskillsad
+title: WorldSkills Abu Dhabi 2017
 categories:
 - Work
 tags:
@@ -14,17 +14,18 @@ services:
 - Concept and strategy
 - Experience design
 - Digital development
-- Data and maps
 - Writing and editing
-excerpt: Maps and other new content to serve user needs
+excerpt: Concept, design and development of a responsive website
 ---
 
-I began with user research to identify the most important areas of the TAQA website to improve. Rather than a complete redesign we focused on improving regional content, the careers section and improving the look and feel of the entire site. I worked on the IA, layouts and content for these new sections helping stakeholders in Canada, the UK, Iraq, the UAE and the Netherlands to get the most out of the new design while maintaining a consistent style and tone. 
+The world's greatest vocational skills competition happens in a different city every two years with Abu Dhabi hosting the event in October 2017. In 2016, [We Are Thought Fox](http://wearethoughtfox.com) began a complete design and development project for the event.
 
-I also built a new regional map, which quickly and simply allows users to explore TAQA's main regions and see the types of operations.
+I led the discovery phase - interviewing dozens of users and stakeholders around the world and developing and proiritising user needs. Working with our designer and the WorldSkills internal development team, we designed and developed an alpha version which we used to test the IA and various design concepts on users.
 
-With the new designs and content in place, I developed appropriate metrics to help monitor and improve the website in the future.    
+We went on to design and develop a responsive site in English and Arabic which launched on 15 July to coincide with World Youth Skills Day. You can read more about the process on the [development blog](http://worldskills.github.io/worldskillsabudhabi2017.com/blog)
 
+[Visit the site](https://worldskillsabudhabi2017.com)
 
+![Image showing the WorldSkills Abu Dhabi 2017 website on a desktop](/images/worldskills-desktop.jpg)
 
-
+![Image showing the WorldSkills Abu Dhabi 2017 website on an iPhone](/images/worldskills-mobile.jpg)
