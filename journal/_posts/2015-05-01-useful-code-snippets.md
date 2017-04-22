@@ -243,3 +243,7 @@ Make a new folder called ‘cropped’ to keep the cropped images in.
 
 ## Activate emoji keyboard
 - Mac OS: control-command-space activates emoji keyboard
+
+## Export Github issues to CSV
+- Open the following URL in a browser substituting the {owner} and {repo} with real values:
+’https://api.github.com/repos/{owner}/{repo}/issues?page=1&per_page=100’
