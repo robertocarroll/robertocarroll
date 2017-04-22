@@ -1,10 +1,10 @@
 ---
 author: roberto
 comments: false
-date: 2014-09-05 09:35:48
+date: 2015-06-17 09:35:48
 layout: work
-slug: taqa
-title: TAQA
+slug: hyperlocal-chat
+title: Trinity Mirror Regionals
 categories:
 - Work
 tags:
@@ -14,16 +14,26 @@ services:
 - Concept and strategy
 - Experience design
 - Digital development
-- Data and maps
 - Writing and editing
-excerpt: Maps and other new content to serve user needs
+excerpt: Conversational UI for news and information
 ---
 
-I began with user research to identify the most important areas of the TAQA website to improve. Rather than a complete redesign we focused on improving regional content, the careers section and improving the look and feel of the entire site. I worked on the IA, layouts and content for these new sections helping stakeholders in Canada, the UK, Iraq, the UAE and the Netherlands to get the most out of the new design while maintaining a consistent style and tone. 
+For the Manchester Evening News, I developed a project to explore how the city’s inanimate infrastructure could become the conduit to layers of information, stories and other people without those objects actually being connected to the network.
 
-I also built a new regional map, which quickly and simply allows users to explore TAQA's main regions and see the types of operations.
+The exploration looked at how this idea could be used to help a news organisation to become part of the fabric of the city.
 
-With the new designs and content in place, I developed appropriate metrics to help monitor and improve the website in the future.    
+By the end of the project we had created social objects from a neighbourhood’s existing infrastructure which citizens can converse via SMS and Twitter to “get in the know” about a specific place.
+
+Our approach went beyond conventional approaches to open data such as data visualisation, maps, etc and towards humanised suggestions that prompt and guide individual action. The social object speaks in the first person, answering questions as part of a dialogue in a different context for journalism, ie next to friends and other services in SMS and chat apps.
+
+[Find out more about the project](http://wearethoughtfox.com/blog/update-hyperlocal-chat-project/)
+
+![Image showing the MEN chatbot on Twitter](/images/men-project.001.jpg)
+
+![Image showing the MEN chatbot on Twitter](/images/men-project.003-crime.jpg)
+
+![Image showing the MEN chatbot on Twitter](/images/men-project.003-rain.jpg)
+
 
 
 
