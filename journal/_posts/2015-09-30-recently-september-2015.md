@@ -3,7 +3,7 @@ author: roberto
 comments: false
 date: 2015-09-30 16:34:33
 layout: recently
-slug: recently
+slug: recently-09-2015
 title: 'Recently - September 2015'
 top_image: 2015-09-recently.jpg
 top_image_caption: 'Hengistbury Head near Bournemouth'
