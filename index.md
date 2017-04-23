@@ -22,7 +22,7 @@ I’ve written articles for The National, The Wire, Ultra Travel, The Guardian, 
 
 <h2 class="page-heading-caps">Current projects</h2>
 <ul class="home__list">
-  <li><a title="WorldSkills Abu Dhabi 2017 development blog" href="http://digital-wsad2017.tumblr.com/">WorldSkills Abu Dhabi 2017</a></li>
+  <li><a title="WorldSkills Abu Dhabi 2017 development blog" href="http://worldskillsabudhabi2017.com">WorldSkills Abu Dhabi 2017</a></li>
 </ul>
 
 <h2 class="page-heading-caps">Current reading</h2>
