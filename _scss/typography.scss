@@ -177,4 +177,15 @@ time {
 }
 
 
+em {         font-style: italic; }
+.i {         font-style: italic; }
+
+strong {     font-weight: bold; }
+.b {         font-weight: bold; }
+
+
+.underline { text-decoration: underline; }
+.strike {    text-decoration: line-through; }
+.ttc {       text-transform: capitalize; }
+.ttu {       text-transform: uppercase; }
 
