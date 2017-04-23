@@ -19,11 +19,24 @@ services:
 excerpt: Relaunching the website for an international organisation
 ---
 
-I began with user research to identify the most important areas of the TAQA website to improve. Rather than a complete redesign we focused on improving regional content, the careers section and improving the look and feel of the entire site. I worked on the IA, layouts and content for these new sections helping stakeholders in Canada, the UK, Iraq, the UAE and the Netherlands to get the most out of the new design while maintaining a consistent style and tone.
+Following on from the work in the [ICC alpha](/work/icc-alpha/), I led the team designing and developing ICC Beta. It involved:
 
-I also built a new regional map, which quickly and simply allows users to explore TAQA's main regions and see the types of operations.
+- Interpretting and building upon the alpha feedback
+- Putting together a plan and outlining [the shape of the beta](http://robertocarroll.com/icc-beta/)
+- Designing the [content templates](http://robertocarroll.com/icc-beta/style-guide/content-templates.html) and [style guide](http://robertocarroll.com/icc-beta/style-guide/) to help people in the organisation create content.
+- Developing custom sections such as [maps](/work/icc-map/), [timelines](http://robertocarroll.com/icc-beta/timeline/lubanga) and other ideas such as customising content based on location.
+- User testing and regular feedback.
+- Lots more ... such as finding ways to [put the core texts back at the heart of the site](/journal/rome-statute-icc/)
 
-With the new designs and content in place, I developed appropriate metrics to help monitor and improve the website in the future.
+Note: A company called [Radley Yeldar](http://ry.com) did a wider branding project that provided additional visual direction for the website. Altogether it was a great collaborative effort between a variety of internal and external teams which took over a year. It was a privilege to have been part of.
+
+![Image showing the ICC beta on an iPhone](/images/icc-beta.jpg)
+
+
+
+
+
+
 
 
 

@@ -1,7 +1,7 @@
 ---
 layout: default
 title: Home
-modified-date: 2016-10-14
+modified-date: 2017-04-23
 ---
 <h1 class="page-heading-caps extra-top-padding">{{ site.title }}</h1>
 I'm a [{{ site.job_description }}](/about "Find out more about Robert Carroll").
@@ -19,12 +19,11 @@ I’ve written articles for The National, The Wire, Ultra Travel, The Guardian, 
 <h2 class="page-heading-caps">Current projects</h2>
 <ul class="home__list">
   <li><a title="WorldSkills Abu Dhabi 2017 development blog" href="http://digital-wsad2017.tumblr.com/">WorldSkills Abu Dhabi 2017</a></li>
-  <li><a title="Details of hyperlocal chat UI project" href="http://wearethoughtfox.com/blog/update-hyperlocal-chat-project/">Hyperlocal chat UI for journalism</a></li>
 </ul>
 
 <h2 class="page-heading-caps">Current reading</h2>
 <ul class="home__list">
-  <li><em>Discordia</em> by Laurie Penny and Molly Crabapple</li>
+  <li>Deep Work by Cal-Newport</li>
 </ul>
 
 <div class="extra-top-padding">

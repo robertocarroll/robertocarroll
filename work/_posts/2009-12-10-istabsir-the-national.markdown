@@ -16,7 +16,7 @@ services:
 - Concept and strategy
 - Digital development
 - Video
-excerpt: A pictoral and oral history of the UAE
+excerpt: Designing and developing an award-winning pictoral and oral history of the UAE
 ---
 
 [The National](http://www.thenational.ae) is a newspaper in the United Arab Emirates which was launched by ex-Telegraph editor Martin Newland in 2008. I worked on the website from 2008 to 2010. [Istabsir ](http://www.thenational.ae/istabsir) was a multimedia project, which I designed and developed.

@@ -12,7 +12,7 @@ services:
 - Experience design
 - Digital development
 - Data and maps
-excerpt: Exploring the IPPF’s work around the world
+excerpt: Maps exploring the IPPF’s work around the world
 ---
 
 [We Are Thought Fox](http://wearethoughtfox.com) designed and developed an interactive map for [The International Planned Parenthood Federation](http://www.ippf.org/) to show the policy effects of the IPPF’s work around the world this year.

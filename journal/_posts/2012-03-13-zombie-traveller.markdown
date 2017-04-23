@@ -20,8 +20,6 @@ I've been thinking about new ways to explore the world and one idea I came up wi
 I've entered this idea in the Knight News Challenge. Here's the full entry for [Zombie Traveller](http://newschallenge.tumblr.com/post/19180012156/zombie-traveller){:.strike}. I've also been collected ideas around new approaches to travel on this [Tumblr](http://ontheroadtonowhere.tumblr.com).
 
 ## Pitch
-
-{:.i}
 The link doesn't work anymore so I'm adding the application here.
 
 {:.i}
