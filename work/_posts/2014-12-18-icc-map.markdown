@@ -16,7 +16,7 @@ services:
 excerpt: Developing a world map using D3
 ---
 
-[We Are Thought Fox](http://wearethoughtfox.com) came up with the idea for an app to encourage users to make connections within the art collection at Barjeel Art Foundation in the UAE. We designed and developed this app using Backbone and Phonegap. I was sole developer on the project.
+The ICC beta needed a map to show preliminary investigations and situations. I developed this map using D3 as a proof of concept. After a bit more fettling, it ended up being used on the site's home layout.
 
 [Try the application](http://icc-cpi.int)
 

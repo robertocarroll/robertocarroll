@@ -18,7 +18,7 @@ services:
 excerpt: Concept, design and development of feature stories
 ---
 
-Developed the format (HTML, CSS and JavaScript) in English and Arabic for a monthly series about young Emiratis who have transformed their lives with vocational skills as well commissioning and editing the stories, images and videos. The stories are meant to inspire students in the UAE with the possibilities of vocational skills. Subjects included
+Developed online stories (HTML, CSS and JavaScript) in English and Arabic for a monthly series about young Emiratis who have transformed their lives with vocational skills as well commissioning and editing the stories, images and videos. The stories are meant to inspire students in the UAE with the possibilities of vocational skills. Subjects included
 
 [Take a look at the stories](http://worldskillsabudhabi2017.com/skillsuniteus)
 
