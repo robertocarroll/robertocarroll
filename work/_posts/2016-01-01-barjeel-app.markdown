@@ -13,7 +13,7 @@ tags:
 services:
 - Concept and strategy
 - Digital development
-excerpt: Developing an app for a museum using Backbone and Phonegap
+excerpt: Developing a quiz app for a museum using Backbone and Phonegap
 ---
 
 [We Are Thought Fox](http://wearethoughtfox.com) came up with the idea for an app to encourage users to make connections within the art collection at Barjeel Art Foundation in the UAE. We designed and developed this app using Backbone and Phonegap. I was sole developer on the project.

@@ -15,7 +15,7 @@ services:
 - Experience design
 - Digital development
 - Writing and editing
-excerpt: Conversational UI for news and information
+excerpt: Exploring conversational UIs for news and information
 ---
 
 For the Manchester Evening News, I developed a project to explore how the city’s inanimate infrastructure could become the conduit to layers of information, stories and other people without those objects actually being connected to the network.

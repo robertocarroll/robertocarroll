@@ -6,7 +6,7 @@ modified-date: 2017-04-23
 <h1 class="page-heading-caps extra-top-padding">{{ site.title }}</h1>
 I'm a [{{ site.job_description }}](/about "Find out more about Robert Carroll").
 
-<img src="/images/the-dreamers-rob.jpg" alt="Image showing me and my daughter re-enacting The Dreamers by Bill Viola">
+<img src="/images/bill-viola-workshop.gif" alt="Image showing me and my daughter re-enacting The Dreamers by Bill Viola">
 
 <figcaption class="tr">That's me on the right</figcaption>
 

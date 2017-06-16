@@ -1,6 +1,22 @@
 ## Accessibilty
 - can you navigate using tabs?
 
+## Featured
+http://tachyons.io/components/collections/vinyl/index.html
+
+- Featured for:
+  - writing
+  - work
+  - home
+- Remove reading section for now
+
+## Add to work
+- HacksHackers Manchester
+- https://www.meetup.com/HacksHackersMCR/events/past/?scroll=true
+https://www.meetup.com/HacksHackersMCR/events/220785131/
+
+- Hepworth Creative Labs
+
 ### Books / Library
 Consider changing journal to writing and having reading ...
 
@@ -15,7 +31,7 @@ Paste in an Amazon link and writing a short paragraph - Why is this book special
 Get title, image, ISBN from Amazon
 
 ## Make every month
-
+Love the approach here: http://johnkeefe.net
 
 ### Jekyll - indieweb stuff http://indiewebcamp.com/IndieMark
 - http://microformats.org/wiki/hcard
@@ -31,7 +47,6 @@ Get title, image, ISBN from Amazon
 - tumblr
 - http://realjenius.com/2012/11/04/jekyll-series-list-2/
 - http://reporter-app.tumblr.com/
-
 
  - http://craigmod.com/sputnik/hello_again/
  - http://adactio.com/journal/6620/
@@ -75,11 +90,11 @@ Text files in folders:
 - Shopping
 
 - Go through ontheroadtonowhere (evernote) and put on Github / Tumblr
-- Go through quotes (evernote) and put on robertocarroll(tumblr)
-- excellent projects - watf blog posts
+- Go through quotes (evernote) and put on robertocarroll (tumblr)
+- excellent projects (evernote and ia) to pinboard
 - Go through topitch - find suitable places
 - Move journalism book notes to notebooks and Scrivener
-- put article ideas in Github
+- put article ideas in spark file
 
 ******
 - Tag Pinboard robertocarroll-tumblr and it will go on tumblr
