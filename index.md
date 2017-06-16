@@ -11,7 +11,7 @@ I'm a [{{ site.job_description }}](/about "Find out more about Robert Carroll").
 <figcaption class="tr">That's me on the right</figcaption>
 
 <h2 class="page-heading-caps">Work</h2>
-From October 2016-17 I'll be in Abu Dhabi working on [WorldSkills Abu Dhabi 2017](https://worldskillsabudhabi2017.com/en/), considering ways to make this huge event on and of the internet. Normally I run {{ site.description }}.
+From October 2016 to the end of 2017 I'll be in Abu Dhabi working on [WorldSkills Abu Dhabi 2017](https://worldskillsabudhabi2017.com/en/), considering ways to make this huge event on and of the internet. Normally I run {{ site.description }}.
 
 [See my work](/work "See some of Robert Carroll's work")
 
