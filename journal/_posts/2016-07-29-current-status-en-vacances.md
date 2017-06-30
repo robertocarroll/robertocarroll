@@ -3,7 +3,7 @@ author: roberto
 comments: false
 date: "2016-07-29"
 layout: post
-slug: "current-status-en-vacances"
+slug: "current-status-en-vacances-2016"
 title: "Current status: en vacances"
 top_image: 2016-en-vacance.jpg
 top_image_caption: 'The dome of the Pantheon in Rome'
