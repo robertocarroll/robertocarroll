@@ -1,7 +1,6 @@
 # Dependencies
-markdown: kramdown
-kramdown:
-  input: GFM
+name:                Robert Carroll
+markdown:            kramdown
 highlighter:         rouge
 
 # Permalinks
@@ -12,10 +11,9 @@ permalink:           /:categories/:title/
 # Setup
 title:               Robert Carroll
 tagline:             The writing and design of Robert Carroll
-url:                 https://robertocarroll.com
-baseurl:             /
-job_description: "writer, designer and technologist"
-description: "a tiny design and development studio called <a href='http://wearethoughtfox.com/'>We Are Thought Fox</a>"
+url:                 https://www.robertocarroll.com
+job_description:     "writer, designer and technologist"
+description:         "a tiny design and development studio called <a href='http://wearethoughtfox.com/'>We Are Thought Fox</a>"
 
 
 # Assets
@@ -24,6 +22,23 @@ description: "a tiny design and development studio called <a href='http://wearet
 sass:
   sass_dir:          _scss
   style:            :compressed
+
+collections:
+  work:
+    output: true
+    permalink: /:collection/:slug
+  journal:
+    output: true
+    permalink: /:collection/:slug
+  writing:
+    output: true
+    permalink: /:collection/:slug
+  code:
+    output: true
+    permalink: /:collection/:slug
+  reading:
+    output: true
+    permalink: /:collection/:slug
 
 # About/contact
 author:
@@ -36,4 +51,14 @@ author:
 version:             1.0.0
 github:
   repo:              https://github.com/robertocarroll/robertocarroll
+
+include:
+  - _pages
+
+# Defaults
+defaults:
+  - scope:
+      path: '_pages'
+    values:
+      permalink: /:basename/
 

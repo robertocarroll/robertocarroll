@@ -1,0 +1,20 @@
+---
+layout: default
+title: Writing
+permalink: /writing/
+categories:
+- writing
+---
+<div class="content-list">
+  <h1 class="page-heading-caps padding-below-half">Writing</h1>
+  {% for post in site.writing  %}
+  <article class="work-article">
+    <h1 class="work-title"><a href="{{ post.url }}">{{ post.title }}</a></h1>
+    <p class="work-excerpt">{{ post.excerpt }}</p>
+  </article>
+  {% endfor %}
+</div>
+
+
+
+

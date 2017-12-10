@@ -1,0 +1,21 @@
+---
+layout: default
+title: Journal
+permalink: /journal/
+categories:
+- journal
+---
+
+<div class="content-list">
+  <h1 class="page-heading-caps padding-below-half">Journal</h1>
+  {% for post in site.journal  %}
+    <article class="work-article">
+      <h1 class="work-title"><a href="{{ post.url }}">{{ post.title }}</a></h1>
+      <time datetime="{{ post.date | date_to_xmlschema }}" class="page-date">{{ post.date | date: "%-d %B %Y" }}</time>
+    </article>
+  {% endfor %}
+</div>
+
+
+
+
