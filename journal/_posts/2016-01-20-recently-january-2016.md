@@ -17,3 +17,6 @@ excerpt: Here's what I got up to in January 2016.
 During this workshop at the Yorkshire Sculpture Park, we tried to create artworks inspired by Bill Viola's work using everyday things. Here we are doing "The Dreamers" using a plastic box with water in, straws and a leaf blower.
 
 ![Image showing the recreation of The Dreamers at a workshop](/images/2016-01-recently-02.jpg)
+
+Weight - 92kg
+Blood pressure 115/82

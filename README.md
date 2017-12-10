@@ -2,6 +2,8 @@ Website for robertocarroll.com
 
 jekyll serve
 
+jekyll serve --watch --incremental
+
 ## create a new post in blog category with today's date
 thor post:new "Automate Jekyll post creation with Thor"
 

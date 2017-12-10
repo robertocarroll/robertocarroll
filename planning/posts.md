@@ -12,8 +12,10 @@
 11. Kai
 12. Project graphs - blog-graph1.jpg to 4
 13. June 2017 - write about what it feels like to be in a project like WSAD
+14. Masdar trip and the apocalpse
 
-* Add Astrid's song to recently-02-2016
 * Add holiday dates to 2016-07-29
 * Three kids photos for our anniversary
+
+Kindle highlights - posts of each highlight
 

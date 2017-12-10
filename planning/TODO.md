@@ -1,3 +1,6 @@
+Life in weeks
+Time elapsed / time left
+
 ## Accessibilty
 - can you navigate using tabs?
 
@@ -99,6 +102,9 @@ Text files in folders:
 ******
 - Tag Pinboard robertocarroll-tumblr and it will go on tumblr
 - Favourite a tweet and it goes to robertocarroll-tumblr
+
+
+
 
 
 ## Links

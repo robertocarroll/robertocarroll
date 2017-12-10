@@ -1,8 +1,10 @@
 What are human taxonomies???
 
-Mood 
+How do we fit things in to people's days?
 
-User reaction 
+Mood
+
+User reaction
 
 Cicardian rhythms ....
 

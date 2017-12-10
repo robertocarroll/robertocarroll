@@ -251,3 +251,14 @@ Make a new folder called ‘cropped’ to keep the cropped images in.
 ## Eject disk popup gets stuck
 - Terminal:
 ’killall UnmountAssistantAgent’
+
+## Rename a Github branch
+’git branch -m new_name’
+
+## Bootstrap media queries
+* screen-sm-max = screen-md-min - 1 = 992 - 1 = 991
+* screen-xs-max is 767px
+* screen-xs-max = screen-sm-min - 1 = 768 - 1 = 767
+
+## Optimise images with
+’convert puzzle.jpg -sampling-factor 4:2:0 -strip -quality 85 -interlace JPEG -colorspace RGB puzzle_converted.jpg’
