@@ -62,3 +62,13 @@ defaults:
     values:
       permalink: /:basename/
 
+navigation:
+ - title: Work
+   url: /work
+ - title: Writing
+   url: /writing
+ - title: Journal
+   url: /journal
+ - title: About
+   url: /about
+
