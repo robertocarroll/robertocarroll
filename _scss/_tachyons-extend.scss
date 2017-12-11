@@ -134,7 +134,6 @@ ul.dash > li:before {
 .current:after  {
   content: "";
   border-style: solid;
-  border-bottom-width: $spacing-extra-small;
   position: absolute;
   left: 0;
   right: 0;
