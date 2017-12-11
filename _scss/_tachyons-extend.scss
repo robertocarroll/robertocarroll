@@ -1,15 +1,9 @@
 //font-family
-body {
-  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
-}
 
-h1,.h1,
-h2,.h2,
-h3,
-.h3,
-h4,
-.h4 {
-  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
+h1, h2, h3, h4, h5, h6 {
+  font-weight: normal;
+  color: $primary-color;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol" !important;
 }
 
 p {
@@ -106,34 +100,6 @@ h6,.f6 { font-size: .875rem; }
 .hover-primary:hover { color: $primary-color; }
 .hover-primary:focus { color: $primary-color; }
 
-//_typography
-html,
-body {
-  margin: 0;
-  padding: 0;
-}
-
-h1, h2, h3, h4, h5, h6 {
-  margin-bottom: .5rem;
-  line-height: 1.25;
-  color: $secondary-color;
-  text-rendering: optimizeLegibility;
-}
-
-h1 {
-  font-weight: 600;
-}
-
-h2 {
-  font-weight: 600;
-  letter-spacing: 0.02em;
-}
-
-h3 {
-  font-weight: 400;
-  text-transform: uppercase;
-  letter-spacing: 0.0625em;
-}
 
 //_max-widths
 .mw4-5  {  max-width: 12rem; }
