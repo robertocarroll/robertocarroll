@@ -2,9 +2,6 @@
 # Use a comment to ensure Jekyll reads the file to be transformed into CSS later
 # only main files contain this front matter, not partials.
 ---
-@import "_variables.scss";
-@import "_tachyons/_tachyons.scss";
-@import "_tachyons-extend.scss";
 @import "vars";
 @import "reset";
 @import "_mixins";
@@ -24,5 +21,7 @@
 @import "typography";
 @import "tables";
 @import "work";
-
+@import "_variables.scss";
+@import "_tachyons/_tachyons.scss";
+@import "_tachyons-extend.scss";
 

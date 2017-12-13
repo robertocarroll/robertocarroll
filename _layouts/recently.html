@@ -7,41 +7,41 @@ layout: default
   <time datetime="{{ page.date | date_to_xmlschema }}" class="page-date padding-below">{{ page.date | date_to_string }}</time>
 
   {% assign result = page.date | date: "%m-%y" %}
-	
+
 	{% if page.top_image %}
 
 		<figure class="post_image">
-		<img src="{{ site.baseurl }}images/{{ page.top_image }}" alt="{{ page.top_image_caption }}">
+		<img src="/images/{{ page.top_image }}" alt="{{ page.top_image_caption }}">
 			<figcaption>{{ page.top_image_caption }}</figcaption>
 		</figure>
 
-	{% endif %}		
+	{% endif %}
 
 	{% for goal in site.data.month_reports %}
 		{% if goal.date == result %}
 
-				{% if goal.summary %} 
-				
-					<h2>Summary</h2> 
+				{% if goal.summary %}
+
+					<h2>Summary</h2>
 					<p>{{goal.summary}}</p>
 
-				{% endif %}		
+				{% endif %}
 
-				{% if goal.prev_goal %} 
+				{% if goal.prev_goal %}
 
-					<h2>Outcome of last month's goal</h2> 
+					<h2>Outcome of last month's goal</h2>
 					<p>{{goal.prev_goal}}</p>
 
-				{% endif %}		
+				{% endif %}
 
-				{% if goal.new_goal %} 
+				{% if goal.new_goal %}
 
-					<h2>New goal</h2> 
+					<h2>New goal</h2>
 					<p>{{goal.new_goal}}</p>
 
-				{% endif %}		
+				{% endif %}
 
-			{% endif %}	
+			{% endif %}
 	{% endfor %}
 
 	<hr>
@@ -49,16 +49,16 @@ layout: default
   {{ content }}
 
   {% for film in site.data.films %}
-		
+
 			{% if film.date == result %}
 				{% assign therearefilms = "true" %}
-			{% endif %}	
+			{% endif %}
 	{% endfor %}
 
 	{% if therearefilms == "true" %}
 	<h2>Films I enjoyed</h2>
 	<ul>
-		{% for film in site.data.films %} 
+		{% for film in site.data.films %}
 			{% if film.date == result %}
 				<li>{{ film.title }}</li>
 			{% endif %}
@@ -69,7 +69,7 @@ layout: default
 	{% for book in site.data.books %}
 	{% if book.date == result %}
 		{% assign therearebooks = "true" %}
-	{% endif %}	
+	{% endif %}
 	{% endfor %}
 
 	{% if therearebooks == "true" %}
@@ -77,7 +77,7 @@ layout: default
 		<ul>
 			{% for book in site.data.books %}
 				{% if book.date == result %}
-				  <li><em>{{ book.title }}</em> by {{ book.author }}  
+				  <li><em>{{ book.title }}</em> by {{ book.author }}
 				  </li>
 				{% endif %}
 			{% endfor %}
