@@ -1,24 +1,30 @@
 <aside class="next-previous-post">
-{% for post in site.journal reversed %}
-  {% if post.url == page.url %}
-      {% assign post_index0 = forloop.index0 %}
-      {% assign post_index1 = forloop.index %}
+{% capture the_collection %}{{page.collection}}{% endcapture %}
+  {% if page.collection %}
+    {% assign  document = site[the_collection]  %}
   {% endif %}
+
+{% for links in document  %}
+  {% if links.title == page.title %}
+    {% unless forloop.first %}
+      {% assign prevurl = prev.url %}
+    {% endunless %}
+    {% unless forloop.last %}
+      {% assign next = document[forloop.index] %}
+      {% assign nexturl = next.url %}
+    {% endunless %}
+  {% endif %}
+  {% assign prev = links %}
 {% endfor %}
-  {% for post in site.journal reversed %}
-      {% if post_index0 == forloop.index %}
-          {% assign next_post = post.url %}
-          {% assign next_post_title = post.title %}
-      {% endif %}
-      {% if post_index1 == forloop.index0 %}
-          {% assign prev_post = post.url %}
-          {% assign prev_post_title = post.title %}
-      {% endif %}
-  {% endfor %}
-   {% if prev_post %}
-      <a href="{{ prev_post }}" class="previous-post">↫ {{ prev_post_title }}</a>
-  {% endif %}
-  {% if next_post %}
-      <a href="{{ next_post }}" class="next-post">{{ next_post_title }} ↬</a>
-  {% endif %}
+
+<script>
+document.body.onkeyup = function(e){
+if (e.keyCode == '37') { window.location = '{{prevurl}}'; }
+if (e.keyCode == '39') { window.location = '{{nexturl}}'; }
+};
+</script>
+
+{% if prevurl %}<a href="{{prevurl}}" class="fl">↫ Previous</a>{% endif %}
+
+{% if nexturl %}<a href="{{nexturl}}" class="fr tr">Next ↬</a>{% endif %}
 </aside>

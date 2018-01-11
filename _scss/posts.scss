@@ -12,8 +12,7 @@
 .page-title,
 .post-title,
 .post-title a {
-  color: #303030;
-  @include breakpoint(small) { 
+  @include breakpoint(small) {
 		line-height: 1.15em;
 	}
 }
