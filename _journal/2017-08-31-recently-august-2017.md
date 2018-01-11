@@ -5,8 +5,8 @@ date: 2017-08-31
 layout: recently
 slug: recently-08-2017
 title: 'Recently - August 2017'
-top_image: 2017-04-recently.jpg
-top_image_caption: 'Happiness day at my current place of employment'
+top_image:
+top_image_caption:
 categories:
 - Journal
 tags:

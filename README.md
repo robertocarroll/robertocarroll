@@ -4,6 +4,10 @@ jekyll serve
 
 jekyll serve --watch --incremental
 
+## To do
+1. Responsive images: https://github.com/netlify/jekyll-srcset
+2. Install SEO plugin: https://github.com/jekyll/jekyll-seo-tag/blob/master/docs/usage.md
+
 ## create a new post in blog category with today's date
 thor post:new "Automate Jekyll post creation with Thor"
 
