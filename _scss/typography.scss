@@ -137,8 +137,11 @@ abbr[title] {
 blockquote {
   color: $inuit-base-grey-color-2;
   border-left: 0.25rem solid $lightPrimaryColor;
-  clear:both;
-  margin: 0;
+  clear: both;
+  padding-left: $inuit-base-spacing-unit--small;
+  margin-top: $inuit-base-spacing-unit;
+  margin-bottom: $inuit-base-spacing-unit;
+  line-height: 1.5;
 }
 
 blockquote p {

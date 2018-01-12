@@ -15,7 +15,6 @@ url:                 https://www.robertocarroll.com
 job_description:     "writer, designer and technologist"
 description:         "a tiny design and development studio called <a href='http://wearethoughtfox.com/'>We Are Thought Fox</a>"
 
-
 # Assets
 #
 # We specify the directory for Jekyll so we can use @imports.
@@ -39,6 +38,9 @@ collections:
   reading:
     output: true
     permalink: /:collection/:slug
+  scrapbook:
+    output: true
+    permalink: /:collection/:year/:month/:day/:title
 
 # About/contact
 author:
