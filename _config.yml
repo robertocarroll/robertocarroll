@@ -40,7 +40,7 @@ collections:
     permalink: /:collection/:slug
   scrapbook:
     output: true
-    permalink: /:collection/:year/:month/:day/:title
+    permalink: /:collection/:slug
 
 # About/contact
 author:
