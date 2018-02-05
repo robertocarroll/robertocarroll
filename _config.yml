@@ -22,6 +22,10 @@ sass:
   sass_dir:          _scss
   style:            :compressed
 
+plugins:
+  - jekyll-seo-tag
+  - jekyll-sitemap
+
 collections:
   work:
     output: true
