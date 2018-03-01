@@ -1,7 +1,7 @@
 ---
 layout: default
 title: Home
-modified-date: 2017-04-23
+modified-date: 2018-03-01
 ---
 <h1 class="page-heading-caps extra-top-padding">{{ site.title }}</h1>
 I'm a [{{ site.job_description }}](/about "Find out more about Robert Carroll").
@@ -11,7 +11,7 @@ I'm a [{{ site.job_description }}](/about "Find out more about Robert Carroll").
 <figcaption class="tr">That's me on the right</figcaption>
 
 <h2 class="page-heading-caps">Work</h2>
-From October 2016 to the end of 2017 I'll be in Abu Dhabi working on [WorldSkills Abu Dhabi 2017](https://worldskillsabudhabi2017.com/en/), considering ways to make this huge event on and of the internet. Normally I run {{ site.description }}.
+I run {{ site.description }}.
 
 [See my work](/work "See some of Robert Carroll's work")
 
@@ -22,12 +22,14 @@ I’ve written articles for The National, The Wire, Ultra Travel, The Guardian, 
 
 <h2 class="page-heading-caps">Current projects</h2>
 <ul class="home__list">
-  <li><a title="WorldSkills Abu Dhabi 2017 development blog" href="http://worldskillsabudhabi2017.com">WorldSkills Abu Dhabi 2017</a></li>
+  <li>A big digital project for WorldSkills</li>
+  <li>A small digital project for Amnesty</li>
+  <li>I have some availability. Please get in touch</li>
 </ul>
 
 <h2 class="page-heading-caps">Current reading</h2>
 <ul class="home__list">
-  <li>Deep Work by Cal Newport</li>
+  <li>The Real World of Technology by Ursula M Franklin</li>
 </ul>
 
 <div class="extra-top-padding">
