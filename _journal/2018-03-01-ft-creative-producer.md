@@ -5,7 +5,7 @@ layout: post
 slug: ft-creative-producer
 title: "FT Creative Producer application"
 - Journal
-excerpt: Three examples of work I've been involved in.
+excerpt: "Three examples of work I've been involved in."
 ---
 
 > Please submit up to three examples of work you have been involved in. For each example, please explain your level of involvement in the project and how it provides evidence of your strength in those areas.
