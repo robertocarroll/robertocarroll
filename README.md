@@ -1,8 +1,8 @@
 Website for robertocarroll.com
 
-jekyll serve
+bundle exec jekyll serve
 
-jekyll serve --watch --incremental
+bundle exec jekyll serve --watch --incremental
 
 ## To do
 1. Responsive images: https://github.com/netlify/jekyll-srcset

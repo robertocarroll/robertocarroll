@@ -1,7 +1,7 @@
 ---
 author: roberto
 comments: false
-date: 2017-09-30
+date: 2017-10-01
 layout: recently
 slug: recently-09-2017
 title: 'Recently - September 2017'
