@@ -4,7 +4,7 @@ comments: false
 date: 2011-08-24 09:41:33
 layout: work
 slug: special-tribunal-for-lebanon
-title: Website relaunch – The Special Tribunal for Lebanon
+title: New website – Special Tribunal for Lebanon
 categories:
 - Work
 tags:
@@ -27,7 +27,7 @@ The tribunal needed to use the web more effectively to explain its mission to th
 
 ## The solution
 From surveys, interviews and analytics, I identified three main audience groups:
-	
+
   1. General public - general information and to check accuracy of media reports
   2. Journalists - research stories and get the latest updates
   3. Lawyers and academics - search for legal documents and watch live streaming video from the courtroom
@@ -37,9 +37,9 @@ We tried to serve these groups in the most effective ways: creating content to e
 
 ## My role in the project
 I led the website relaunch and was in charge of all aspects of the project:
-  
+
   * Experience design
   * Content strategy
-  * Multimedia design and development in English, French and Arabic	
+  * Multimedia design and development in English, French and Arabic
   * Project management
   * Change management

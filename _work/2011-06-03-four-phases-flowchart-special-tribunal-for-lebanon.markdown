@@ -4,7 +4,7 @@ comments: false
 date: 2011-06-03 15:20:33
 layout: work
 slug: four-phases-flowchart-special-tribunal-for-lebanon
-title: Four phases flowchart – Special Tribunal for Lebanon
+title: Four phases – Special Tribunal for Lebanon
 categories:
 - Work
 tags:
