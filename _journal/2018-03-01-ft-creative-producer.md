@@ -4,7 +4,7 @@ comments: false
 date: 2018-03-01
 layout: recently
 slug: ft-application
-title: 'FT Producer'
+title: 'FT Producer application'
 categories:
 - Journal
 tags:
