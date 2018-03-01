@@ -262,3 +262,7 @@ Make a new folder called ‘cropped’ to keep the cropped images in.
 
 ## Optimise images with
 ’convert puzzle.jpg -sampling-factor 4:2:0 -strip -quality 85 -interlace JPEG -colorspace RGB puzzle_converted.jpg’
+
+## Mac shortcuts
+- ’CMD + Shift + right arrow’ - select to end of the line
+- ’Double click’ - select the entire word
