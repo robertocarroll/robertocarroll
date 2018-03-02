@@ -1,6 +1,8 @@
 
 For the filter: http://tachyons.io/components/lists/links-with-borders-inline/index.html
 
+Generate https://realfavicongenerator.net
+
 Life in weeks
 Time elapsed / time left
 
