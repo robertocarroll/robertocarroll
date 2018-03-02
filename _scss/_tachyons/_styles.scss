@@ -42,7 +42,6 @@ p a {
 }
 
 .main {
-
   @include breakpoint(small) {
     @include gs-span(m, 2);
   }
@@ -54,7 +53,6 @@ p a {
   @include breakpoint(large) {
     @include gs-span(d, 3, 7);
   }
-
 }
 
 .embed-container {
