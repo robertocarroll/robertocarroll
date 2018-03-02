@@ -105,8 +105,8 @@ p a, li a {
 .embed-container {
     position: relative;
     padding-bottom: 56.25%;
-    padding-top: $inuit-base-spacing-unit--large;
-    margin-bottom: $inuit-base-spacing-unit;
+    @extend .pt6;
+    @extend .mb4;
     height: 0;
     overflow: hidden;
     max-width: 100%;
