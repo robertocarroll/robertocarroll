@@ -9,7 +9,7 @@ modified-date: 2018-03-01
 
 <img src="/images/bill-viola-workshop.gif" alt="Image showing me and my daughter re-enacting The Dreamers by Bill Viola">
 
-<figcaption class="f6 silver i pt1">That's me on the right</figcaption>
+<figcaption class="f6 silver i pt1">I'm on the right</figcaption>
 </section>
 
 <section class="pb4">
