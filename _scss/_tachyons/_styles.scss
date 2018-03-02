@@ -138,6 +138,7 @@ ul.dash {
 }
 
 .current:after  {
+  @extend .primary;
   content: "";
   border-style: solid;
   position: absolute;
