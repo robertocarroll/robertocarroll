@@ -45,7 +45,7 @@ p, ul, ol, .message {
   @extend .pb3;
 }
 
-p a {
+p a, li a {
   @extend .primary;
   @extend .dim;
   @extend .underline;
