@@ -21,7 +21,7 @@ categories:
     <div id="list">
 
     <h1 class="f3 ttu fw4 ttu tracked mb4">Work</h1>
-    <p class="i light-silver m0">Work created with the help of many.</p>
+    <p class="i light-silver m0">Made with the help of many.</p>
 
 <!--     <ul id="filter" class="navigation pb4">
       {% for theservice in myArray %}
@@ -35,17 +35,10 @@ categories:
  -->
   {% for post in site.work reversed %}
 
-    <article class="fl w-100 w-50-l pb3 pr3-l pb0-l {% for service in post.services %}{{service | downcase | replace: ' ', '-'}} {% endfor %}">
-      <a href="{{ post.url }}">
-      <div class="aspect-ratio aspect-ratio--4x3">
-        <img style="background-image:url({{ post.image }});"
-        class="db bg-center cover aspect-ratio--object dim" />
-      </div>
-      </a>
-      <a href="{{ post.url }}" class="db dim no-underline">
-        <h3 class="f4 lh-title mb0 pt2">{{ post.title }}</h3>
-      </a>
-      <p class="f6 fw4 light-silver pb3">{{ post.date | date: "%Y"  }}</p>
+    <article class="bt b--light-gray {% for service in post.services %}{{service | downcase | replace: ' ', '-'}} {% endfor %}">
+      <p class="f6 fw4 light-silver pb0 mb0 mt2">{{ post.date | date: "%Y"  }}</p>
+      <h1 class="f2 lh-title mt0 mb2"><a href="{{ post.url }}" class="primary dim no-underline">{{ post.title }}</a></h1>
+      <p class="i light-silver m0">{{ post.excerpt }}</p>
     </article>
 
   {% endfor %}

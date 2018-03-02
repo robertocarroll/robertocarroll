@@ -3,50 +3,27 @@ layout: wide
 ---
 
 <article class="work-main">
-  <h1 class="work-main-title">{{ page.title }}</h1>
-
-  <hr class="clear">
-
-  <p class="work-main-excerpt">{{ page.excerpt }}</p>
-
+  <h1 class="f1 f-subheadline-l mb3 mb5-l tc">{{ page.title }}</h1>
+  <hr class="cb">
+  <p class="i light-silver m0 f3">{{ page.excerpt }}</p>
   {{ content }}
-
 </article>
 
-<aside class="meta centre clear delta padding-above">
-  <h2 class="meta-header">Year</h2>
-  {{ page.date | date: '%Y' }}
+<aside class="cb tc">
+  <h2 class="f4 ttu fw4 ttu tracked mb2">Year</h2>
+  <time datetime="{{ page.date | date_to_xmlschema }}" class="f6 light-silver tracked ttu pb4 db">{{ page.date | date: '%Y' }}</time>
 
-  <h2 class="meta-header">My role</h2>
-  <ul class="services">
-    {% for services in page.services %}
-      <li class="services__list">{{ services }}</li>
-    {% endfor %}
-  </ul>
+  <h2 class="f4 ttu fw4 ttu tracked mb2">My role</h2>
+  <div class="center mw6">
+    <ul>
+      {% for services in page.services %}
+        <li class="f6 light-silver">{{ services }}</li>
+      {% endfor %}
+    </ul>
+   </div>
 </aside>
 
-<!-- Within category next/previous without a plugin -->
-<aside class="next-previous">
-{% for post in site.work reversed %}
-  {% if post.url == page.url %}
-      {% assign post_index0 = forloop.index0 %}
-      {% assign post_index1 = forloop.index %}
-  {% endif %}
-{% endfor %}
-  {% for post in site.work reversed %}
-      {% if post_index0 == forloop.index %}
-          {% assign next_post = post.url %}
-      {% endif %}
-      {% if post_index1 == forloop.index0 %}
-          {% assign prev_post = post.url %}
-      {% endif %}
-  {% endfor %}
-   {% if prev_post %}
-      <a href="{{ prev_post }}" class="previous-link">↫ previous</a>
-  {% endif %}
-  {% if next_post %}
-      <a href="{{ next_post }}" class="next-link">next ↬</a>
-  {% endif %}
-</aside>
-
+<div class="work-main">
+  {% include article-next-previous.html %}
+</div>
 
