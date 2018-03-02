@@ -172,51 +172,51 @@ $ pip install numpy
 * `nvm alias default` version, eg `nvm alias default 0.12.7` sets the default node version in your shell. Then verify that the change persists by closing the shell window, opening a new one, then: node --version.
 
 ## Smart quotes
-* ‘Single opening - alt + ]’
-* ‘Single closing & apostrophe - alt + shift + ]’
-* ‘Double opening - alt + [’
-* ‘Double closing - alt + shift + [’
+* `Single opening - alt + ]`
+* `Single closing & apostrophe - alt + shift + ]`
+* `Double opening - alt + [`
+* `Double closing - alt + shift + [`
 * See [Smart Quotes](http://smartquotesforsmartpeople.com/) for details.
 
 ## Merging topojson
 When combining two or more files, you can specify the properties to keep:
-* ’topojson -o select.json -p sov0name,name -- subunits.json places.json’
+* `topojson -o select.json -p sov0name,name -- subunits.json places.json`
 
 ## Batch crop using Imagemagick
 Quick batch crop:
-* ’mogrify -crop x_sizexy_size+x_offset+y_offset inputfile outputfile’
+* `mogrify -crop x_sizexy_size+x_offset+y_offset inputfile outputfile`
 Make a new folder called ‘cropped’ to keep the cropped images in.
-* ’mogrify -crop 300x300+150+150 -path ./cropped *.jpg’
+* `mogrify -crop 300x300+150+150 -path ./cropped *.jpg`
 
 ## Resize using Imagemagick
-* ’mogrify -resize 640x427 -path ./cropped *.jpg’
+* `mogrify -resize 640x427 -path ./cropped *.jpg`
 
 ## Convert to gif using Imagemagick
-* ’convert -delay 100 -loop 0 input*.jpg animation.gif’
+* `convert -delay 100 -loop 0 input*.jpg animation.gif`
 
 ## Regex to replace content between two characters
-* ’(?s)START(.*?)END’ as in ’(?s)<table(.*?)</table>’
+* `(?s)START(.*?)END’ as in ’(?s)<table(.*?)</table>`
 
 ## Regex to replace content between two characters
-* First ’brew install rename’
-* Then for dry run ’rename -n 'y/A-Z/a-z/ | s/\s+//g' *.jpg’
-* And remove -n to do it: ’rename 'y/A-Z/a-z/ | s/\s+//g' *.jpg’
+* First `brew install rename`
+* Then for dry run `rename -n 'y/A-Z/a-z/ | s/\s+//g' *.jpg`
+* And remove -n to do it: `rename 'y/A-Z/a-z/ | s/\s+//g' *.jpg`
 * First one is lowercase and second is white space linked together by pipe (|) and this will do all jpgs in a folder.
 * Note Macs are not case sensitive with filenames so just doing the lowercase won't work on its own.
 
 ## Regex to turn change case on text between two characters
 * Using Sublime Text - Make sure case sensitivity is on (Alt + C) and preserve case is off (Alt + A).
-* ’"name": "([a-zA-Z0-9_ ]*+)"’
+* `"name": "([a-zA-Z0-9_ ]*+)"`
 * The brackets create capture group. You can create more than one capture group. You reference it using $n, where n is the number of the capture group.
-* ’"name": "\U$1"’ so $1 gets everything between the brackets
+* `"name": "\U$1"` so $1 gets everything between the brackets
 * \u capitalises words and \l uncapitalises words. There's loads more options
 * This is quite a good article: https://codepen.io/jakealbaugh/post/regex-in-sublime-text
 
 ## Print a list of filenames from a folder
-* ’ls ./ > output.txt’
+* `ls ./ > output.txt`
 
 ## PDF to text
-* ’pdftotext -layout -enc UTF-8 inputfilename.pdf outputfilename.md’
+* `pdftotext -layout -enc UTF-8 inputfilename.pdf outputfilename.md`
 
 ## Keyboard shortcuts
 * On a Mac: System Prefs > Keyboard > Text is where you can create shortcuts for oft-used words and phrases
@@ -228,32 +228,32 @@ Make a new folder called ‘cropped’ to keep the cropped images in.
 - Don't use Photos or any other Apple thing because it stores them in a crazy format.
 
 ## File path locations
-- ’/’ = root of the current drive;
-- ’./’ = current directory;
-- ’../’ = parent of the current directory.
+- `/` = root of the current drive;
+- `./` = current directory;
+- `../` = parent of the current directory.
 
 ## Fix for blocked camera in Skype
 - Close Skype
-- Terminal: ’sudo killall VDCAssistant’
+- Terminal: `sudo killall VDCAssistant`
 - See [here for details](http://fusion94.org/blog/2015/10/23/camera-fix-for-el-capitan/)
 
 ## Kill Jekyll
 - Jekyll serve went crazy and create huge files
-- Kill it with ’pkill -f jekyll’
+- Kill it with `pkill -f jekyll`
 
 ## Activate emoji keyboard
 - Mac OS: control-command-space activates emoji keyboard
 
 ## Export Github issues to CSV
 - Open the following URL in a browser substituting the {owner} and {repo} with real values:
-’https://api.github.com/repos/{owner}/{repo}/issues?page=1&per_page=100’
+`https://api.github.com/repos/{owner}/{repo}/issues?page=1&per_page=100`
 
 ## Eject disk popup gets stuck
 - Terminal:
-’killall UnmountAssistantAgent’
+`killall UnmountAssistantAgent`
 
 ## Rename a Github branch
-’git branch -m new_name’
+`git branch -m new_name`
 
 ## Bootstrap media queries
 * screen-sm-max = screen-md-min - 1 = 992 - 1 = 991
@@ -261,8 +261,8 @@ Make a new folder called ‘cropped’ to keep the cropped images in.
 * screen-xs-max = screen-sm-min - 1 = 768 - 1 = 767
 
 ## Optimise images with
-’convert puzzle.jpg -sampling-factor 4:2:0 -strip -quality 85 -interlace JPEG -colorspace RGB puzzle_converted.jpg’
+`convert puzzle.jpg -sampling-factor 4:2:0 -strip -quality 85 -interlace JPEG -colorspace RGB puzzle_converted.jpg`
 
 ## Mac shortcuts
-- ’CMD + Shift + right arrow’ - select to end of the line
-- ’Double click’ - select the entire word
+- `CMD + Shift + right arrow` - select to end of the line
+- `Double click` - select the entire word

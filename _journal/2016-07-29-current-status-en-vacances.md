@@ -4,7 +4,7 @@ comments: false
 date: "2016-07-29"
 layout: post
 slug: "current-status-en-vacances-2016"
-title: "Current status: en vacances"
+title: "Current status: en vacances (again)"
 top_image: 2016-en-vacance.jpg
 top_image_caption: 'The dome of the Pantheon in Rome'
 categories:

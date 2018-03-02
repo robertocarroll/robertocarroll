@@ -24,6 +24,6 @@ In contrast, London is all about the spontaneous order emerging from below. Stre
 
 It's nothing like Falcon City, but then what will a city that looks great from space be like to live in?
 
-<img class="small-image" src="https://s2.yimg.com/sk/3760/12664448673_cc9dd4f064_o.jpg" width="100%" height="auto" alt="Falcon City">
+<img class="small-image" src="{{site.baseurl}}/images/journal-dubai.jpg" width="100%" height="auto" alt="Falcon City">
 
 

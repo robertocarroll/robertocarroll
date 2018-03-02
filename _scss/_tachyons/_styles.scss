@@ -6,43 +6,6 @@
 
 */
 
-h1, h2, h3, h4, h5, h6 {
-  font-weight: normal;
-  color: $primary-color;
-  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol" !important;
-}
-
-p, ul {
-    @extend .f4;
-    @extend .lh-copy;
-    @extend .serif;
-    @extend .pb4;
-    @extend .measure;
-}
-
-.work-content p {
-  @extend .pb3;
-}
-
-p a {
-  @extend .primary;
-  @extend .dim;
-  @extend .underline;
-}
-
-.post h2 {
-  @extend .f3;
-  @extend .pb2;
-}
-
-.work-main h2 {
-  @extend .f3;
-  @extend .pb1;
-  @extend .ttu;
-  @extend .tracked;
-  @extend .cb;
-}
-
 .main {
   @include breakpoint(small) {
     @include gs-span(m, 2);
@@ -55,6 +18,71 @@ p a {
   @include breakpoint(large) {
     @include gs-span(d, 3, 7);
   }
+}
+
+h1, h2, h3, h4, h5, h6 {
+  font-weight: normal;
+  color: $primary-color;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol" !important;
+}
+
+p, ul, ol, .message {
+    @extend .f4;
+    @extend .lh-copy;
+    @extend .serif;
+    @extend .pb4;
+    @extend .measure;
+}
+
+.message {
+  @extend .bg-dark-gray;
+  @extend .near-white;
+  @extend .pa4;
+  @extend .mb4;
+}
+
+.work-content p {
+  @extend .pb3;
+}
+
+p a {
+  @extend .primary;
+  @extend .dim;
+  @extend .underline;
+}
+
+.message a {
+  @extend .near-white;
+  @extend .dim;
+  @extend .underline;
+}
+
+.post h2 {
+  @extend .f3;
+  @extend .pb2;
+}
+
+.post h3 {
+  @extend .f4;
+  @extend .pb2;
+}
+
+.post hr {
+  position: relative;
+  border-top: 1px solid #eee;
+  border-bottom: 1px solid #fff;
+  border-style: solid none none;
+  border-width: 3px medium medium;
+  margin: 2em auto;
+  max-width: 10em;
+}
+
+.work-main h2 {
+  @extend .f3;
+  @extend .pb1;
+  @extend .ttu;
+  @extend .tracked;
+  @extend .cb;
 }
 
 .embed-container {
@@ -81,6 +109,10 @@ ul.dash > li:before {
   content: '\2014'; /* en dash here */
   position: absolute;
   margin-left: -1.1em;
+}
+
+ul.dash {
+  list-style-type: none;
 }
 
 .current {
@@ -115,6 +147,13 @@ blockquote {
 
 blockquote p:last-child {
   padding-bottom: 0;
+}
+
+cite {
+  @extend .f6;
+  @extend .ttu;
+  @extend .tracked;
+  @extend .fs-normal;
 }
 
 //_border-colors

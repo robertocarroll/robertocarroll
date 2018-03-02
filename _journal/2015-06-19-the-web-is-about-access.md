@@ -17,18 +17,18 @@ The web's strength is its reach. It's the best way to share information. Reach, 
 The web is about access. We need to focus on good experiences for all. We all have special needs.
 
 > Be conservative in what you send, be liberal in what you accept.
-
-— Postel’s law.
+>
+> &mdash; <cite>Postel’s law</cite>.
 
 Think of experience crafted as a continuum which is appropriate. We can’t control the world only our reaction to it. Embrace diversity.
 
 > No one knows his place in society, his class position or social status, nor does anyone know his fortune in the distribution of natural assets and abilities, his intelligence, strength, and the like. I shall even assume that the parties do not know their conceptions of the good or their special psychological propensities. The principles of justice are chosen behind a veil of ignorance.
-
-— John Rawls — Theory of Justice
+>
+> &mdash; <cite>John Rawls — Theory of Justice</cite>
 
 > Interface is conversation with users
-
-— Steph Hay
+>
+> &mdash; <cite>Steph Hay</cite>
 
 The future will be about designing for gesture and voice. Experience as a continuum starting with text.
 

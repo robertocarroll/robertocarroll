@@ -2,17 +2,17 @@
 layout: default
 ---
 
-<article class="post">
-  <h1 class="post-title">{{ page.title }}</h1>
-  <time datetime="{{ page.date | date_to_xmlschema }}" class="page-date padding-below">{{ page.date | date_to_string }}</time>
+<article class="pv4 post">
+  <h1 class="f1 mb3">{{ page.title }}</h1>
+  <time datetime="{{ page.date | date_to_xmlschema }}" class="f6 light-silver tracked ttu pb4 db">{{ page.date | date: "%-d %B %Y" }}</time>
 
   {% assign result = page.date | date: "%m-%y" %}
 
 	{% if page.top_image %}
 
-		<figure class="post_image">
+		<figure class="pb4">
 		<img src="/images/{{ page.top_image }}" alt="{{ page.top_image_caption }}">
-			<figcaption>{{ page.top_image_caption }}</figcaption>
+			<figcaption class="f6 silver i pt1">{{ page.top_image_caption }}</figcaption>
 		</figure>
 
 	{% endif %}
@@ -57,7 +57,7 @@ layout: default
 
 	{% if therearefilms == "true" %}
 	<h2>Films I enjoyed</h2>
-	<ul>
+	<ul class="dash">
 		{% for film in site.data.films %}
 			{% if film.date == result %}
 				<li>{{ film.title }}</li>
@@ -74,7 +74,7 @@ layout: default
 
 	{% if therearebooks == "true" %}
 	<h2>Books I enjoyed</h2>
-		<ul>
+		<ul class="dash">
 			{% for book in site.data.books %}
 				{% if book.date == result %}
 				  <li><em>{{ book.title }}</em> by {{ book.author }}
