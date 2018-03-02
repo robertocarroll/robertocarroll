@@ -13,3 +13,100 @@
 
 */
 
+h1, h2, h3, h4, h5, h6 {
+  font-weight: normal;
+  color: $primary-color;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol" !important;
+}
+
+p {
+    -webkit-margin-before: 0;
+    -webkit-margin-after: 0;
+    @extend .lh-copy;
+    @extend .serif;
+    @extend .pb3;
+}
+
+ul {
+  @extend .serif;
+}
+
+.post h2 {
+  @extend .f3;
+  @extend .pb1;
+}
+
+.work-main h2 {
+  @extend .f3;
+  @extend .pb1;
+  @extend .ttu;
+  @extend .tracked;
+  @extend .cb;
+}
+
+
+//_border-colors
+.b--primary { border-color: $primary-color }
+.b--secondary { border-color: $secondary-color; }
+.b--customgrey { border-color: $grey-color; }
+
+.b--primary:after { border-color: $primary-color }
+.b--secondary:after { border-color: $secondary-color; }
+.b--customgrey:after { border-color: $grey-color; }
+
+//_skins
+.primary { color: $primary-color }
+.secondary { color: $secondary-color; }
+.customgrey { color: $grey-color; }
+
+//also using .light-silver
+
+.bg-primary { background-color: $primary-color }
+.bg-secondary { background-color: $secondary-color; }
+.bg-customgrey { background-color: $grey-color; }
+
+//skins-pseudo
+
+.hover-primary:hover { color: $primary-color; }
+.hover-primary:focus { color: $primary-color; }
+
+
+//_max-widths
+.mw4-5  {  max-width: 12rem; }
+
+// columns
+
+.col2 {
+  column-count: 2;
+  column-gap: 2em;
+}
+
+.work-content p {
+  @extend .pb3;
+}
+
+p a {
+  @extend .primary;
+  @extend .dim;
+}
+
+ul.dash > li:before {
+  content: '\2014'; /* en dash here */
+  position: absolute;
+  margin-left: -1.1em;
+}
+
+.current {
+  text-decoration: none;
+  position: relative;
+}
+
+.current:after  {
+  content: "";
+  border-style: solid;
+  position: absolute;
+  left: 0;
+  right: 0;
+  bottom: -$spacing-small;
+}
+

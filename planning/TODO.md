@@ -1,29 +1,10 @@
+
 Life in weeks
 Time elapsed / time left
 
 ## Accessibilty
 - can you navigate using tabs?
 
-## Featured
-http://tachyons.io/components/collections/vinyl/index.html
-
-- Featured for:
-  - writing
-  - work
-  - home
-- Remove reading section for now
-
-## Add to work
-- HacksHackers Manchester
-- https://www.meetup.com/HacksHackersMCR/events/past/?scroll=true
-https://www.meetup.com/HacksHackersMCR/events/220785131/
-
-- Hepworth Creative Labs
-
-### Books / Library
-Consider changing journal to writing and having reading ...
-
-- Jekyll collection
 - Kindle highlights:
 https://github.com/infovore/clippr
 https://github.com/baniol/kindle-my-clippings
@@ -51,11 +32,13 @@ Love the approach here: http://johnkeefe.net
 - http://realjenius.com/2012/11/04/jekyll-series-list-2/
 - http://reporter-app.tumblr.com/
 
- - http://craigmod.com/sputnik/hello_again/
- - http://adactio.com/journal/6620/
-
- - http://www.cityofsound.com/blog/archives.html
+- http://craigmod.com/sputnik/hello_again/
+- http://adactio.com/journal/6620/
+- http://www.cityofsound.com/blog/archives.html
 - http://www.cityofsound.com/blog/2006/09/starters_for_te.htmlroku
+- http://mrmrs.cc
+
+http://qblog.aaronsw.com/
 
 - quotes
 - principles
@@ -98,20 +81,6 @@ Text files in folders:
 - Go through topitch - find suitable places
 - Move journalism book notes to notebooks and Scrivener
 - put article ideas in spark file
-
-******
-- Tag Pinboard robertocarroll-tumblr and it will go on tumblr
-- Favourite a tweet and it goes to robertocarroll-tumblr
-
-
-
-
-
-## Links
-Quoteblog - Tumblr
-http://qblog.aaronsw.com/
-
-With Evernote —> Pinboard ——> IFTTT
 
 
 
