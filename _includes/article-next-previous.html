@@ -1,4 +1,4 @@
-<aside class="next-previous-post">
+<aside class="pb6">
 {% capture the_collection %}{{page.collection}}{% endcapture %}
   {% if page.collection %}
     {% assign  document = site[the_collection]  %}
@@ -24,30 +24,8 @@ if (e.keyCode == '39') { window.location = '{{nexturl}}'; }
 };
 </script>
 
-{% if prevurl %}<a href="{{prevurl}}" class="fl">↫ Previous</a>{% endif %}
+{% if prevurl %}<a href="{{prevurl}}" class="fl no-underline primary">↫ Previous</a>{% endif %}
 
-{% if nexturl %}<a href="{{nexturl}}" class="fr tr
+{% if nexturl %}<a href="{{nexturl}}" class="fr tr no-underline primary">Next ↬</a>{% endif %}
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-">Next ↬</a>{% endif %}
 </aside>

@@ -6,12 +6,12 @@ categories:
 - journal
 ---
 
-<div class="content-list">
-  <h1 class="page-heading-caps padding-below-half">Journal</h1>
+<div class="pt4 pb6">
+  <h1 class="f3 ttu fw4 ttu tracked mb4">Journal</h1>
   {% for post in site.journal reversed %}
-    <article class="work-article">
-      <h1 class="work-title"><a href="{{ post.url }}">{{ post.title }}</a></h1>
-      <time datetime="{{ post.date | date_to_xmlschema }}" class="page-date">{{ post.date | date: "%-d %B %Y" }}</time>
+    <article class="pt2 pb4 bt b--light-gray">
+      <h1 class="f2 lh-title mb3"><a href="{{ post.url }}" class="primary dim no-underline">{{ post.title }}</a></h1>
+      <time datetime="{{ post.date | date_to_xmlschema }}" class="f6 light-silver tracked ttu">{{ post.date | date: "%-d %B %Y" }}</time>
     </article>
   {% endfor %}
 </div>

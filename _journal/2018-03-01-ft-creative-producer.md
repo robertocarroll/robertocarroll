@@ -2,7 +2,7 @@
 author: roberto
 comments: false
 date: 2018-03-01
-layout: recently
+layout: post
 slug: ft-application
 title: 'FT Producer application'
 categories:
