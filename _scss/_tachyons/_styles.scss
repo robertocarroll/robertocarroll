@@ -26,6 +26,7 @@ p, ul {
 p a {
   @extend .primary;
   @extend .dim;
+  @extend .underline;
 }
 
 .post h2 {
@@ -111,7 +112,6 @@ p a {
   column-count: 2;
   column-gap: 2em;
 }
-
 
 
 ul.dash > li:before {
