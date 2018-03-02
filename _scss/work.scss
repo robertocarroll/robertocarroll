@@ -88,22 +88,7 @@ ul#filter li::before {
 	text-align: center;
 }
 
-.work-main p, .work-main ul, .work-main ol, .work-main blockquote {
 
-	@include breakpoint(small) {
-		@include gs-span(m, 2);
-	}
-
-	@include breakpoint(medium) {
-		@include gs-span(t, 2, 6);
-	}
-
-	@include breakpoint(large) {
-		@include gs-span(d, 3, 7);
-	}
-
-	clear:both;
-}
 
 .work-main blockquote {
 	margin-bottom: $inuit-base-spacing-unit;

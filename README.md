@@ -20,10 +20,15 @@ See [Automate Jekyll](http://www.guyroutledge.co.uk/blog/automate-jekyll-post-cr
 - At the moment, I'm going with 1200 x 741
 - #121b22 for the dark background
 
+## Markdown quote and cite
+> Quote here.
+>
+> -- <cite>Benjamin Franklin</cite>
+
 ## Categories
-- Home
 - Work - Show range of work
 - Journal -
+- Scrapbook / quotes -
 - About - What I do / contact
 - Reading - notes, recently, yearnotes, code, design
 - Writing - stories, essays, articles, letters

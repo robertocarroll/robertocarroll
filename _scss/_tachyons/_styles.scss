@@ -67,7 +67,7 @@ p a {
   @extend .pb2;
 }
 
-.post hr {
+.post hr, .work-main hr {
   position: relative;
   border-top: 1px solid #eee;
   border-bottom: 1px solid #fff;
@@ -83,6 +83,23 @@ p a {
   @extend .ttu;
   @extend .tracked;
   @extend .cb;
+}
+
+.work-main p, .work-main aside, .work-main h2, .work-main ol, .work-main ul,   {
+
+  @include breakpoint(small) {
+    @include gs-span(m, 2);
+  }
+
+  @include breakpoint(medium) {
+    @include gs-span(t, 2, 6);
+  }
+
+  @include breakpoint(large) {
+    @include gs-span(d, 3, 7);
+  }
+
+  clear:both;
 }
 
 .embed-container {
@@ -154,6 +171,14 @@ cite {
   @extend .ttu;
   @extend .tracked;
   @extend .fs-normal;
+}
+
+.firstcharacter {
+  display: block;
+  float: left;
+  font-size: 6rem;
+  line-height: 1;
+  margin: -10px 6px -20px 3px;
 }
 
 //_border-colors
