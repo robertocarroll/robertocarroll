@@ -18,9 +18,6 @@ Paste in an Amazon link and writing a short paragraph - Why is this book special
 
 Get title, image, ISBN from Amazon
 
-## Make every month
-Love the approach here: http://johnkeefe.net
-
 ### Jekyll - indieweb stuff http://indiewebcamp.com/IndieMark
 - http://microformats.org/wiki/hcard
 - http://hackerb.io/pages/faq
@@ -36,52 +33,13 @@ Love the approach here: http://johnkeefe.net
 - http://realjenius.com/2012/11/04/jekyll-series-list-2/
 - http://reporter-app.tumblr.com/
 
-- http://craigmod.com/sputnik/hello_again/
-- http://adactio.com/journal/6620/
-- http://www.cityofsound.com/blog/archives.html
-- http://www.cityofsound.com/blog/2006/09/starters_for_te.htmlroku
-- http://mrmrs.cc
-
-http://qblog.aaronsw.com/
-
 - quotes
 - principles
 - blog about process - what I do (on wearethoughtfox)
 
 Comments on Twitter please. Link to Tweet
 
-### Index
-http://pages.sachachua.com/sharing/blog.html
-
-### Yearnote examples
-https://mountanalogue.wordpress.com/2013/12/29/2013-best-things/
-http://matthewsheret.com/2015/01/09/2014-foxes-exploration-walking-laughing/
-http://tomarmitage.com/2015/01/09/year1-how-difficult-was-the-difficult-second-album/
-http://booktwo.org/notebook/and-that-was-2012/
-http://infovore.org/archives/2013/01/06/looking-back-on-2012/
-http://booktwo.org/notebook/2010-yearnotes/
-
 ## Pinboard / evernote
 - https://github.com/jbmorley/evernote-bookmarks
 - https://gist.github.com/zoejessica/729bae14565c928c9a0d
 - https://github.com/infovore/pinboard-bookmachine
-
-To move from Evernote to Pinboard
-- Dad matters - put note in scrivener
-- Travel
-- On the Road to Nowhere (+ Tumblr)
-- Programming
-
-Quotes to Tumblr
-
-Text files in folders:
-- Accounting
-- Houses
-- Shopping
-
-- Go through ontheroadtonowhere (evernote) and put on Github / Tumblr
-- Go through quotes (evernote) and put on robertocarroll (tumblr)
-- excellent projects (evernote and ia) to pinboard
-- Go through topitch - find suitable places
-- Move journalism book notes to notebooks and Scrivener
-- put article ideas in spark file
