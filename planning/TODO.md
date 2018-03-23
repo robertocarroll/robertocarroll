@@ -1,7 +1,7 @@
-
-For the filter: http://tachyons.io/components/lists/links-with-borders-inline/index.html
-
-Generate https://realfavicongenerator.net
+1. Service worker: https://gist.github.com/adactio/3717b7da007a9363ddf21f584aae34af
+2. For the filter: http://tachyons.io/components/lists/links-with-borders-inline/index.html
+3. Generate https://realfavicongenerator.net
+4. Style snippets: https://gist.github.com/robertocarroll/d5d779c547fd9845b16b626ce6931beb
 
 Life in weeks
 Time elapsed / time left
