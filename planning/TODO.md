@@ -1,10 +1,27 @@
-1. Service worker: https://gist.github.com/adactio/3717b7da007a9363ddf21f584aae34af
-2. For the filter: http://tachyons.io/components/lists/links-with-borders-inline/index.html
-3. Generate https://realfavicongenerator.net
-4. Style snippets: https://gist.github.com/robertocarroll/d5d779c547fd9845b16b626ce6931beb
+## To do
 
-Life in weeks
-Time elapsed / time left
+* Mosaic for featured work
+* Add new work:
+  - WSAD PWA
+  - WSAD map (WATF)
+  - WSAD app/game
+  - WSAD video/photo
+  - Amnesty BRAVE (WATF)
+  - Ashbright (WATF)
+  - Add writing as a single post to work
+  - Add parenting column as a single post to work
+  - HacksHackers
+    - https://www.meetup.com/HacksHackersMCR/events/past/?scroll=true
+      https://www.meetup.com/HacksHackersMCR/events/220785131/
+  - Hepworth Creative Labs
+* Catch up with "recently"
+* Service worker: https://gist.github.com/adactio/3717b7da007a9363ddf21f584aae34af
+* For the filter: http://tachyons.io/components/lists/links-with-borders-inline/index.html
+* Generate https://realfavicongenerator.net
+* Style snippets: https://gist.github.com/robertocarroll/d5d779c547fd9845b16b626ce6931beb
+* Life in weeks - Time elapsed / time left
+* Responsive images: https://github.com/netlify/jekyll-srcset
+* Install SEO plugin: https://github.com/jekyll/jekyll-seo-tag/blob/master/docs/usage.md
 
 ## Accessibilty
 - can you navigate using tabs?
