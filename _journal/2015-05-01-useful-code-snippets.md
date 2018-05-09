@@ -266,3 +266,15 @@ Make a new folder called ‘cropped’ to keep the cropped images in.
 ## Mac shortcuts
 - `CMD + Shift + right arrow` - select to end of the line
 - `Double click` - select the entire word
+
+## Delete shapefile in QGIS
+- right click the layer
+- choose “Toggle Editing”
+- in the toolbar select the pointer with the area “Select Features …”
+- click on Antartica
+- press delete on the keyboard
+
+## Find IP
+- Open Terminal
+- `ping url`
+
