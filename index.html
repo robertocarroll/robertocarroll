@@ -43,3 +43,15 @@ modified-date: 2018-03-01
 </section>
 
 <p class="sans-serif f6 pb4">Last updated {{page.modified-date | date: "%-d %B %Y"}}</p>
+
+<script>
+  if (window.netlifyIdentity) {
+    window.netlifyIdentity.on("init", user => {
+      if (!user) {
+        window.netlifyIdentity.on("login", () => {
+          document.location.href = "/admin/";
+        });
+      }
+    });
+  }
+</script>

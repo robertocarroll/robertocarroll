@@ -1,0 +1,26 @@
+backend:
+  name: git-gateway
+  repo: robertocarroll/robertocarroll # Path to your Github repository
+  branch: master # Branch to update (master by default)
+
+media_folder: "images" # Folder where user uploaded files should go
+publish_mode: editorial_workflow
+
+collections: # A list of collections the CMS should be able to edit
+  - name: "journal" # Used in routes, ie.: /admin/collections/:slug/edit
+    label: "Journal" # Used in the UI, ie.: "New Post"
+    folder: "_journal" # The path to the folder where the documents are stored
+    sort: "date:desc" # Default is title:asc
+    create: true # Allow users to create new documents in this collection
+    slug: "{{category}}-{{slug}}"
+    fields: # The fields each document in this collection have
+      - {label: "Layout", name: "layout", widget: "select", default: "post", options: ["post", "recently"]}
+      - {label: "Title", name: "title", widget: "string", tagname: "h1"}
+      - {label: "Image", name: "top_image", widget: "image"}
+      - {label: "Image caption", name: "top_image_caption", widget: "markdown"}
+      - {label: "Excerpt", name: "excerpt", widget: "markdown"}
+      - {label: "Categories", name: "categories", widget: "string"}
+      - {label: "Tags", name: "tags", widget: "string"}
+      - {label: "Body", name: "body", widget: "markdown"}
+    meta: # Meta data fields. Just like fields, but without any preview element
+      - {label: "Publish Date", name: "date", widget: "datetime", format: "YYYY-MM-DD hh:mm:ss"}
