@@ -1,15 +1,11 @@
 ---
-author: roberto
-comments: false
-date: 2018-03-01
 layout: post
-slug: ft-application
-title: 'FT Producer application'
+title: FT Producer application
+excerpt: ''
 categories:
-- Journal
+  - Journal
 tags:
-- recently
-excerpt: Here's what I got up to in September 2017.
+  - recently
 ---
 
 ## Part 1
