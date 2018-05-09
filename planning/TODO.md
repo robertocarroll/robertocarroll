@@ -22,6 +22,7 @@
 * Life in weeks - Time elapsed / time left
 * Responsive images: https://github.com/netlify/jekyll-srcset
 * Install SEO plugin: https://github.com/jekyll/jekyll-seo-tag/blob/master/docs/usage.md
+* Use of colour change on scroll.
 
 ## Accessibilty
 - can you navigate using tabs?
