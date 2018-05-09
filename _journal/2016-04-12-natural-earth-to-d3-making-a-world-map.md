@@ -71,7 +71,7 @@ topojson \
 This one-liner seemed to work better the last time I tried.
 
 <code>
-  topojson --id-property iso_a3 -p name -o world-110-topo.json world-110.json
+  topojson --id-property iso_a3 -p name -o world-topo.json world.json
 </code>
 
 </pre>
