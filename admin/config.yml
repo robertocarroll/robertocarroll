@@ -16,11 +16,11 @@ collections: # A list of collections the CMS should be able to edit
     fields: # The fields each document in this collection have
       - {label: "Layout", name: "layout", widget: "select", default: "post", options: ["post", "recently"]}
       - {label: "Title", name: "title", widget: "string", tagname: "h1"}
-      - {label: "Image", name: "top_image", widget: "image"}
-      - {label: "Image caption", name: "top_image_caption", widget: "text"}
-      - {label: "Excerpt", name: "excerpt", widget: "text"}
-      - {label: "Categories", name: "categories", widget: "list"}
-      - {label: "Tags", name: "tags", widget: "list"}
+      - {label: "Image", name: "top_image", widget: "image", required: false}
+      - {label: "Image caption", name: "top_image_caption", widget: "text", required: false}
+      - {label: "Excerpt", name: "excerpt", widget: "text", required: false}
+      - {label: "Categories", name: "categories", widget: "list", required: false}
+      - {label: "Tags", name: "tags", widget: "list", required: false}
       - {label: "Body", name: "body", widget: "markdown"}
     meta: # Meta data fields. Just like fields, but without any preview element
       - {label: "Publish Date", name: "date", widget: "datetime", format: "YYYY-MM-DD hh:mm:ss"}
