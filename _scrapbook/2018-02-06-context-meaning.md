@@ -1,7 +1,5 @@
 ---
-layout: quote
-title: In the age of information overload, THE ULTIMATE LUXURY IS MEANING AND CONTEXT
-date: '2018-01-06T07:10:35+04:00'
+title: 'In the age of information overload, the ultimate luxury is meaning and context'
 ---
 <blockquote>IN THE FIRST issue of WIRED, published 25 years ago this year, founding editor Louis Rossetto declared that “in the age of information overload, THE ULTIMATE LUXURY IS MEANING AND CONTEXT.”</blockquote>&#8212;
 
