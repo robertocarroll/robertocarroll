@@ -278,3 +278,9 @@ Make a new folder called ‘cropped’ to keep the cropped images in.
 - Open Terminal
 - `ping url`
 
+## pyenv and homebrew
+- https://amaral.northwestern.edu/blog/troubleshooting-pyenv
+- Only brew install while pyenv global is set to system and never brew while in a virtual environment.
+- `$ brew uninstall that_thing_you_installed_wrong`
+- `$ pyenv global system`
+- `$ brew install that_thing_you_installed_wrong`
