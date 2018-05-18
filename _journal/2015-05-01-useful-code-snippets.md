@@ -284,3 +284,7 @@ Make a new folder called ‘cropped’ to keep the cropped images in.
 - `$ brew uninstall that_thing_you_installed_wrong`
 - `$ pyenv global system`
 - `$ brew install that_thing_you_installed_wrong`
+
+## Rename files in a folder
+- brew install ren
+- ren '*.txt' '#1.md'
