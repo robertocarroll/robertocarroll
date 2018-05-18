@@ -154,10 +154,11 @@ figcaption:before {
 }
 
 blockquote {
+  @extend .f4;
   @extend .pl4;
-  @extend .mb5;
+  @extend .mb4;
   @extend .i;
-  @extend .black-80;
+  @extend .mid-gray;
   @extend .bl;
   @extend .bw2;
   @extend .b--silver;
