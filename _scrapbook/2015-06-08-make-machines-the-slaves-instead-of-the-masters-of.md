@@ -8,4 +8,4 @@ tumblr_url: https://robertocarroll.tumblr.com/post/121042872890/make-machines-th
 ---
 <img src="/images/quotes/tumblr_npn57k8Z841u0ytjpo1_250.jpg"/>
 
-Make machines the slaves instead of the masters of men
+“Make machines the slaves instead of the masters of men”

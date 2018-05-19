@@ -8,4 +8,4 @@ tumblr_url: https://robertocarroll.tumblr.com/post/121043473240/lines-circles-le
 <blockquote>Lines, circles, letters, characters.<br/>
 Ay, these are those that Faustus most desires.</blockquote>
 
-&#8212; Doctor Faustus by Christopher Marlowe
+&#8212; *Doctor Faustus* by Christopher Marlowe
