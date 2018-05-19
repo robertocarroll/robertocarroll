@@ -5,7 +5,8 @@ date: '2016-11-01T12:48:22+04:00'
 tags: []
 tumblr_url: https://robertocarroll.tumblr.com/post/152602128315/formula-for-putting-together-content
 ---
-<ul><li>Something serious</li>
+<ul>
+  <li>Something serious</li>
 <li>Something shocking</li>
 <li>Something hysterically funny</li>
 <li>Something beautiful</li>
