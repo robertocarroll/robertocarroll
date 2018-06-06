@@ -219,5 +219,13 @@ cite {
   column-gap: 2em;
 }
 
+.highlighter-rouge {
+  @extend .pa4;
+  @extend .bg-black;
+  @extend .mb4;
+  @extend .white;
+  @extend .lh-copy;
+}
+
 
 
