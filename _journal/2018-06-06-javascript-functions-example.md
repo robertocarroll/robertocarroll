@@ -4,7 +4,11 @@ title: JavaScript functions example
 ---
 While working on a project, I asked [Paul](http://www.pauldwaite.co.uk/) why [Airbnb’s coding standards recommend using named function expressions instead of function declarations](https://github.com/airbnb/javascript#functions)?
 
-He made this example, which I am posting with permission: 
+He made this example, which I am posting with permission, along with his note: 
+
+> I’ve never actually had a problem caused by function name hoisting (i.e. being able to call a function before it’s defined) before, but maybe it’s an issue in larger codebases. 
+>
+>
 
 ```
 console.log("=============================================================");
