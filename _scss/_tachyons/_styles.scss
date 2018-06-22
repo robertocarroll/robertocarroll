@@ -6,6 +6,47 @@
 
 */
 
+.skip {
+      position: absolute;
+      top: -1000px;
+      left: -1000px;
+      height: 1px;
+      width: 1px;
+      text-align: left;
+      overflow: hidden;
+  }
+
+  a.skip:active,
+  a.skip:focus,
+  a.skip:hover {
+      left: 0;
+      top: 0;
+      width: auto;
+      height: auto;
+      overflow: visible;
+  }
+
+.dont-break-out {
+
+  /* These are technically the same, but use both */
+  overflow-wrap: break-word;
+  word-wrap: break-word;
+
+  -ms-word-break: break-all;
+  /* This is the dangerous one in WebKit, as it breaks things wherever */
+  word-break: break-all;
+  /* Instead use this non-standard one: */
+  word-break: break-word;
+
+  /* Adds a hyphen where the word breaks, if supported (No Blink) */
+  -ms-hyphens: auto;
+  -moz-hyphens: auto;
+  -webkit-hyphens: auto;
+  hyphens: auto;
+
+}
+
+
 .main {
   @include breakpoint(small) {
     @include gs-span(m, 2);
@@ -75,6 +116,10 @@ p a, li a {
   border-width: 3px medium medium;
   margin: 2em auto;
   max-width: 10em;
+}
+
+.post a, .work-main a {
+  @extend .dont-break-out;
 }
 
 .work-main h2 {
@@ -227,23 +272,4 @@ cite {
   @extend .lh-copy;
 }
 
-.skip {
-      position: absolute;
-      top: -1000px;
-      left: -1000px;
-      height: 1px;
-      width: 1px;
-      text-align: left;
-      overflow: hidden;
-  }
-
-  a.skip:active,
-  a.skip:focus,
-  a.skip:hover {
-      left: 0;
-      top: 0;
-      width: auto;
-      height: auto;
-      overflow: visible;
-  }
 
