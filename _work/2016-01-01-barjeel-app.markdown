@@ -18,10 +18,6 @@ excerpt: Developing a quiz app for a museum using Backbone and Phonegap
 
 [We Are Thought Fox](http://wearethoughtfox.com) came up with the idea for an app to encourage users to make connections within the art collection at Barjeel Art Foundation in the UAE. We designed and developed this app using Backbone and Phonegap. I was sole developer on the project.
 
-[Try the application (touch devices only)](http://robertocarroll.com/barjeel-app/)
-
-[Take a look at the code](https://github.com/robertocarroll/barjeel-app)
-
 ![Image showing the Barjeel app on an iPhone](/images/barjeel-app.jpg)
 
 
