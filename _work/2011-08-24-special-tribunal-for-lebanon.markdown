@@ -19,7 +19,9 @@ excerpt: Leading a website relaunch for an international tribunal
 
 The [Special Tribunal for Lebanon](http://www.stl-tsl.org/) is an international tribunal established by the [United Nations](http://www.un.org/) to hold trials for the people accused of carrying out the attack of 14 February 2005 which killed 23 people, including the former prime minister of Lebanon, Rafiq Hariri, and injured many others. I led the website relaunch and was in charge of all aspects of the project from experience design to creating and managing a team.
 
-<img src="http://farm8.staticflickr.com/7317/9144759958_416e93ae7d_z.jpg" width="100%" height="auto" alt="Special Tribunal for Lebanon">
+
+![Screenshot of the homepage for the Special Tribunal for Lebanon website](/images/work-STL-home.png)
+
 
 ## The challenge
 The tribunal needed to use the web more effectively to explain its mission to the Lebanese people. The website had to work in the three official languages of the tribunal: English, French and Arabic. The tribunal was a technologically resistant organisation with conflicting stakeholders. The political situation in Lebanon made the project very sensitive. These factors - and others - made it a challenging project.
