@@ -26,9 +26,6 @@ As the project progressed - from build studio to finished pilot - we focused on 
 
 There's no doubt companion-centred design is becoming a big thing. This experience building a digital companion for children was illuminating and satisfying.
 
-<img src="http://farm4.staticflickr.com/3787/9156622039_d5e51a99ef_z.jpg" width="100%" height="auto" alt="CMeebies">
-
-
 ![Screenshot of the CMeebies for the BBC](/images/work-bbc-connected.jpg)
 
 ![Screenshot of the CMeebies for the BBC](/images/work-bbc-connected-1.jpg)

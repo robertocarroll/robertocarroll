@@ -17,6 +17,6 @@ services:
 excerpt: Tour the courtroom and find out about the participants
 ---
 
-<img src="http://farm8.staticflickr.com/7422/9144483414_57866f1638_z.jpg" width="100%" height="auto" alt="stl-panorama">
+![Screenshot of the tour of the courtroom on the STL website](/images/work-stl-courtroom.jpg)
 
 [Tour of the courtroom on the STL website ](http://www.stl-tsl.org/en/about-the-stl/visiting-the-stl/the-courtroom) in English, French and Arabic.
