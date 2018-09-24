@@ -17,4 +17,4 @@ services:
 excerpt: Video story about the weekly wrestling matches in Dubai
 ---
 
-<div class='embed-container'><iframe src='http://player.vimeo.com/video/43530737' frameborder='0'></iframe></div>
+<div class='embed-container'><iframe src='https://player.vimeo.com/video/43530737' frameborder='0'></iframe></div>

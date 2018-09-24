@@ -16,6 +16,6 @@ services:
 excerpt: Helping people to understand the phases of a case
 ---
 
-<img src="http://farm6.staticflickr.com/5494/9144482488_72ed85a1ac_z.jpg" width="100%" height="auto" alt="stl-flowchart">
+![Screenshot of the flow chart for the Special Tribunal for Lebanon website](/images/work-stl-flowchart.jpg)
 
 [Flowchart on the STL website](http://www.stl-tsl.org/en/about-the-stl/the-four-phases) in English, French and Arabic which helped people to understand the phases of the tribunal.

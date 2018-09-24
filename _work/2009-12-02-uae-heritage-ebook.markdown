@@ -17,6 +17,6 @@ services:
 excerpt: A CD to celebrate National Day in the UAE
 ---
 
-I planned, designed and created this interactive CD (I know, sorry) to celebrate National Day in the UAE. The collection of articles, photos and videos was included as a CD with The National. 
+I planned, designed and created this interactive CD (I know, sorry) to celebrate National Day in the UAE. The collection of articles, photos and videos was included as a CD with The National.
 
-<img src="http://farm8.staticflickr.com/7442/9159679214_d512991fec_z.jpg" width="100%" height="auto" alt="UAE National Day">
+![Screenshot showing the cover of the UAE National Day interactive on a desktop](/images/work-national-cd-cover.jpg)

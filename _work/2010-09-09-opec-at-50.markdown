@@ -12,9 +12,9 @@ tags:
 services:
 - Concept and strategy
 - Digital development
-excerpt: A map and a timeline for Opec's 50 anniversary 
+excerpt: A map and a timeline for Opec's 50 anniversary
 ---
 
 I created a map and a timeline for Opec's 50 anniversary for [The National](http://www.thenational.ae/business/energy/opec-at-50)'s business section.
 
-<img src="http://farm8.staticflickr.com/7416/9141427549_e4717929ab_z.jpg" width="100%" height="auto" alt="Opec at 50 timeline">
+![Screenshot showing the cover of the Opec at 50 interactive on a desktop](/images/work-opec_50.jpg)
