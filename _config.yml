@@ -36,12 +36,6 @@ collections:
   writing:
     output: true
     permalink: /:collection/:slug
-  code:
-    output: true
-    permalink: /:collection/:slug
-  reading:
-    output: true
-    permalink: /:collection/:slug
   scrapbook:
     output: true
     permalink: /:collection/:slug
