@@ -54,6 +54,7 @@ github:
 
 include:
   - _pages
+  - _redirects
 
 # Defaults
 defaults:
