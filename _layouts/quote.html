@@ -7,4 +7,10 @@ layout: default
   {{ content }}
 </article>
 
+<aside class="page lh-copy">
+  {% for tag in page.tags %}
+    <a href="/tags/{{ tag }}/">{{ tag }}</a>
+  {% endfor %}
+</aside>
+
 {% include article-next-previous.html %}
