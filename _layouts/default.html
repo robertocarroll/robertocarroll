@@ -1,5 +1,21 @@
 <!DOCTYPE html>
 <html lang="en">
+
+<style>
+
+.skip {
+    position: absolute;
+    top: 0;
+    left: 0;
+    padding: .5rem 1rem;
+    background-color: #ffbf47;
+    color: inherit;
+    -webkit-transform: translateY(-100%);
+    transform: translateY(-100%);
+  }
+
+</style>
+
   {% include head.html %}
 <body>
   <a href="#content" class="skip">Skip to content</a>
@@ -23,6 +39,7 @@
 </script>
 
  <!-- Service worker - https://adactio.com/journal/13540 -->
+
   <script>
 
   if (navigator.serviceWorker && !navigator.serviceWorker.controller) { navigator.serviceWorker.register('/serviceworker.js'); }

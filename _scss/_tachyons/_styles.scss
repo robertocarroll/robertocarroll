@@ -7,13 +7,14 @@
 */
 
 .skip {
-      position: absolute;
-      top: -1000px;
-      left: -1000px;
-      height: 1px;
-      width: 1px;
-      text-align: left;
-      overflow: hidden;
+    position: absolute;
+    top: 0;
+    left: 0;
+    padding: .5rem 1rem;
+    background-color: #ffbf47;
+    color: inherit;
+    -webkit-transform: translateY(-100%);
+    transform: translateY(-100%);
   }
 
   a.skip:active,
