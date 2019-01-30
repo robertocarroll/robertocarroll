@@ -25,6 +25,7 @@ sass:
 plugins:
   - jekyll-seo-tag
   - jekyll-sitemap
+  - jekyll-paginate-v2
 
 collections:
   work:
@@ -39,6 +40,9 @@ collections:
   scrapbook:
     output: true
     permalink: /:collection/:slug
+
+pagination:
+  enabled: true
 
 # About/contact
 author:
