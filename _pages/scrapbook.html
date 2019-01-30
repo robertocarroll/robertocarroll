@@ -22,11 +22,9 @@ pagination:
     </div>
 
     <div class="lh-copy measure">
-      {% capture raw_content %}
-        { % post.content %}
-      {% endcapture %}
 
-      {{ raw_content | unindent | markdownify }}
+      {{post.content | markdownify}}
+
     </div>
   </article>
   {% endfor %}
