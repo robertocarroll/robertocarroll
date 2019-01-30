@@ -43,6 +43,11 @@ collections:
 
 pagination:
   enabled: true
+  collection: scrapbook
+  per_page: 8
+  permalink: '/page/:num/'
+  sort_reverse : true
+  debug: false
 
 # About/contact
 author:
@@ -72,7 +77,7 @@ navigation:
    url: /work
  - title: Writing
    url: /writing
- - title: Journal
+ - title: Blog
    url: /journal
  - title: About
    url: /about

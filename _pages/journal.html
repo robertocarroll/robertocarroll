@@ -1,49 +1,20 @@
 ---
 layout: default
-title: Journal
+title: Blog
 permalink: /journal/
 categories:
 - journal
-pagination:
-  enabled: true
-  collection: journal
-  per_page: 5
-  permalink: '/page/:num/'
-  sort_reverse : true
-  debug: false
 ---
 
-<section class="mw6 mw7-ns center pa3 ph5-ns">
-
-  {% for post in paginator.posts %}
-  <article class="pb4 mb5 blog">
-    <a href="{{ post.url }}" class="primary dim no-underline">
-      <h1 class="f2 lh-title mb3">{{ post.title }}</h1>
-    </a>
-
-    <div class="f6 fw4 light-silver pb4">
-      {{ post.date | date_to_long_string }}
-    </div>
-
-    <div class="lh-copy measure">
-      {{ post.content }}
-    </div>
-  </article>
-  {% endfor %}
-
-  {% if paginator.total_pages > 1 %}
-
-  {% if paginator.previous_page %}
-    <a href="{{ paginator.previous_page_path | prepend: site.baseurl | replace: '//', '/' |  replace: 'index.html', '' }}" class="fl no-underline secondary underline-hover pb4">↫ Newer</a>
-  {% endif %}
-  {% if paginator.next_page %}
-    <a href="{{ paginator.next_page_path | prepend: site.baseurl | replace: '//', '/' |  replace: 'index.html', '' }}" class="fr no-underline secondary underline-hover pb4">Older ↬</a>
-  {% endif %}
-
-{% endif %}
-
-</section>
-
+<div class="pt4 pb6">
+  <h1 class="f3 ttu fw4 ttu tracked mb4">Blog</h1>
+  {% for post in site.journal reversed %}
+    <article class="pt2 pb4 bt b--light-gray">
+      <h1 class="f2 lh-title mb3"><a href="{{ post.url }}" class="primary dim no-underline">{{ post.title }}</a></h1>
+      <time datetime="{{ post.date | date_to_xmlschema }}" class="f6 light-silver tracked ttu">{{ post.date | date: "%-d %B %Y" }}</time>
+    </article>
+   {% endfor %}
+ </div>
 
 
 
