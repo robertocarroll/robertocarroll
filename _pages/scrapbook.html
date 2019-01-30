@@ -6,7 +6,7 @@ categories:
 - scraps
 pagination:
   enabled: true
-  collection: scraps
+  collection: scrapbook
 ---
 
 <section class="mw6 mw7-ns center pa3 ph5-ns">
@@ -22,7 +22,11 @@ pagination:
     </div>
 
     <div class="lh-copy measure">
-      {{ post.content }}
+      {% capture raw_content %}
+        { post.content %}
+      {% endcapture %}
+
+      {{ raw_content | unindent | markdownify }}
     </div>
   </article>
   {% endfor %}
