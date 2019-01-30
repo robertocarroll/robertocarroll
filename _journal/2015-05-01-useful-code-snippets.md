@@ -14,6 +14,7 @@ tags:
 <div class="message">I'm going to use this post to keep all the useful things about Git in particular but other things as well.</div>
 
 ## Add new remote repository
+
 `git remote add origin <remote repository URL>`
 
 ## Create a new branch to work in
