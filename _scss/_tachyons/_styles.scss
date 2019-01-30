@@ -266,8 +266,9 @@ cite {
 }
 
 .highlighter-rouge {
-  @extend .pa4;
-  @extend .bg-black;
+  @extend .pa2;
+  @extend .f6;
+  @extend .bg-dark-gray;
   @extend .mb4;
   @extend .white;
   @extend .lh-copy;
