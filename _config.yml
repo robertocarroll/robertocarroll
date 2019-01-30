@@ -74,11 +74,13 @@ defaults:
 
 navigation:
  - title: Work
-   url: /work
+   url: /work/
  - title: Writing
-   url: /writing
+   url: /writing/
  - title: Blog
-   url: /journal
+   url: /journal/
+ - title: Notes
+   url: /scrapbook/
  - title: About
-   url: /about
+   url: /about/
 
