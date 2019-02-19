@@ -307,3 +307,5 @@ ffmpeg -i "${FILE}" -vn -ab 128k -ar 44100 -y "${FILE%.webm}.mp3";`
     ffmpeg -i "${FILE}" -vn -ab 128k -ar 44100 -y "${FILE%.webm}.mp3";
 done;`
 
+## Add to things
+The email’s subject becomes your to-do’s title, and the rest goes into the notes.
