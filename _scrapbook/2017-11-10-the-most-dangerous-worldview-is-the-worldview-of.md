@@ -7,4 +7,6 @@ tags:
 - Alexander Von Humboldt.
 tumblr_url: https://robertocarroll.tumblr.com/post/167337275410/the-most-dangerous-worldview-is-the-worldview-of
 ---
-<blockquote>The most dangerous worldview is the worldview of those who have not viewed the world.</blockquote>&#8212;
+<blockquote>The most dangerous worldview is the worldview of those who have not viewed the world.</blockquote>
+
+-- Alexander Von Humboldt

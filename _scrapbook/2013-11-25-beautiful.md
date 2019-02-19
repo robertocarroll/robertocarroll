@@ -1,0 +1,12 @@
+---
+title: What is more beautiful than night and someone
+date: 2013-11-25T19:32:10.000Z
+layout: quote
+---
+
+WHAT IS MORE BEAUTIFUL THAN NIGHT
+AND SOMEONE IN YOUR ARMS
+THAT’S WHAT WE LOVE ABOUT ART
+IT SEEMS TO PREFER US AND STAYS
+
+-- FRANK O’HARA, “TO YOU”

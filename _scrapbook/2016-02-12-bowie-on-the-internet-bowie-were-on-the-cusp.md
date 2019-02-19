@@ -5,8 +5,6 @@ date: '2016-02-12T05:33:22+04:00'
 tags: []
 tumblr_url: https://robertocarroll.tumblr.com/post/139164608830/bowie-on-the-internet-bowie-were-on-the-cusp
 ---
-<h2>Bowie on the internet</h2>
-
 <blockquote>
   <p>Bowie: We’re on the cusp of something exhilarating and terrifying.</p>
 
