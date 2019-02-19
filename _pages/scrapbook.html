@@ -11,6 +11,9 @@ pagination:
 
 <section class="mw6 mw7-ns center pa3 ph5-ns">
 
+  <h1 class="f3 ttu fw4 ttu tracked mb4">Scrapbook</h1>
+  <p class="i light-silver m0">Stuff I'm reading, looking at, listening to, quotes and other scraps.</p>
+
   {% for post in paginator.posts %}
   <article class="pb4 mb5 blog">
 
@@ -23,7 +26,7 @@ pagination:
     </div>
 
     <a href="{{ post.url }}" class="primary dim no-underline">
-      <p class="lh-title mb3">Link</h1>
+      <p class="lh-title mb3 f5">Permalink</h1>
     </a>
 
   </article>
@@ -32,10 +35,10 @@ pagination:
   {% if paginator.total_pages > 1 %}
 
   {% if paginator.previous_page %}
-    <a href="{{ paginator.previous_page_path | prepend: site.baseurl | replace: '//', '/' |  replace: 'index.html', '' }}" class="fl no-underline underline-hover pb4">↫ Newer</a>
+    <a href="{{ paginator.previous_page_path | prepend: site.baseurl | replace: '//', '/' |  replace: 'index.html', '' }}" class="primary fl no-underline underline-hover pb4">↫ Newer</a>
   {% endif %}
   {% if paginator.next_page %}
-    <a href="{{ paginator.next_page_path | prepend: site.baseurl | replace: '//', '/' |  replace: 'index.html', '' }}" class="fr no-underline underline-hover pb4">Older ↬</a>
+    <a href="{{ paginator.next_page_path | prepend: site.baseurl | replace: '//', '/' |  replace: 'index.html', '' }}" class="primary fr no-underline underline-hover pb4">Older ↬</a>
   {% endif %}
 
 {% endif %}
