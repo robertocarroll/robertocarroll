@@ -5,4 +5,4 @@ layout: quote
 ---
 "Humans are hardwired for narrative. Narrative is always a lie."
 
--- China Miéville #facingforward
+-- China Miéville
