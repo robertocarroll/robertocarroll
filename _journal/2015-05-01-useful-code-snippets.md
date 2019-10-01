@@ -171,6 +171,7 @@ $ pip install numpy
 * Note: As of 2016 I am using https://github.com/tj/n for Node version stuff.
 * `nvm alias default node` set alias to node itself to avoid updating the default alias along with node version updates later on.
 * `nvm alias default` version, eg `nvm alias default 0.12.7` sets the default node version in your shell. Then verify that the change persists by closing the shell window, opening a new one, then: node --version.
+* If you want to update to latest stable version (lts - recommended for most users), then you should run: nvm install lts/* --reinstall-packages-from=node. After that you can cleanup your versions with nvm uninstall [old version]. You can list all installed versions with nvm ls
 
 ## Smart quotes
 * `Single opening - alt + ]`
@@ -303,6 +304,12 @@ ffmpeg -i "${FILE}" -vn -ab 128k -ar 44100 -y "${FILE%.webm}.mp3";`
 
 ## Batch process) all WEBM video files in a folder
 `for FILE in *.webm; do
+    echo -e "Processing video '\e[32m$FILE\e[0m'";
+    ffmpeg -i "${FILE}" -vn -ab 128k -ar 44100 -y "${FILE%.webm}.mp3";
+done;`
+
+## Batch process) all MKV video files in a folder
+`for FILE in *.mkv; do
     echo -e "Processing video '\e[32m$FILE\e[0m'";
     ffmpeg -i "${FILE}" -vn -ab 128k -ar 44100 -y "${FILE%.webm}.mp3";
 done;`
