@@ -6,6 +6,7 @@ categories:
   - Journal
 tags:
   - recently
+date: '2019-11-16 01:40'
 ---
 
 ## Part 1
