@@ -38,7 +38,3 @@ Part of bigger thing and able to express themselves. I lost my iPod. Over 9000.
 Scientology is the nemesis of hackers. Treatment of critics. Creepy cult. Scientology video. Call to arms. Code of conduct.
 
 Truth wants to be free. We want to liberate it. You cannot arrest an idea.
-
-
-
-
