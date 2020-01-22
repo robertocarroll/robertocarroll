@@ -1,32 +1,39 @@
 ---
 layout: default
 title: Home
-modified-date: 2019-10-01
+modified-date: 2020-01-22
 description: "Greetings! I'm a writer, designer and technologist. This is my website."
 ---
 <section class="pv4">
   <h1 class="f3 ttu fw4 ttu tracked mb2">Greetings!</h1>
-  <p>I’m a <a href="/about" title="Find out more about Robert Carroll">writer, designer and technologist</a> based in Yorkshire.</p>
+  <p>I’m a <a href="/about" title="Find out more about Robert Carroll">writer, designer and technologist</a> based in
+    Yorkshire.</p>
 </section>
 
 <section class="pb4">
-<h2 class="f3 ttu fw4 ttu tracked mb2">Writing</h2>
-<ul class="dash">
-  <li>My debut novella is called Control Alt Delete</li>
-  <li>You can <a href="/writing/short-story-competition" title="Read a short story by Robert Carroll">read Odyssey, one of my short stories</a></li>
-</ul>
+  <h2 class="f3 ttu fw4 ttu tracked mb2">Writing</h2>
+  <ul class="dash">
+    <li>My debut novella is called Drone Wedding</li>
+    <li>You can <a href="/writing/short-story-competition" title="Read a short story by Robert Carroll">read Odyssey,
+        one of my short stories</a></li>
+  </ul>
 </section>
 
 <section class="pb4">
   <h2 class="f3 ttu fw4 ttu tracked mb2">$$$</h2>
-  <p>I help bring ideas to life on the web through research, design, making and communication. I run {{ site.description }}.</p>
+  <p>I help bring ideas to life on the web through research, design, making and communication. I run
+    {{ site.description }}.</p>
 
   <p><a href="/work" title="See some of Robert Carroll's work">See my work</a></p>
 </section>
 
 <section class="pb4">
   <h2 class="f3 ttu fw4 ttu tracked mb2">Journalism</h2>
-  <p>I’ve written articles for The National, The Wire, Ultra Travel, The Guardian, Time Out and Profile magazine on subjects as diverse as&nbsp;<a href="/writing/mirror-neurons/">mirror neurons</a>,&nbsp;<a href="/writing/martin-parr">Martin Parr</a>,&nbsp;<a href="/writing/dad-matters-the-national">parenting</a>,&nbsp;<a href="/writing/mar-musa-monastery-syria">Syrian monasteries</a>&nbsp;and&nbsp;<a href="/writing/silent-disco-a-quiet-night-out">silent disco</a>.</p>
+  <p>I’ve written articles for The National, The Wire, Ultra Travel, The Guardian, Time Out and Profile magazine on
+    subjects as diverse as&nbsp;<a href="/writing/mirror-neurons/">mirror neurons</a>,&nbsp;<a
+      href="/writing/martin-parr">Martin Parr</a>,&nbsp;<a
+      href="/writing/dad-matters-the-national">parenting</a>,&nbsp;<a href="/writing/mar-musa-monastery-syria">Syrian
+      monasteries</a>&nbsp;and&nbsp;<a href="/writing/silent-disco-a-quiet-night-out">silent disco</a>.</p>
 
   <p><a href="/writing" title="See more of Robert Carroll's writing">See more of my journalism</a></p>
 </section>
@@ -34,6 +41,7 @@ description: "Greetings! I'm a writer, designer and technologist. This is my web
 <section class="pb4">
   <h2 class="f3 ttu fw4 ttu tracked mb2">Current projects</h2>
   <ul class="dash">
+    <li>A digital news project in Dubai</li>
     <li>Teaching digital skills at Ada, the National College for Digital Skills</li>
     <li>Planning my next long fiction work</li>
     <li>I have some availability. Please <a href="mailto:hello@wearethoughtfox.com">get in touch</a></li>
@@ -44,10 +52,10 @@ description: "Greetings! I'm a writer, designer and technologist. This is my web
 
 <script>
   if (window.netlifyIdentity) {
-    window.netlifyIdentity.on("init", user => {
+    window.netlifyIdentity.on('init', user => {
       if (!user) {
-        window.netlifyIdentity.on("login", () => {
-          document.location.href = "/admin/";
+        window.netlifyIdentity.on('login', () => {
+          document.location.href = '/admin/';
         });
       }
     });
