@@ -3,7 +3,7 @@ layout: wide
 ---
 
 <article class="work-main">
-  <h1 class="f1 f-subheadline-l mb3 mb5-l tc">{{ page.title }}</h1>
+  <h1 class="f1 mb3 mb5-l tc">{{ page.title }}</h1>
   <hr class="cb">
   <p class="i light-silver m0 f3">{{ page.excerpt }}</p>
   {{ content }}
@@ -11,19 +11,19 @@ layout: wide
 
 <aside class="cb tc">
   <h2 class="f4 ttu fw4 ttu tracked mb2">Year</h2>
-  <time datetime="{{ page.date | date_to_xmlschema }}" class="f6 light-silver tracked ttu pb4 db">{{ page.date | date: '%Y' }}</time>
+  <time datetime="{{ page.date | date_to_xmlschema }}"
+    class="f6 light-silver tracked ttu pb4 db">{{ page.date | date: '%Y' }}</time>
 
   <h2 class="f4 ttu fw4 ttu tracked mb2">My role</h2>
   <div class="center mw6">
     <ul>
       {% for services in page.services %}
-        <li class="f6 light-silver">{{ services }}</li>
+      <li class="f6 light-silver">{{ services }}</li>
       {% endfor %}
     </ul>
-   </div>
+  </div>
 </aside>
 
 <div class="work-main">
   {% include article-next-previous.html %}
 </div>
-

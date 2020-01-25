@@ -15,6 +15,7 @@ See [Automate Jekyll](http://www.guyroutledge.co.uk/blog/automate-jekyll-post-cr
 ## Images
 - At the moment, I'm going with 1200 x 741
 - #121b22 for the dark background
+- 1920 x 1200 for vertical
 
 ## Tags
 - One set of tags for Jekyll
