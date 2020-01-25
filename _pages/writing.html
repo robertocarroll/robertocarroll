@@ -1,18 +1,23 @@
 ---
-layout: default
-title: Writing
+layout: wide
+title: Journalism
 permalink: /writing/
 categories:
 - writing
 ---
 
 <div class="pt4 pb6">
-  <h1 class="f3 ttu fw4 ttu tracked mb4">Writing</h1>
-  {% for post in site.writing reversed %}
+  {% include featured-writing.html %}
+  <div id="content" class="main" role="main">
+    <h1 class="f3 ttu fw4 ttu tracked mt5 mb2">{{ page.title }}</h1>
+    <p class="i light-silver m0">
+      {% include stub-journalism.html %}
+    </p>
+    {% for post in site.writing reversed %}
     <article class="bt b--light-gray">
       <h1 class="f2 lh-title mb2"><a href="{{ post.url }}" class="primary dim no-underline">{{ post.title }}</a></h1>
       <p class="i light-silver m0">{{ post.excerpt }}</p>
     </article>
-  {% endfor %}
+    {% endfor %}
+  </div>
 </div>
-
