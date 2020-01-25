@@ -4,7 +4,8 @@ comments: false
 date: 2012-05-31 13:58:44
 layout: writing
 slug: machines-and-memory
-title: Machines and memory – The Kernel
+title: Machines and memory 
+publication: The Kernel
 categories:
 - Writing
 tags:

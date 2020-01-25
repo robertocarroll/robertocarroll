@@ -4,7 +4,8 @@ comments: false
 date: 2008-08-13 19:45:19
 layout: writing
 slug: we-are-all-mutations
-title: We are all mutations – The National
+title: We are all mutations
+publication: The National
 categories:
 - Writing
 tags:

@@ -4,7 +4,8 @@ comments: false
 date: 2009-07-25 14:35:16
 layout: writing
 slug: the-mani-greece
-title: The Mani, Greece – The National
+title: The Mani, Greece
+publication: The National
 categories:
 - Writing
 tags:

@@ -4,8 +4,8 @@ comments: false
 date: 2011-10-15 16:58:44
 layout: writing
 slug: top-ten-lesser-known-art-galleries
-title: Top 10 lesser-known art galleries – The National
-categories:
+title: Top 10 lesser-known art galleries
+publication: The National
 categories:
 - Writing
 tags:

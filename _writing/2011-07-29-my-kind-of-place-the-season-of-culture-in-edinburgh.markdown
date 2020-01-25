@@ -4,7 +4,8 @@ comments: false
 date: 2011-07-29 14:20:03
 layout: writing
 slug: my-kind-of-place-the-season-of-culture-in-edinburgh
-title: 'My kind of place: Edinburgh – The National'
+title: 'My kind of place: Edinburgh'
+publication: The National
 categories:
 - Writing
 tags:

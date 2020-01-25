@@ -4,7 +4,8 @@ comments: false
 date: 2011-04-01 14:32:09
 layout: writing
 slug: have-app-will-travel
-title: iPhone apps and travel – The National
+title: iPhone apps and travel
+publication: The National
 categories:
 - Writing
 tags:

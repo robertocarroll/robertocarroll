@@ -4,7 +4,8 @@ comments: false
 date: 2012-02-11 11:35:30
 layout: writing
 slug: top-ten-20th-century-hotels
-title: 'Top 10 20th-century hotels – The National'
+title: Top 10 20th-century hotels 
+publication: The National
 categories:
 - Writing
 tags:

@@ -4,7 +4,8 @@ comments: false
 date: 2012-04-28 14:48:01
 layout: writing
 slug: top-10-music-festivals
-title: Top 10 music festivals – The National
+title: Top 10 music festivals 
+publication: The National
 categories:
 - Writing
 tags:

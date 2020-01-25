@@ -4,7 +4,8 @@ comments: false
 date: 2012-06-22 15:41:20
 layout: writing
 slug: top-ten-historic-hotels
-title: Top 10 historic hotels – The National
+title: Top 10 historic hotels
+publication: The National
 categories:
 - Writing
 tags:

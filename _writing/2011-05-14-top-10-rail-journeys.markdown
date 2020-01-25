@@ -4,7 +4,8 @@ comments: false
 date: 2011-05-14 14:25:36
 layout: writing
 slug: top-10-rail-journeys
-title: Top 10 rail journeys – The National
+title: Top 10 rail journeys
+publication: The National
 categories:
 - Writing
 tags:

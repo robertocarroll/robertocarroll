@@ -4,7 +4,8 @@ comments: false
 date: 2008-03-01 09:35:48
 layout: writing
 slug: profile-feature
-title: Translatio imperii – Profile
+title: Translatio imperii
+publication: Profile Magazine
 categories:
 - Writing
 tags:

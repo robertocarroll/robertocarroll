@@ -4,7 +4,8 @@ comments: false
 date: 2009-05-01 20:06:29
 layout: writing
 slug: mar-musa-monastery-syria
-title: Deir Mar Musa, Syria – The National
+title: Deir Mar Musa, Syria
+publication: The National
 categories:
 - Writing
 tags:

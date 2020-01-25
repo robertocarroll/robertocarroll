@@ -4,7 +4,8 @@ comments: false
 date: 2008-11-19 20:06:54
 layout: writing
 slug: silent-disco-a-quiet-night-out
-title: Silent disco – The National
+title: Silent disco
+publication: The National
 categories:
 - Writing
 tags:

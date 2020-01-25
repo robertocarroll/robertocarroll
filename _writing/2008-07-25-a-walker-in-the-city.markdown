@@ -4,7 +4,8 @@ comments: false
 date: 2008-07-25 19:41:39
 layout: writing
 slug: a-walker-in-the-city
-title: A walker in the city – The Review
+title: A walker in the city
+publication: The Review
 categories:
 - Writing
 tags:

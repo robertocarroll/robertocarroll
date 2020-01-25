@@ -4,7 +4,8 @@ comments: false
 date: 2009-06-01 20:06:54
 layout: writing
 slug: wire-yemen
-title: Yemen – The Wire
+title: Yemen
+publication: The Wire
 categories:
 - Writing
 tags:

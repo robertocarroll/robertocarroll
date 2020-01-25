@@ -4,7 +4,8 @@ comments: false
 date: 2008-11-05 20:00:59
 layout: writing
 slug: mirror-neurons
-title: Mirror neurons – The National
+title: Mirror neurons
+publication: The National
 categories:
 - Writing
 tags:

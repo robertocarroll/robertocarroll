@@ -4,7 +4,8 @@ comments: false
 date: 2011-05-04 09:35:48
 layout: writing
 slug: travel-essentials-the-national
-title: Travel Essentials – The National
+title: Travel Essentials
+publication: The National
 categories:
 - Writing
 tags:

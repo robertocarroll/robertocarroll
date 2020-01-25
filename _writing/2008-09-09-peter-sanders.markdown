@@ -4,7 +4,8 @@ comments: false
 date: 2008-09-09 19:50:26
 layout: writing
 slug: peter-sanders
-title: Peter Sanders – The National
+title: Peter Sanders
+publication: The National
 categories:
 - Writing
 tags:

@@ -4,7 +4,8 @@ comments: false
 date: 2011-02-25 14:35:52
 layout: writing
 slug: top-10-best-ruins
-title: Top 10 best ruins – The National
+title: Top 10 best ruins
+publication: The National
 categories:
 - Writing
 tags:

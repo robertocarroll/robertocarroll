@@ -4,7 +4,8 @@ comments: false
 date: 2011-12-17 17:04:14
 layout: writing
 slug: top-ten-street-food
-title: Top 10 street food – The National
+title: Top 10 street food
+publication: The National
 categories:
 - Writing
 tags:

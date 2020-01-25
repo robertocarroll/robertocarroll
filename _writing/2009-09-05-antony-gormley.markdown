@@ -4,7 +4,8 @@ comments: false
 date: 2009-09-05 20:02:15
 layout: writing
 slug: antony-gormley
-title: Antony Gormley – The National
+title: Antony Gormley
+publication: The National
 categories:
 - Writing
 tags:

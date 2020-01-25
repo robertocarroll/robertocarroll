@@ -4,7 +4,8 @@ comments: false
 date: 2012-01-06 12:27:31
 layout: writing
 slug: the-guidebook-records-of-change
-title: 'The guidebook: records of change  – The National'
+title: 'The guidebook: records of change' 
+publication: The National
 categories:
 - Writing
 services:

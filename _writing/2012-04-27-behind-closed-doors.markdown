@@ -4,7 +4,8 @@ comments: false
 date: 2012-04-27 14:41:00
 layout: writing
 slug: behind-closed-doors
-title: Behind closed doors – The Kernel
+title: Behind closed doors
+publication: The Kernel
 categories:
 - Writing
 tags:

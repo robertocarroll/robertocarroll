@@ -4,7 +4,8 @@ comments: false
 date: 2008-06-26 09:25:40
 layout: writing
 slug: the-lure-of-the-open-road
-title: The lure of the open road – The National
+title: The lure of the open road
+publication: The National
 categories:
 - Writing
 tags:

@@ -4,7 +4,8 @@ comments: false
 date: 2009-10-31 20:11:27
 layout: writing
 slug: martin-parr
-title: Martin Parr – The National
+title: Martin Parr
+publication: The National
 categories:
 - Writing
 tags:
