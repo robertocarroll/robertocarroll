@@ -2,8 +2,7 @@
 <html lang="en">
 
 <style>
-
-.skip {
+  .skip {
     position: absolute;
     top: 0;
     left: 0;
@@ -13,42 +12,41 @@
     -webkit-transform: translateY(-100%);
     transform: translateY(-100%);
   }
-
 </style>
+{% include head.html %}
 
-  {% include head.html %}
 <body>
   <a href="#content" class="skip">Skip to content</a>
   {% include nav.html %}
-  <div id="content" class="main" role="main">
+  <div id="content" class="ph3 ph0-l mw7-ns center" role="main">
     {{ content }}
   </div>
   {% include footer.html %}
 
-    <!-- Start of Netlify admin code -->
+  <!-- Start of Netlify admin code -->
   <script>
-  if (window.netlifyIdentity) {
-    window.netlifyIdentity.on("init", function (user) {
-      if (!user) {
-        window.netlifyIdentity.on("login", function () {
-          document.location.href = "/admin/";
-        });
-      }
-    });
-  }
-</script>
+    if (window.netlifyIdentity) {
+      window.netlifyIdentity.on('init', function (user) {
+        if (!user) {
+          window.netlifyIdentity.on('login', function () {
+            document.location.href = '/admin/';
+          });
+        }
+      });
+    }
+  </script>
 
- <script type="text/javascript" src="https://identity.netlify.com/v1/netlify-identity-widget.js"></script>
+  <script type="text/javascript" src="https://identity.netlify.com/v1/netlify-identity-widget.js"></script>
 
- <!-- Service worker - https://adactio.com/journal/13540 -->
+  <!-- Service worker - https://adactio.com/journal/13540 -->
 
-  <script>
-
-  if (navigator.serviceWorker && !navigator.serviceWorker.controller) { navigator.serviceWorker.register('/serviceworker.js'); }
-
+  <script>if (navigator.serviceWorker && !navigator.serviceWorker.controller) {
+      navigator.serviceWorker.register('/serviceworker.js');
+    }
   </script>
 
 
   <script async src="/javascripts/gridset-overlay.js"> </script>
-  </body>
+</body>
+
 </html>
