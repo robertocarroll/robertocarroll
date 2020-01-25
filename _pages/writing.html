@@ -7,17 +7,28 @@ categories:
 ---
 
 <div class="pt4 pb6">
-  {% include featured-writing.html %}
-  <div id="content" class="main" role="main">
-    <h1 class="f3 ttu fw4 ttu tracked mt5 mb2">{{ page.title }}</h1>
-    <p class="i light-silver m0">
-      {% include stub-journalism.html %}
-    </p>
-    {% for post in site.writing reversed %}
-    <article class="bt b--light-gray">
-      <h1 class="f2 lh-title mb2"><a href="{{ post.url }}" class="primary dim no-underline">{{ post.title }}</a></h1>
-      <p class="i light-silver m0">{{ post.excerpt }}</p>
-    </article>
-    {% endfor %}
+
+  <div id="content" role="main">
+    <section class="mw5 mw7-ns center">
+      <h1 class="f3 ttu fw4 ttu tracked mt5 mb2">{{ page.title }}</h1>
+      <p class="lh-copy measure i light-silver m0">
+        {% include stub-journalism.html %}
+      </p>
+    </section>
+
+    <section class="pb4 pb6-l">
+      {% include featured-writing.html %}
+    </section>
+
+    <section class="mw5 mw7-ns center bt b--light-gray">
+      <h2 class="f3 ttu fw4 ttu tracked mt5 mb2">Selected articles</h2>
+      {% for post in site.writing reversed %}
+      <article class="measure">
+        <h1 class="f2 lh-title mb2"><a href="{{ post.url }}" class="primary dim no-underline">{{ post.title }}</a></h1>
+        <p class="i light-silver m0">{{ post.excerpt }}</p>
+      </article>
+      {% endfor %}
+
+    </section>
   </div>
 </div>
