@@ -8,22 +8,22 @@ categories:
 
 <div class="content-list pt4 pb6">
 
-    {% for post in site.work %}
-      {% for services in post.services %}
-        {% unless result contains services %}
-           {% capture result %}{{result}}|{{services}}{% endcapture %}
-        {% endunless %}
-      {% endfor %}
-    {% endfor %}
+  {% for post in site.work %}
+  {% for services in post.services %}
+  {% unless result contains services %}
+  {% capture result %}{{result}}|{{services}}{% endcapture %}
+  {% endunless %}
+  {% endfor %}
+  {% endfor %}
 
-      {% assign myArray = result | split: "|" | sort %}
+  {% assign myArray = result | split: "|" | sort %}
 
-    <div id="list">
+  <div id="list">
 
     <h1 class="f3 ttu fw4 ttu tracked mb4">Work</h1>
     <p class="i light-silver m0">Made with the help of many.</p>
 
-<!--     <ul id="filter" class="navigation pb4">
+    <!--     <ul id="filter" class="navigation pb4">
       {% for theservice in myArray %}
       {% if theservice == '' %}
           <li id="nav-country-{{theservice | downcase | replace: ' ', '-'}}" class="no-margin-below filter"><a href="#{{theservice | downcase | replace: ' ', '-'}}">All</a></li>
@@ -33,15 +33,16 @@ categories:
       {% endfor %}
     </ul>
  -->
-  {% for post in site.work reversed %}
+    {% for post in site.work reversed %}
 
-    <article class="bt b--light-gray {% for service in post.services %}{{service | downcase | replace: ' ', '-'}} {% endfor %}">
+    <article class="{% for service in post.services %}{{service | downcase | replace: ' ', '-'}} {% endfor %}">
       <p class="f6 fw4 light-silver pb0 mb0 mt2">{{ post.date | date: "%Y"  }}</p>
-      <h1 class="f2 lh-title mt0 mb2"><a href="{{ post.url }}" class="primary dim no-underline">{{ post.title }}</a></h1>
+      <h1 class="f2 lh-title mt0 mb2"><a href="{{ post.url }}" class="primary dim no-underline">{{ post.title }}</a>
+      </h1>
       <p class="i light-silver m0">{{ post.excerpt }}</p>
     </article>
 
-  {% endfor %}
+    {% endfor %}
 
   </div>
 </div>

@@ -9,12 +9,10 @@ categories:
 <div class="pt4 pb6">
   <h1 class="f3 ttu fw4 ttu tracked mb4">Blog</h1>
   {% for post in site.journal reversed %}
-    <article class="pt2 pb4 bt b--light-gray">
-      <h1 class="f2 lh-title mb3"><a href="{{ post.url }}" class="primary dim no-underline">{{ post.title }}</a></h1>
-      <time datetime="{{ post.date | date_to_xmlschema }}" class="f6 light-silver tracked ttu">{{ post.date | date: "%-d %B %Y" }}</time>
-    </article>
-   {% endfor %}
- </div>
-
-
-
+  <article class="pt2 pb4">
+    <h1 class="f2 lh-title mb3"><a href="{{ post.url }}" class="primary dim no-underline">{{ post.title }}</a></h1>
+    <time datetime="{{ post.date | date_to_xmlschema }}"
+      class="f6 light-silver tracked ttu">{{ post.date | date: "%-d %B %Y" }}</time>
+  </article>
+  {% endfor %}
+</div>
