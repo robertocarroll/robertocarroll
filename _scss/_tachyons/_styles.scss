@@ -28,16 +28,12 @@
   }
 
 .dont-break-out {
-
   /* These are technically the same, but use both */
   overflow-wrap: break-word;
   word-wrap: break-word;
-
   -ms-word-break: break-all;
-
   /* Instead use this non-standard one: */
   word-break: break-word;
-
 }
 
 
@@ -102,7 +98,7 @@ p a, li a {
   @extend .pb2;
 }
 
-.post hr, .work-main hr {
+.post hr, hr.post {
   position: relative;
   border-top: 1px solid #eee;
   border-bottom: 1px solid #fff;
