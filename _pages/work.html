@@ -6,7 +6,7 @@ categories:
 - work
 ---
 
-<div class="content-list pt4 pb6">
+<div class="content-list pt4 pb2">
 
   {% for post in site.work %}
   {% for services in post.services %}
@@ -18,12 +18,13 @@ categories:
 
   {% assign myArray = result | split: "|" | sort %}
 
-  <div id="list">
+  <h1 class="f3 ttu fw4 tracked mt5-l mb2">Work</h1>
+  <p class="i light-silver m0">I'm a user-experience designer and web developer with lots of experience in discovery
+    and alpha phases, using design methodologies to
+    define problems and develop and test solutions. I create standards-driven
+    CSS, HTML and JavaScript built for mobile, accessibility and performance.</p>
 
-    <h1 class="f3 ttu fw4 ttu tracked mb4">Work</h1>
-    <p class="i light-silver m0">Made with the help of many.</p>
-
-    <!--     <ul id="filter" class="navigation pb4">
+  <!--     <ul id="filter" class="navigation pb4">
       {% for theservice in myArray %}
       {% if theservice == '' %}
           <li id="nav-country-{{theservice | downcase | replace: ' ', '-'}}" class="no-margin-below filter"><a href="#{{theservice | downcase | replace: ' ', '-'}}">All</a></li>
@@ -33,19 +34,27 @@ categories:
       {% endfor %}
     </ul>
  -->
-    {% for post in site.work reversed %}
 
-    <article class="{% for service in post.services %}{{service | downcase | replace: ' ', '-'}} {% endfor %}">
-      <p class="f6 fw4 light-silver pb0 mb0 mt2">{{ post.date | date: "%Y"  }}</p>
-      <h1 class="f2 lh-title mt0 mb2"><a href="{{ post.url }}" class="primary dim no-underline">{{ post.title }}</a>
-      </h1>
-      <p class="i light-silver m0">{{ post.excerpt }}</p>
-    </article>
-
-    {% endfor %}
-
-  </div>
 </div>
+</div>
+{% include featured-work.html %}
+
+<section class="ph3 ph0-l mw7-ns center bt b--light-gray pb6">
+  <h2 class="f3 ttu fw4 ttu tracked mt5 mb2">Selected work</h2>
+  <p class="i light-silver m0">Made with the help of many.</p>
+
+  {% for post in site.work reversed %}
+
+  <article class="{% for service in post.services %}{{service | downcase | replace: ' ', '-'}} {% endfor %}">
+    <p class="f6 fw4 light-silver pb0 mb0 mt2">{{ post.date | date: "%Y"  }}</p>
+    <h1 class="f2 lh-title mt0 mb2"><a href="{{ post.url }}" class="primary dim no-underline">{{ post.title }}</a>
+    </h1>
+    <p class="i light-silver m0">{{ post.excerpt }}</p>
+  </article>
+
+  {% endfor %}
+</section>
+
 <!--
 
 <script>
