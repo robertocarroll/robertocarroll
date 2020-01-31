@@ -2,7 +2,7 @@
 author: roberto
 comments: false
 date: "2016-04-12"
-layout: blog
+layout: journal
 slug: "natural-earth-to-d3-making-a-world-map"
 title: "Natural Earth to D3 — Making a world map"
 categories:
