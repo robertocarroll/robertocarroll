@@ -2,6 +2,7 @@
 layout: post
 title: JavaScript functions example
 date: 2018-06-06T19:03:02+00:00
+slug: javascript-functions-example
 categories:
   - Journal
 tags:

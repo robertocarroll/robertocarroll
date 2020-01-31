@@ -6,7 +6,7 @@ layout: blog
 slug: "natural-earth-to-d3-making-a-world-map"
 title: "Natural Earth to D3 — Making a world map"
 categories:
-  - Blog
+  - Journal
 tags:
   - javascript
   - learning
