@@ -119,6 +119,14 @@ rvm allows you to have many different installations of ruby. You can copy gem se
 * `brew switch node 0.12.7_1`
 * `brew switch node 4.1.1`
 
+## Homebrew housekeeping
+* `brew autoremove` - Removes formula only installed as a dependency of another formula and are now no longer needed.
+* `brew cleanup` - Removes downloads for outdated formulas and casks.
+
+## Homebrew updating
+* `brew upgrade` - Get the latest versions of packages.
+* `brew upgrade FORUMLA` - Get the latest versions of a specific packages.
+
 ## Homebrew permissions
 * `sudo chown -R $(whoami) /usr/local`
 
@@ -292,7 +300,7 @@ Make a new folder called ‘cropped’ to keep the cropped images in.
 - ren '*.txt' '#1.md'
 
 ## Download YouTube video as audio
-`$ youtube-dl --audio-format 'best' URL`
+`$ youtube-dl --audio-format 'best' "URL"`
 `$ youtube-dl --audio-format 'm4a' URL`
 
 ## Convert webm to mp4
@@ -302,17 +310,20 @@ Make a new folder called ‘cropped’ to keep the cropped images in.
 `FILE="the-file-you-want-to-process.webm";
 ffmpeg -i "${FILE}" -vn -ab 128k -ar 44100 -y "${FILE%.webm}.mp3";`
 
-## Batch process) all WEBM video files in a folder
+## Batch process all WEBM video files in a folder
 `for FILE in *.webm; do
     echo -e "Processing video '\e[32m$FILE\e[0m'";
     ffmpeg -i "${FILE}" -vn -ab 128k -ar 44100 -y "${FILE%.webm}.mp3";
 done;`
 
-## Batch process) all MKV video files in a folder
+## Batch process all MKV video files in a folder
 `for FILE in *.mkv; do
     echo -e "Processing video '\e[32m$FILE\e[0m'";
     ffmpeg -i "${FILE}" -vn -ab 128k -ar 44100 -y "${FILE%.webm}.mp3";
 done;`
+
+## Batch process all mp4 video files in a folder
+`for i in *.mp4; do ffmpeg -i "$i" "${i%.*}.mp3"; done`
 
 ## Add to things
 The email’s subject becomes your to-do’s title, and the rest goes into the notes.
@@ -326,6 +337,43 @@ The email’s subject becomes your to-do’s title, and the rest goes into the n
 
 **Note**: By default, the MySQL user `root` has no password. It doesn't really matter for a local development database. If you wish to change it though, you can use `$ mysqladmin -u root password 'new-password'`.
 
-## Batch process) all MKV video files in a folder
-- To start mongodb on Catalina 
+## To start mongodb on Catalina
 `mongod --config /usr/local/etc/mongod.conf`
+
+## Incorporate a separate repo into your repo
+"There isn't anything to compare. Nothing to compare, branches are entirely different commit histories"
+Starting from master:
+- `git branch new_branch`
+- `git checkout new_branch`
+
+## Free up space on Mac
+- About my Mac > Storage > Manage 
+
+## Capture video stream in VLC
+- File > Open network
+- Paste video url
+- Settings 
+	- File > browse > “where to save file” 
+	- encapsulation method > MPEG 4
+	- Open   
+
+## Merge a folder of text files into a single file
+cat *.txt >> ~/Desktop/combined.txt
+
+## Force log in page on hotel wi-fi
+- clear custom DNS 
+- incognito browser 
+- captive.apple.com
+
+## Uninstall npm
+curl -qL https://www.npmjs.com/install.sh | sudo sh
+
+## Changing file extensions for all files in a directory
+- Could `brew install ren` and then `ren 'prefix_*.txt' 'prefix_#1.md'`
+- Or use Finder 
+- Select all the files, right-click and select "rename..." 
+- Add the existing file extension in "Find" and the extension you want to replace with "Replace with". 
+
+## VS Code tips
+— Select all occurrences of find match
+- Mac: `cmd+shift+L`
